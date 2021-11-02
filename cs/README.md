@@ -31,3 +31,15 @@ dotnet sln sample.sln add ./Sample.Tests/Sample.Tests.csproj
 ```
 dotnet add ./Sample.Tests/Sample.Tests.csproj reference ./Sample/Sample.csproj
 ```
+
+## Add to Github Actions
+1. In `dotnet.yml`, add the following at the end, 
+```
+    # Test Sample
+    - name: Sample Test
+      run: |
+        cd cs/sample
+        dotnet restore
+        dotnet build --no-restore
+        dotnet test --no-build --verbosity normal
+```
