@@ -17,6 +17,7 @@ dotnet sln sample.sln add ./Sample/Sample.csproj
 ```
 dotnet run -p ./Sample/Sample.csproj
 ```
+5. Rename `Program.cs` to `Sample.cs`.
 
 ## Test for Main Project
 1. Create test project,
