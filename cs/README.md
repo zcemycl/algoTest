@@ -23,3 +23,11 @@ dotnet run -p ./Sample/Sample.csproj
 ```
 dotnet new xunit -n Sample.Tests
 ```
+2. Link test project to solution. 
+```
+dotnet sln sample.sln add ./Sample.Tests/Sample.Tests.csproj
+```
+3. Refer test project to main project.
+```
+dotnet add ./Sample.Tests/Sample.Tests.csproj reference ./Sample/Sample.csproj
+```
