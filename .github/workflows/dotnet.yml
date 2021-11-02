@@ -1,0 +1,27 @@
+name: .NET
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+    # Test Sample
+    - name: Sample Test
+      run: |
+        cd cs/sample
+        dotnet restore
+        dotnet build --no-restore
+        dotnet test --no-build --verbosity normal
+
