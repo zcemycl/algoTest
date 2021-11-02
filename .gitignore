@@ -169,6 +169,7 @@ cython_debug/
 *.exe
 *.out
 *.app
+*out
 
 
 ## Ignore Visual Studio temporary files, build results, and
