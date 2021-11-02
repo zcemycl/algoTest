@@ -43,3 +43,9 @@ dotnet add ./Sample.Tests/Sample.Tests.csproj reference ./Sample/Sample.csproj
         dotnet build --no-restore
         dotnet test --no-build --verbosity normal
 ```
+
+# References
+- [Tutorial: Create a .NET class library using Visual Studio Code](https://docs.microsoft.com/en-us/dotnet/core/tutorials/library-with-visual-studio-code?pivots=dotnet-5-0)
+- [Tutorial: Test a .NET class library using Visual Studio Code](https://docs.microsoft.com/en-us/dotnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-5-0)
+- [Unit testing C# in .NET Core using dotnet test and xUnit](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test)
+- [Unit Testing with .NET Core](https://www.jeremymorgan.com/tutorials/c-sharp/how-to-net-core-unit-test/)
