@@ -1,6 +1,4 @@
 import unittest
-#import sys
-#sys.path.append('../solns/solnSample.py')
 from solns.solnSample import *
 
 
