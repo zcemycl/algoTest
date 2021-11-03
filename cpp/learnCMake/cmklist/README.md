@@ -20,8 +20,12 @@ cmake -S . -B out/build
 ```
 cd out/build
 make
+# or 
+make -C out/build
 ```
 5. Run executable.
 ```
 ./CMKLS
+# or
+./out/build/CMKLS
 ```
