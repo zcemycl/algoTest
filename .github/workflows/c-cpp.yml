@@ -1,0 +1,26 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Example Test
+      run: |
+        cd cpp/example
+        mkdir -p lib/googletest
+        cmake -B build -DCMAKE_BUILD_TYPE=Release
+        cd build
+        make example_tst
+        ./tst/example_tst
+        
+        
+        
