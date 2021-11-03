@@ -17,6 +17,7 @@ jobs:
       run: |
         cd cpp/example
         mkdir -p lib/googletest
+        git clone https://github.com/google/googletest/ lib/googletest
         cmake -B build -DCMAKE_BUILD_TYPE=Release
         cd build
         make example_tst
