@@ -2,8 +2,9 @@
 #include "Sample/sample.h"
 
 TEST(sampleTest, test3){
-    int result = Solution::soln2(1,2);
-    EXPECT_EQ (result,3);
+    Solution s(1,3);
+    int result = s.soln1();
+    EXPECT_EQ (result,4);
 }
 
 TEST(sampleTest, test4){
