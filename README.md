@@ -10,6 +10,6 @@ The repo is about transitioning from Python to C family programming. It implemen
 ```
 
 ## Contents
-|Language|C++|C#|Python|
+|Tasks|C++|C#|Python|
 |---|---|---|---|
 |Sample||:heavy_check_mark:|:heavy_check_mark:|
