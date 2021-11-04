@@ -12,4 +12,4 @@ The repo is about transitioning from Python to C family programming. It implemen
 ## Contents
 |Tasks|C++|C#|Python|
 |---|---|---|---|
-|Sample||:heavy_check_mark:|:heavy_check_mark:|
+|Sample|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
