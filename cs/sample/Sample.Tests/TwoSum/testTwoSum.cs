@@ -22,5 +22,9 @@ namespace Sample.Tests
             Assert.Equal(arr2,twoSum.hashM(arr,6));
         }
 
+        // [1,1,1,1,1,4,1,1,1,1,1,7,1,1,1,1,1]
+        // 11 
+        // BUg
+
     }
 }

@@ -26,7 +26,9 @@ namespace Sample.TwoSum{
                     v[0] = i; v[1] = map[dif];
                     return v;
                 }
-                map.Add(nums[i],i);
+                try{
+                    map.Add(nums[i],i);
+                } catch {}                
             }
             return v;
         } 
