@@ -1,5 +1,6 @@
 ﻿using System;
 using Sample.NewClass1;
+using Sample.TwoSum;
 
 namespace Sample
 {
@@ -37,6 +38,15 @@ namespace Sample
             Console.WriteLine(s3.int1);
             Console.WriteLine(s3.soln1());
             Console.WriteLine(Solution2.soln2(3,3));
+
+            int[] arr = new int[3] {2,4,1};
+            int tar = 6;
+            int[] outarr = twoSum.naive(arr,tar);
+            foreach(int i in outarr){
+                Console.WriteLine(i);
+            }           
+
+
         }
 
     }
