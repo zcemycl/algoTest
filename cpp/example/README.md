@@ -13,3 +13,7 @@ cmake -B build -DCMAKE_BUILD_TYPE=Release
 cd build 
 make all
 ```
+4. or just run the following bash scripts, instead of the first 3 steps,
+```
+./configure.sh
+```
