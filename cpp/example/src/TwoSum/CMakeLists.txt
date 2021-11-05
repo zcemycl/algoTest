@@ -1,0 +1,1 @@
+add_library(twoSum twoSum.cpp twoSum.h)
