@@ -32,6 +32,10 @@ dotnet sln sample.sln add ./Sample.Tests/Sample.Tests.csproj
 ```
 dotnet add ./Sample.Tests/Sample.Tests.csproj reference ./Sample/Sample.csproj
 ```
+4. At `sample` folder, run this,
+```
+dotnet test
+```
 
 ## Add to Github Actions
 1. In `dotnet.yml`, add the following at the end, 
