@@ -22,9 +22,13 @@ namespace Sample.Tests
             Assert.Equal(arr2,twoSum.hashM(arr,6));
         }
 
-        // [1,1,1,1,1,4,1,1,1,1,1,7,1,1,1,1,1]
-        // 11 
-        // BUg
+        [Fact]
+        public void TestHashM2()
+        {
+            int[] arr = new int[] {1,1,1,1,1,4,1,1,1,1,1,7,1,1,1,1,1};
+            int[] arr2= new int[2] {11,5};
+            Assert.Equal(arr2,twoSum.hashM(arr,11));
+        }
 
     }
 }
