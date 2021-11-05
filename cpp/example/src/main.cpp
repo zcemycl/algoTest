@@ -4,6 +4,7 @@
 #include <Sample/sample.h>
 #include <Sample1/sample1.h>
 #include <TwoSum/twoSum.h>
+#include <map>
 
 using namespace std;
 
@@ -28,7 +29,17 @@ int main() {
         cout << x << " ";
     }
     cout<<endl;
-    
+
+    map<int,int> mapTest;
+    mapTest[100] = 1;
+    mapTest[2] = 50;
+    cout<<mapTest[100]<<endl;
+    cout<<mapTest.find(0)->second<<endl;
+    cout<<mapTest.find(2)->second<<endl;
+    cout<<(mapTest.find(0)!=mapTest.end())<<endl;
+    cout<<(mapTest.find(0)->second)<<endl;
+    cout<<(mapTest.find(2)!=mapTest.end())<<endl;
+    cout<<(mapTest.find(2)->second)<<endl;
 
     return 0;
 }
