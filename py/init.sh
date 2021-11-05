@@ -1,10 +1,16 @@
 #!/bin/bash
 [[ -z "$1" ]] && { echo "Project name is empty" ; exit 1; }
 name=$1
-echo solns/"${name,}"/
-echo solns/"${name,}"/__init__.py
-echo solns/"${name,}"/"${name,}".py
+echo mkdir -p solns/"${name,}"/
+mkdir -p solns/"${name,}"/
+echo touch solns/"${name,}"/__init__.py
+touch solns/"${name,}"/__init__.py
+echo touch solns/"${name,}"/"${name,}".py
+touch solns/"${name,}"/"${name,}".py
 
-echo tests/test"${name^}"/
-echo tests/test"${name^}"/__init__.py
-echo tests/test"${name^}"/test"${name^}".py
+echo mkdir -p tests/test"${name^}"/
+mkdir -p tests/test"${name^}"/
+echo touch tests/test"${name^}"/__init__.py
+touch tests/test"${name^}"/__init__.py
+echo touch tests/test"${name^}"/test"${name^}".py
+touch tests/test"${name^}"/test"${name^}".py
