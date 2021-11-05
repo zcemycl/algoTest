@@ -23,7 +23,6 @@ namespace Sample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             Solution s1 = new Solution(1,2);
             Console.WriteLine(s1.soln1());
             Console.WriteLine(Solution.soln2(1,2));
@@ -39,9 +38,10 @@ namespace Sample
             Console.WriteLine(s3.soln1());
             Console.WriteLine(Solution2.soln2(3,3));
 
+            Console.WriteLine("------------ TwoSum ---------");
             int[] arr = new int[3] {2,4,1};
             int tar = 6;
-            int[] outarr = twoSum.naive(arr,tar);
+            int[] outarr = twoSum.hashM(arr,tar);
             foreach(int i in outarr){
                 Console.WriteLine(i);
             }           
