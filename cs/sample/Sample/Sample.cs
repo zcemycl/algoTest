@@ -1,4 +1,5 @@
 ﻿using System;
+using Sample.NewClass1;
 
 namespace Sample
 {
@@ -25,6 +26,17 @@ namespace Sample
             Solution s1 = new Solution(1,2);
             Console.WriteLine(s1.soln1());
             Console.WriteLine(Solution.soln2(1,2));
+
+            Solution1 s2 = new Solution1(100,100);
+            Console.WriteLine(s2.soln1());
+            Console.WriteLine(Solution1.soln2(4,4));
+
+            Solution2 s3 = new Solution2(1,2);
+            Solution2.soln3();
+            Console.WriteLine(s3.a);
+            Console.WriteLine(s3.int1);
+            Console.WriteLine(s3.soln1());
+            Console.WriteLine(Solution2.soln2(3,3));
         }
 
     }
