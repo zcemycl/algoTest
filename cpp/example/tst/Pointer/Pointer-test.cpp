@@ -42,3 +42,27 @@ TEST(pointerTrial,returnIntString){
     EXPECT_EQ(result.str,"Hello");
 }
 
+TEST(pointerTrial,returnListNode_HeapGood){
+    string n = "12";
+    ListNode* result = pointer::returnListNode(n);
+    ListNode* result2 = pointer::returnListNode(n);
+    cout<<(long long)result<<endl;
+    cout<<result->val<<endl;
+    EXPECT_EQ(result->val,1);
+    EXPECT_EQ((*result).val,1);
+    cout<<(long long)result2<<endl;
+    EXPECT_EQ(result2->val,1);
+    EXPECT_EQ((*result2).val,1);
+    delete result,result2;
+}
+
+TEST(pointerTrial,returnListNode2_StackBad){
+    string n = "12";
+    ListNode* result = pointer::returnListNode2(n);
+    ListNode* result2 = pointer::returnListNode2(n);
+    cout<<(long long)result<<endl;
+    cout<<"Trash value: "<<result->val<<endl;
+    cout<<(long long)result2<<endl;
+    cout<<"Trash value: "<<result2->val<<endl;
+    printf("----- Bad expected result ------\n");
+}
