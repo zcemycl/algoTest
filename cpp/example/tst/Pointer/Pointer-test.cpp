@@ -60,9 +60,14 @@ TEST(pointerTrial,returnListNode2_StackBad){
     string n = "12";
     ListNode* result = pointer::returnListNode2(n);
     ListNode* result2 = pointer::returnListNode2(n);
-    cout<<(long long)result<<endl;
-    cout<<"Trash value: "<<result->val<<endl;
-    cout<<(long long)result2<<endl;
-    cout<<"Trash value: "<<result2->val<<endl;
-    printf("----- Bad expected result ------\n");
+    try{
+        cout<<(long long)result<<endl;
+        cout<<"Trash value: "<<result->val<<endl;
+        cout<<(long long)result2<<endl;
+        cout<<"Trash value: "<<result2->val<<endl;
+    }catch (...){
+        printf("----- Bad expected result ------\n");
+    }
+    
+    
 }
