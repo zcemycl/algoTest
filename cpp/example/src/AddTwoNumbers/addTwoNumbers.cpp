@@ -60,7 +60,7 @@ ListNode* addTwoNumbers::naive(ListNode* l1, ListNode* l2){
         val1 = l1!=nullptr?l1->val:0;
         val2 = l2!=nullptr?l2->val:0;
         r = (val1+val2+s)%10;
-        s = (val1+val2+s-r)/10;
+        s = (val1+val2+s)/10;
         (*tmp)->next = new ListNode(r);
         tmp = &((*tmp)->next);
         l1 = l1!=nullptr?l1->next:nullptr;
