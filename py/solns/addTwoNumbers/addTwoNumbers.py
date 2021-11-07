@@ -53,3 +53,17 @@ class Solution:
             tmp = tmp.next
         if tmp.next.val == 0: tmp.next = None
         return result
+    @staticmethod
+    def onepass(l1,l2):
+        s = 0
+        l3 = ListNode()
+        tmp = l3
+        while (l1 or l2 or s):
+            val1 = (l1.val if l1 else 0)
+            val2 = (l2.val if l2 else 0)
+            s,r = divmod(val1+val2+s,10)
+            tmp.next = ListNode(r)
+            tmp = tmp.next
+            l1 = (l1.next if l1 else None)
+            l2 = (l2.next if l2 else None)
+        return l3.next

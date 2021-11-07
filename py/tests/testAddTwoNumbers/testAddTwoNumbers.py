@@ -57,3 +57,9 @@ class TestCase(unittest.TestCase):
         s2 = Solution.printListNode(inp2)
         s3 = Solution.printListNode(result)
         print(s1+' + '+s2+' = '+s3)
+    @timeit
+    def test_onepass_9_9(self):
+        inp1 = Solution.listNode_fromStr('9')
+        inp2 = inp1
+        result = Solution.onepass(inp1,inp2)
+        print(Solution.printListNode(result))

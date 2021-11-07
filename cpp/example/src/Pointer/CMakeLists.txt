@@ -1,0 +1,1 @@
+add_library(pointer pointer.cpp pointer.h)
