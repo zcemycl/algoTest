@@ -41,10 +41,10 @@ ListNode* pointer::returnListNode(string num){
     return ln;
 }
 
-ListNode* pointer::returnListNode2(string num){
-    ListNode ln(1);
-    ListNode* ptr = &ln;
-    cout<<"Real value: "<<ptr->val<<endl;
-    cout<<(long long)ptr<<endl;
-    return ptr;
-}
+// ListNode* pointer::returnListNode2(string num){
+//     ListNode* ln(1);
+//     // ListNode* ptr = &ln;
+//     cout<<"Real value: "<<ln->val<<endl;
+//     cout<<(long long)ln<<endl;
+//     return ln;
+// }

@@ -56,18 +56,16 @@ TEST(pointerTrial,returnListNode_HeapGood){
     delete result,result2;
 }
 
-TEST(pointerTrial,returnListNode2_StackBad){
-    string n = "12";
-    ListNode* result = pointer::returnListNode2(n);
-    ListNode* result2 = pointer::returnListNode2(n);
-    try{
-        cout<<(long long)result<<endl;
-        cout<<"Trash value: "<<result->val<<endl;
-        cout<<(long long)result2<<endl;
-        cout<<"Trash value: "<<result2->val<<endl;
-    }catch (...){
-        printf("----- Bad expected result ------\n");
-    }
-    
-    
-}
+// TEST(pointerTrial,returnListNode2_StackBad){
+//     string n = "12";
+//     ListNode* result = pointer::returnListNode2(n);
+//     ListNode* result2 = pointer::returnListNode2(n);
+//     try{
+//         cout<<(long long)result<<endl;
+//         cout<<"Trash value: "<<result->val<<endl;
+//         cout<<(long long)result2<<endl;
+//         cout<<"Trash value: "<<result2->val<<endl;
+//     }catch (...){
+//         printf("----- Bad expected result ------\n");
+//     }    
+// }

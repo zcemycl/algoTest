@@ -17,5 +17,5 @@ class pointer{
         static tuple<int,int,int> returnInt3(int n); 
         static intstring returnIntString();
         static ListNode* returnListNode(string num);
-        static ListNode* returnListNode2(string num);
+        // static ListNode* returnListNode2(string num);
 };
