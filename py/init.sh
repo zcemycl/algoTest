@@ -12,5 +12,5 @@ echo mkdir -p tests/test"${name^}"/
 mkdir -p tests/test"${name^}"/
 echo touch tests/test"${name^}"/__init__.py
 touch tests/test"${name^}"/__init__.py
-echo touch tests/test"${name^}"/test"${name^}".py
-touch tests/test"${name^}"/test"${name^}".py
+echo touch tests/test"${name^}"/test_"${name^}".py
+touch tests/test"${name^}"/test_"${name^}".py

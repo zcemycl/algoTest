@@ -33,5 +33,6 @@ jobs:
       - name: Test with pytest
         run: |
           cd py
-          python -m unittest discover
+          pip install parameterized
+          pytest
 

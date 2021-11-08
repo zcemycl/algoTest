@@ -1,3 +1,5 @@
+from solns.wrapper import *
+
 class Solution:
     @staticmethod
     def naive(string):
