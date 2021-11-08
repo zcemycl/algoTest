@@ -1,5 +1,5 @@
 # Algorithm Tests
-The repo is about transitioning from Python to C family programming. It implements different leetcode solutions with C++(Cmake), C#(dotnet) and Python(pip), and follow continuous integration rules with github actions.
+The repo is about transitioning from Python to C family programming. It implements different leetcode solutions with C++(Cmake), C#(dotnet) and Python(pip), and test C++ with gtest, C# with Xunits, Python with unittest and pytest, and deploys testings using github actions.
 
 ## Structures
 ```mermaid
