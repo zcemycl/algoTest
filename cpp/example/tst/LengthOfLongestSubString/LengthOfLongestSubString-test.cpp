@@ -10,29 +10,29 @@ TEST(LengthOfLongestSubStringTest,test_empty){
 TEST(LengthOfLongestSubStringTest,test_bbbbb){
     string s = "bbbbb";
     int result = lengthOfLongestSubString::naive(s);
-    // EXPECT_EQ(result,0);
+    EXPECT_EQ(result,1);
 }
 
 TEST(LengthOfLongestSubStringTest,test_dvdf){
     string s = "dvdf";
     int result = lengthOfLongestSubString::naive(s);
-    // EXPECT_EQ(result,0);
+    EXPECT_EQ(result,3);
 }
 
 TEST(LengthOfLongestSubStringTest,test_abcabcbb){
     string s = "abcabcbb";
     int result = lengthOfLongestSubString::naive(s);
-    // EXPECT_EQ(result,0);
+    EXPECT_EQ(result,3);
 }
 
 TEST(LengthOfLongestSubStringTest,test_space){
     string s = " ";
     int result = lengthOfLongestSubString::naive(s);
-    // EXPECT_EQ(result,0);
+    EXPECT_EQ(result,1);
 }
 
 TEST(LengthOfLongestSubStringTest,test_pwwkew){
     string s = "pwwkew";
     int result = lengthOfLongestSubString::naive(s);
-    // EXPECT_EQ(result,0);
+    EXPECT_EQ(result,3);
 }
