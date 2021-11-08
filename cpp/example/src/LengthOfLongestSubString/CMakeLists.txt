@@ -1,0 +1,1 @@
+add_library(lengthOfLongest lengthOfLongest.cpp lengthOfLongest.h)
