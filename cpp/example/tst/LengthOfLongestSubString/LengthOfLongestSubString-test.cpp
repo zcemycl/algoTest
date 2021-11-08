@@ -1,38 +1,31 @@
 #include "gtest/gtest.h"
 #include "LengthOfLongestSubString/lengthOfLongestSubString.h"
+#include <string>
 
-TEST(LengthOfLongestSubStringTest,test_empty){
-    string s = "";
-    int result = lengthOfLongestSubString::naive(s);
-    EXPECT_EQ(result,0);
-}
+using namespace std;
 
-TEST(LengthOfLongestSubStringTest,test_bbbbb){
-    string s = "bbbbb";
-    int result = lengthOfLongestSubString::naive(s);
-    EXPECT_EQ(result,1);
-}
+/*
+https://www.sandordargo.com/blog/2019/04/24/parameterized-testing-with-gtest
+*/
 
-TEST(LengthOfLongestSubStringTest,test_dvdf){
-    string s = "dvdf";
-    int result = lengthOfLongestSubString::naive(s);
-    EXPECT_EQ(result,3);
-}
+class lengthOfLongestSubString_MultipleParamsTests : public ::testing::TestWithParam<tuple<string,int>>{
+};
 
-TEST(LengthOfLongestSubStringTest,test_abcabcbb){
-    string s = "abcabcbb";
-    int result = lengthOfLongestSubString::naive(s);
-    EXPECT_EQ(result,3);
-}
+TEST_P(lengthOfLongestSubString_MultipleParamsTests, CheckAns){
+    string s = get<0>(GetParam());
+    int expected = get<1>(GetParam());
+    ASSERT_EQ(expected,lengthOfLongestSubString::naive(s));
+};
 
-TEST(LengthOfLongestSubStringTest,test_space){
-    string s = " ";
-    int result = lengthOfLongestSubString::naive(s);
-    EXPECT_EQ(result,1);
-}
-
-TEST(LengthOfLongestSubStringTest,test_pwwkew){
-    string s = "pwwkew";
-    int result = lengthOfLongestSubString::naive(s);
-    EXPECT_EQ(result,3);
-}
+INSTANTIATE_TEST_CASE_P(
+    LengthOfLongestSubStringTests,
+    lengthOfLongestSubString_MultipleParamsTests,
+    ::testing::Values(
+        make_tuple("",0), 
+        make_tuple("bbbbb",1),
+        make_tuple("dvdf",3),
+        make_tuple("abcabcbb",3),
+        make_tuple(" ",1),
+        make_tuple("pwwkew",3)
+    )
+);
