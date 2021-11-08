@@ -7,11 +7,9 @@ int lengthOfLongestSubString::naive(string s){
         vector<char>::iterator it = find(tmp.begin(),tmp.end(),s[i]);
         if (it != tmp.end()){
             int tmpind = distance(tmp.begin(),it);
-            tmp = {tmp.begin()+tmpind+1,tmp.end()};
-            tmp.push_back(s[i]);
-        } else {
-            tmp.push_back(s[i]);
-        }
+            tmp = {tmp.begin()+tmpind+1,tmp.end()};  
+        } 
+        tmp.push_back(s[i]);
         if (tmp.size() > maxLen)
             maxLen = tmp.size();
         // for (vector<char>::iterator it=tmp.begin();it!=tmp.end();++it)
