@@ -1,0 +1,1 @@
+add_library(isPalindrome isPalindrome.cpp isPalindrome.h);
