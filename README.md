@@ -10,16 +10,16 @@ The repo is about transitioning from Python to C family programming. It implemen
 ```
 
 ## Contents
-|Tasks|C++|C#|Python|
-|---|---|---|---|
-|Sample|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|Learn CMake|:heavy_check_mark:|||
-|Pointers|:heavy_check_mark:|||
-|ListNode|:heavy_check_mark:|:heavy_check_mark:||
-|Two Sum|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|Add Two Numbers|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|Length of Longest Substring|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|Palindrome Number|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|Roman to Integer|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|Remove Duplicates from Sorted Array|:heavy_check_mark:||:heavy_check_mark:|
+||Tasks|C++|C#|Python|
+|---|---|---|---|---|
+||Sample|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+||Learn CMake|:heavy_check_mark:|||
+||Pointers|:heavy_check_mark:|||
+||ListNode|:heavy_check_mark:|:heavy_check_mark:||
+|1|Two Sum|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|2|Add Two Numbers|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|3|Length of Longest Substring|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|9|Palindrome Number|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|13|Roman to Integer|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|26|Remove Duplicates from Sorted Array|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 
