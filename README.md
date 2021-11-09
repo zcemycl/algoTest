@@ -21,4 +21,5 @@ The repo is about transitioning from Python to C family programming. It implemen
 |Length of Longest Substring|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |Palindrome Number|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |Roman to Integer|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|Remove Duplicates from Sorted Array|:heavy_check_mark:||:heavy_check_mark:|
 
