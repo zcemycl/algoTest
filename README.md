@@ -22,4 +22,5 @@ The repo is about transitioning from Python to C family programming. It implemen
 |9|Palindrome Number|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |13|Roman to Integer|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |26|Remove Duplicates from Sorted Array|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|69|Plus One|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 

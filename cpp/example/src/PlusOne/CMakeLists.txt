@@ -1,0 +1,1 @@
+add_library(plusOne plusOne.cpp plusOne.h)
