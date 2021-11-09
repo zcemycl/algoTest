@@ -25,7 +25,7 @@ INSTANTIATE_TEST_CASE_P(
     merge2SortedLs_MultipleParamsTests,
     ::testing::Values(
         // make_tuple("12","13","1123")
-        // make_tuple("","",""),
+        make_tuple("","",""),
         make_tuple("","1","1")
     )
 );
