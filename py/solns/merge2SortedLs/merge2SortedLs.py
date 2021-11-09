@@ -11,6 +11,7 @@ class Solution:
     @staticmethod
     def listNode_fromStr(s):
         prev = None
+        result = None
         for tmps in s:
             result = ListNode(val=int(tmps),next=prev)
             prev = result
@@ -21,7 +22,7 @@ class Solution:
             return l2
         elif l2 is None:
             return l1
-        elif l1.val < l2.val:
+        elif l1.val > l2.val:
             l1.next = Solution.recursive(l1.next,l2)
             return l1
         else:
