@@ -24,7 +24,7 @@ INSTANTIATE_TEST_CASE_P(
     Merge2SortedLsSubStringTests,
     merge2SortedLs_MultipleParamsTests,
     ::testing::Values(
-        // make_tuple("1","2","12"),
+        make_tuple("124","134","112344"),
         make_tuple("","",""),
         make_tuple("","1","1")
     )
