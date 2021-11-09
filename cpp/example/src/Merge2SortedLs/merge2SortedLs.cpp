@@ -11,6 +11,8 @@ ListNode* merge2SortedLs::recursive(ListNode* l1,ListNode* l2){
     } else {
         l2->next = recursive(l1,l2->next);
     }
+    ListNode* l3 = nullptr;
+    return l3;
 }
 
 ListNode* merge2SortedLs::listNode_fromString(string num){
