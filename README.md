@@ -20,4 +20,5 @@ The repo is about transitioning from Python to C family programming. It implemen
 |Add Two Numbers|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |Length of Longest Substring|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |Palindrome Number|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|Roman to Integer|:heavy_check_mark:||:heavy_check_mark:|
 
