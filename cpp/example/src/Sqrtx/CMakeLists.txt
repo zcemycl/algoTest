@@ -1,0 +1,1 @@
+add_library(sqrtx sqrtx.cpp sqrtx.h)
