@@ -1,0 +1,1 @@
+add_library(validParentheses validParentheses.cpp validParentheses.h)
