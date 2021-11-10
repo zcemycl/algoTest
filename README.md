@@ -9,7 +9,9 @@ The repo is about transitioning from Python to C family programming. It implemen
     A --> D["py (Python)"]
 ```
 
-## Contents
+## Contents 
+(:heavy_check_mark: : Tested)
+
 ||Tasks|C++|C#|Python|Topics|
 |---|---|---|---|---|---|
 ||Sample|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
