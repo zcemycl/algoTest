@@ -27,7 +27,7 @@ The repo is about transitioning from Python to C family programming. It implemen
 |20|Valid Parentheses|:heavy_check_mark:||:heavy_check_mark:|Stack, Hashmap, Set|
 |21|Merge Two Sorted Lists|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Linked List|
 |26|Remove Duplicates from Sorted Array|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Pointers, Inplace Operation|
-|27|Remove Element|||:heavy_check_mark:|Pointers, Inplace Operation|
+|27|Remove Element|:heavy_check_mark:||:heavy_check_mark:|Pointers, Inplace Operation|
 |66|Plus One|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
 |69|Sqrtx|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Binary Search|
 |82|Remove Duplicates from Sorted Array 2|||:heavy_check_mark:|Linked List|
@@ -35,7 +35,7 @@ The repo is about transitioning from Python to C family programming. It implemen
 |193|Valid Phone Numbers||||Shell, Regular Expression|
 |195|Tenth Line||||Shell|
 |203|Remove Linked List Elements|||:heavy_check_mark:|Linked List|
-|217|Contains Duplicate|||:heavy_check_mark:|Set|
+|217|Contains Duplicate|:heavy_check_mark:||:heavy_check_mark:|Set|
 |442|Find All Duplicates in an Array|||:heavy_check_mark:|Hashmap|
 |1056|Confusing Number|:heavy_check_mark:||:heavy_check_mark:|Hashmap, Set|
 |1089|Duplicate Zeros|||:heavy_check_mark:|Inplace Operation|

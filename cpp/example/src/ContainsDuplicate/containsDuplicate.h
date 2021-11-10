@@ -1,8 +1,10 @@
 #include <iostream>
+#include <vector>
+#include <set>
 
 using namespace std;
 
 class containsDuplicate{
     public:
-        static int naive(int n);
+        static bool naive(vector<int>& nums);
 };
