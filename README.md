@@ -32,6 +32,7 @@ The repo is about transitioning from Python to C family programming. It implemen
 |69|Sqrtx|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Binary Search|
 |82|Remove Duplicates from Sorted Array 2|||:heavy_check_mark:|Linked List|
 |100|Same Tree|||:heavy_check_mark:|Tree|
+|203|Remove Linked List Elements|||:heavy_check_mark:|Linked List|
 |217|Contains Duplicate|||:heavy_check_mark:|Set|
 |442|Find All Duplicates in an Array|||:heavy_check_mark:|Hashmap|
 |1089|Duplicate Zeros|||:heavy_check_mark:|Inplace Operation|
