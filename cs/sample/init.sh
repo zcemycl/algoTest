@@ -10,3 +10,5 @@ echo mkdir -p Sample.Tests/"${name^}"/
 mkdir -p Sample.Tests/"${name^}"/
 echo touch Sample.Tests/"${name^}"/test"${name^}".cs
 touch Sample.Tests/"${name^}"/test"${name^}".cs
+
+./write.sh $name
