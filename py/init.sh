@@ -14,3 +14,5 @@ echo touch tests/test"${name^}"/__init__.py
 touch tests/test"${name^}"/__init__.py
 echo touch tests/test"${name^}"/test_"${name^}".py
 touch tests/test"${name^}"/test_"${name^}".py
+
+./write.sh $name

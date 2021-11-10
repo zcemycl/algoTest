@@ -14,3 +14,5 @@ echo mkdir -p tst/"${name^}"/
 mkdir -p tst/"${name^}"/
 echo touch tst/"${name^}"/"${name^}"-test.cpp
 touch tst/"${name^}"/"${name^}"-test.cpp
+
+./write.sh $name

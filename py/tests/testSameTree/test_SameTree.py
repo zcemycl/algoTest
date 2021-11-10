@@ -7,8 +7,7 @@ class UnitTest_SameTree(unittest.TestCase):
         [[1,2,4],[1,2,4],True]
     ])
     def test_recursive(self,l1,l2,expected):
-        t1 = Solution.treeNode_fromList2(l1)
-        t2 = Solution.treeNode_fromList2(l2)
+        t1 = TreeNode.treeNode_fromList2(l1)
+        t2 = TreeNode.treeNode_fromList2(l2)
         ans = Solution.recursive(t1,t2)
         self.assertEqual(ans,expected)
-        
