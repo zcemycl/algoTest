@@ -29,6 +29,6 @@ The repo is about transitioning from Python to C family programming. It implemen
 |26|Remove Duplicates from Sorted Array|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Pointers|
 |27|Remove Element|||:heavy_check_mark:|Pointers|
 |66|Plus One|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
-|69|Sqrtx|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
+|69|Sqrtx|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Binary Search|
 |100|Same Tree|||:heavy_check_mark:|Tree|
 |217|Contains Duplicate|||:heavy_check_mark:|Set|
