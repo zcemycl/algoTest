@@ -35,3 +35,5 @@ The repo is about transitioning from Python to C family programming. It implemen
 |217|Contains Duplicate|||:heavy_check_mark:|Set|
 |442|Find All Duplicates in an Array|||:heavy_check_mark:|Hashmap|
 |1089|Duplicate Zeros|||:heavy_check_mark:|Inplace Operation|
+|1836|Remove Duplicates From an Unsorted Linked List|||:heavy_check_mark:|Linked List|
+
