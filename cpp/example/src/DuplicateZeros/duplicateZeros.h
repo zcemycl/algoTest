@@ -1,8 +1,9 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
 class duplicateZeros{
     public:
-        static int naive(int n);
+        static void naive(vector<int>& arr);
 };

@@ -1,8 +1,10 @@
 #include <iostream>
+#include <vector>
+#include <map>
 
 using namespace std;
 
 class findDuplicatesArr{
     public:
-        static int naive(int n);
+        static vector<int> naive(vector<int>& nums);
 };

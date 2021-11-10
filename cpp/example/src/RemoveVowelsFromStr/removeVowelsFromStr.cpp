@@ -1,5 +1,5 @@
 #include "removeVowelsFromStr.h"
 
-int removeVowelsFromStr::naive(int n){
-    return n;
+string removeVowelsFromStr::naive(string s){
+    return regex_replace(s,regex("[aeiou]"),"");
 }
