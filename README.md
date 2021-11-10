@@ -24,6 +24,7 @@ The repo is about transitioning from Python to C family programming. It implemen
 |13|Roman to Integer|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |21|Merge Two Sorted Lists|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |26|Remove Duplicates from Sorted Array|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|27|Remove Element|||:heavy_check_mark:|
 |66|Plus One|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |69|Sqrtx|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |100|Same Tree|||:heavy_check_mark:|
