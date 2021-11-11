@@ -38,6 +38,7 @@ The repo is about transitioning from Python to C family programming. It implemen
 |195|Tenth Line||||Shell|
 |203|Remove Linked List Elements|||:heavy_check_mark:|Linked List|
 |217|Contains Duplicate|:heavy_check_mark:||:heavy_check_mark:|Set|
+|219|Contains Duplicate 2|:heavy_check_mark:||:heavy_check_mark:|Hashmap|
 |442|Find All Duplicates in an Array|:heavy_check_mark:||:heavy_check_mark:|Hashmap|
 |1056|Confusing Number|:heavy_check_mark:||:heavy_check_mark:|Hashmap, Set|
 |1089|Duplicate Zeros|:heavy_check_mark:||:heavy_check_mark:|Inplace Operation|
