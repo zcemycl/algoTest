@@ -34,6 +34,7 @@ The repo is about transitioning from Python to C family programming. It implemen
 |69|Sqrtx|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Binary Search|
 |82|Remove Duplicates from Sorted Array 2|||:heavy_check_mark:|Linked List|
 |100|Same Tree|||:heavy_check_mark:|Tree|
+|182|Duplicate Emails||||SQL|
 |193|Valid Phone Numbers||||Shell, Regular Expression|
 |195|Tenth Line||||Shell|
 |203|Remove Linked List Elements|||:heavy_check_mark:|Linked List|
