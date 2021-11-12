@@ -1,0 +1,1 @@
+add_library(findLuckyIntInArr findLuckyIntInArr.cpp findLuckyIntInArr.h)
