@@ -32,10 +32,10 @@ ListNode* pointer::returnListNode(string num){
     ListNode* ln = new ListNode(1);
     cout<<(long long)ln<<endl;
     for (auto c: num){
-        cout<<c<<endl;
+        // cout<<c<<endl;
         int tmp = (int) c - 48;
-        cout<<tmp<<endl;
-        cout<<typeid(c).name()<<endl;
+        // cout<<tmp<<endl;
+        // cout<<typeid(c).name()<<endl;
 
     };
     return ln;
