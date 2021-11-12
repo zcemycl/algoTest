@@ -13,6 +13,7 @@
         "initializer_list": "cpp",
         "tuple": "cpp",
         "utility": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "cmath": "cpp"
     }
 }
