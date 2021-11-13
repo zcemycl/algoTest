@@ -2,11 +2,49 @@
 The repo is about transitioning from Python to C family programming. It implements different leetcode solutions with C++(Cmake), C#(dotnet) and Python(pip), and test them with gtest, Xunits and pytest respectively. To ensure the code quality, it deploys testings via github actions.
 
 ## Structures
-```mermaid
-  flowchart TB;
-    A|repo| --> B|"cpp (C++)"|;
-    A --> C["cs (C#)"];
-    A --> D["py (Python)"]
+```
+algoTest 
+├── cpp [C++] 
+│   └── example (Leetcode c++ questions)
+│       ├── build
+│       ├── lib
+│       ├── src (solutions)
+│       └── tst (test scripts)
+├── cs [C#] 
+│   └── sample (Leetcode c# questions)
+│       ├── Sample (solutions)
+│       └── Sample.Tests (test scripts)
+├── py [Python3] 
+│   ├── solns (solutions)
+│   └── tests (test scripts)
+├── sh [Shell] <br>
+└── sql [SQL] <br>
+```
+
+## How to start?
+- For C++ questions, change directory to `cpp/example`, and then run
+```
+./init.sh questionName # to initiate a template
+./configure.sh # for cmake and debug
+./del.sh questionName # to delete the question
+```
+- Similarily for C#, change directory to `cs/sample`, 
+```
+./init.sh questionName # to initiate a template
+./del.sh questionName # to delete the question
+dotnet build
+dotnet run
+```
+- Similarily for Python3, change directory to `py`,
+```
+./init.sh questionName # to initiate a template
+./del.sh questionName # to delete the question
+pytest
+```
+- To operate on same question with all languages, 
+```
+./initAll.sh questionName
+./delAll.sh questionName
 ```
 
 ## Contents 
