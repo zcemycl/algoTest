@@ -46,8 +46,8 @@ The repo is about transitioning from Python to C family programming. It implemen
 |989|Add to Array-Form of Integer|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
 |1009|Complement of Base 10 Integer|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Bitwise Operation|
 |1056|Confusing Number|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Hashmap, Set|
-|1089|Duplicate Zeros|:heavy_check_mark:||:heavy_check_mark:|Inplace Operation|
-|1119|Remove Vowels from a String|:heavy_check_mark:||:heavy_check_mark:|Regular Expression|
+|1089|Duplicate Zeros|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Inplace Operation|
+|1119|Remove Vowels from a String|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Regular Expression|
 |1304|Find N Unique Integers Sum up to Zero|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
 |1356|Sort Integers by The Number of 1 Bits|:heavy_check_mark:||:heavy_check_mark:|Bitwise Operation|
 |1394|Find Lucky Integer in an Array|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Hashmap|
