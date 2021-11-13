@@ -24,6 +24,7 @@ The repo is about transitioning from Python to C family programming. It implemen
 |1|Two Sum|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Hash map|
 |2|Add Two Numbers|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Linked List|
 |3|Length of Longest Substring|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
+|7|Reverse Integer|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
 |9|Palindrome Number|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
 |13|Roman to Integer|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
 |20|Valid Parentheses|:heavy_check_mark:||:heavy_check_mark:|Stack, Hashmap, Set|
