@@ -19,6 +19,7 @@
 219. Contains Duplicate 2
 442. Find All Duplicates in an Array
 704. Binary Search
+989. Add to Array-Form of Integer
 1009. Complement of Base 10 Integer
 1056. Confusing Number
 1089. Dplicate Zeros
