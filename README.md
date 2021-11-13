@@ -17,8 +17,8 @@ algoTest
 ├── py [Python3] 
 │   ├── solns (solutions)
 │   └── tests (test scripts)
-├── sh [Shell] <br>
-└── sql [SQL] <br>
+├── sh [Shell] 
+└── sql [SQL] 
 ```
 
 ## How to start?
