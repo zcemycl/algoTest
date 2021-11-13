@@ -49,6 +49,7 @@ The repo is about transitioning from Python to C family programming. It implemen
 |1089|Duplicate Zeros|:heavy_check_mark:||:heavy_check_mark:|Inplace Operation|
 |1119|Remove Vowels from a String|:heavy_check_mark:||:heavy_check_mark:|Regular Expression|
 |1304|Find N Unique Integers Sum up to Zero|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
+|1356|Sort Integers by The Number of 1 Bits|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Bitwise Operation|
 |1394|Find Lucky Integer in an Array|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Hashmap|
 |1464|Maximum Product of Two Elements in Array|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Pointers|
 |1805|Number of Different Integers in a String|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Set|

@@ -43,7 +43,7 @@ TEST(AddTwoNumbersTest,test_naive_9_9){
     ListNode* l2 = addTwoNumbers::listNode_fromStringReverse(n2);
     ListNode* l3 = addTwoNumbers::naive(l1,l2);
     string* result = addTwoNumbers::printListNode(l3);
-    cout<<*result<<endl;
+    // cout<<*result<<endl;
     EXPECT_EQ(*result,n3);
     delete l1,l2,l3,result;
 }
@@ -54,7 +54,7 @@ TEST(AddTwoNumbersTest,test_naive_1546_124){
     ListNode* l2 = addTwoNumbers::listNode_fromStringReverse(n2);
     ListNode* l3 = addTwoNumbers::naive(l1,l2);
     string* result = addTwoNumbers::printListNode(l3);
-    cout<<*result<<endl;
+    // cout<<*result<<endl;
     EXPECT_EQ(*result,n3);
     delete l1,l2,l3,result;
 }
@@ -65,7 +65,7 @@ TEST(AddTwoNumbersTest,test_naive_2000_20){
     ListNode* l2 = addTwoNumbers::listNode_fromStringReverse(n2);
     ListNode* l3 = addTwoNumbers::naive(l1,l2);
     string* result = addTwoNumbers::printListNode(l3);
-    cout<<*result<<endl;
+    // cout<<*result<<endl;
     EXPECT_EQ(*result,n3);
     delete l1,l2,l3,result;
 }

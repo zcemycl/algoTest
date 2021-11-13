@@ -26,6 +26,7 @@
 1089. Dplicate Zeros
 1119. Remove Vowels from a String
 1304. Find N Unique Integers Sum up to Zero
+1356. Sort Integers by The Number of 1 Bits
 1394. Find Lucky Integer in an Array
 1464. Maximum Product of Two Elements in an Array
 1805. Number of Different Integers in a String
