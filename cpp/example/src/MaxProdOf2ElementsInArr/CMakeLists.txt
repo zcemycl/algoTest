@@ -1,0 +1,1 @@
+add_library(maxProdOf2ElementsInArr maxProdOf2ElementsInArr.cpp maxProdOf2ElementsInArr.h)
