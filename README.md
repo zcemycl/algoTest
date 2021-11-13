@@ -48,6 +48,7 @@ The repo is about transitioning from Python to C family programming. It implemen
 |1056|Confusing Number|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Hashmap, Set|
 |1089|Duplicate Zeros|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Inplace Operation|
 |1119|Remove Vowels from a String|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Regular Expression|
+|1290|Convert Binary Number in a Linked List to Integer|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Linked List|
 |1304|Find N Unique Integers Sum up to Zero|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
 |1356|Sort Integers by The Number of 1 Bits|:heavy_check_mark:||:heavy_check_mark:|Bitwise Operation|
 |1394|Find Lucky Integer in an Array|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Hashmap|

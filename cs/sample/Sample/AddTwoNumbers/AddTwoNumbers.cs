@@ -4,25 +4,6 @@ using Sample.ListNode;
 
 namespace Sample.AddTwoNumbers{
     public class addTwoNumbers{
-        public static string printListNode(listNode l){
-            string result = "";
-            while (l != null){
-                result = l.val.ToString()+result;
-                l = l.next;
-            }
-            return result;
-        }
-
-        public static listNode listNode_fromStr(string s){
-            listNode prev = null;
-            listNode result = new listNode();
-            foreach (char c in s){
-                int tmp = (int)Char.GetNumericValue(c);
-                result = new listNode(tmp,prev);
-                prev = result;
-            }
-            return result;
-        }
         public static listNode naive(listNode l1,listNode l2){
             listNode l3 = new listNode();
             listNode tmp = l3;
@@ -38,7 +19,6 @@ namespace Sample.AddTwoNumbers{
                 l1 = l1!=null?l1.next:null;
                 l2 = l2!=null?l2.next:null;
             }
-
             return l3.next;
         }
     }

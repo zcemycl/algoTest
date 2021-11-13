@@ -23,5 +23,31 @@ namespace Sample.Tests{
             Assert.Equal(2,result.next.val);
             Assert.Equal(1,result.next.next.val);
         }
+        [Fact]
+        public void TestListNode_printListNode(){
+            listNode node = new listNode(2);
+            listNode node2 = new listNode(1,node);
+            string s = listNode.printListNode(node2,"normal");
+            Assert.Equal("12",s);
+        }
+        [Fact]
+        public void TestListNode_printListNodeReverse(){
+            listNode node = new listNode(2);
+            listNode node2 = new listNode(1,node);
+            string s = listNode.printListNode(node2,"reverse");
+            Assert.Equal("21",s);
+        }
+        [Fact]
+        public void TestListNode_listNode_fromStr(){
+            listNode node = listNode.listNode_fromStr("123");
+            string s = listNode.printListNode(node,"normal");
+            Assert.Equal("123",s);
+        }
+        [Fact]
+        public void TestListNode_listNode_fromStrReverse(){
+            listNode node = listNode.listNode_fromStrReverse("123");
+            string s = listNode.printListNode(node,"reverse");
+            Assert.Equal("123",s);
+        }
     }
 }

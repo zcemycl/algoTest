@@ -28,3 +28,29 @@ TEST(listNodeTest, wholeconstructor){
     EXPECT_EQ(result,1);
     EXPECT_EQ(result2,2);
 }
+
+TEST(listNodeTest, testPrintListNode){
+    ListNode* ln = new ListNode(1);
+    ln->next = new ListNode(2);
+    string* s = ListNode::printListNode(ln);
+    EXPECT_EQ(*s,"12");
+}
+
+TEST(listNodeTest, testPrintListNodeReverse){
+    ListNode* ln = new ListNode(1);
+    ln->next = new ListNode(2);
+    string* s = ListNode::printListNode(ln,"reverse");
+    EXPECT_EQ(*s,"21");
+}
+
+TEST(listNodeTest, testlistNode_fromStr){
+    ListNode* ln = ListNode::listNode_fromStr("1237");
+    string* s = ListNode::printListNode(ln);
+    EXPECT_EQ(*s,"1237");
+}
+
+TEST(listNodeTest, testlistNode_fromStrReverse){
+    ListNode* ln = ListNode::listNode_fromStrReverse("1237");
+    string* s = ListNode::printListNode(ln,"reverse");
+    EXPECT_EQ(*s,"1237");
+}

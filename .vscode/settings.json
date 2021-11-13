@@ -15,6 +15,7 @@
         "utility": "cpp",
         "ostream": "cpp",
         "cmath": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "new": "cpp"
     }
 }

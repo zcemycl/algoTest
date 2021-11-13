@@ -1,0 +1,2 @@
+add_library(convertBinaryLinkedList2Int convertBinaryLinkedList2Int.cpp convertBinaryLinkedList2Int.h)
+add_library(ListNode ListNode.cpp ListNode.h)

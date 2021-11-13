@@ -5,8 +5,5 @@ using namespace std;
 
 class addTwoNumbers{
     public:
-        static ListNode* listNode_fromString(string num);
-        static ListNode* listNode_fromStringReverse(string num);
-        static string* printListNode(ListNode* ln);
         static ListNode* naive(ListNode* l1, ListNode* l2);
 };
