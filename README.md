@@ -53,9 +53,9 @@ pytest
 ||Tasks|C++|C#|Python|Topics|
 |---|---|---|---|---|---|
 ||Sample|[:shipit:](cpp/example/src/Sample/sample.cpp) [:heavy_check_mark:](cpp/example/tst/Sample-test.cpp)|:heavy_check_mark:|:heavy_check_mark:||
-||Learn CMake|[:shipit:](cpp/example/learnCMake/)||||
+||Learn CMake|[:shipit:](cpp/learnCMake/)||||
 ||Pointers|[:shipit:](cpp/example/src/Pointer/pointer.cpp) [:heavy_check_mark:](cpp/example/tst/Pointer/Pointer-test.cpp)|:heavy_check_mark:||||
-||ListNode|[:shipit:](cpp/example/src/ListNode/listNode.cpp) [:heavy_check_mark:](cpp/example/tst/)|:heavy_check_mark:|:heavy_check_mark:||Linked List|
+||ListNode|[:shipit:](cpp/example/src/ListNode/listNode.cpp) [:heavy_check_mark:](cpp/example/tst/ListNode/ListNode-test.cpp)|:heavy_check_mark:|:heavy_check_mark:||Linked List|
 ||TreeNode||||Tree|
 ||Unit Testing|[:shipit:](cpp/example/src/Pointer/pointer.cpp) [:heavy_check_mark:](cpp/example/tst/Pointer/Pointer-test.cpp)|:heavy_check_mark:|:heavy_check_mark:|Unit Testing|
 ||Parameterized Unit Testing|[:shipit:](cpp/example/src/RmElement/rmElement.cpp) [:heavy_check_mark:](cpp/example/tst/RmElement/RmElement-test.cpp)|:heavy_check_mark:|:heavy_check_mark:|Unit Testing|
