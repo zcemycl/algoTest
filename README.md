@@ -48,7 +48,7 @@ pytest
 ```
 
 ## Contents 
-(:heavy_check_mark: : Tested)
+:shipit: : Solution | :heavy_check_mark: : Test | Click on Icon to read the code.
 
 ||Tasks|C++|C#|Python|Topics|
 |---|---|---|---|---|---|
@@ -59,7 +59,7 @@ pytest
 ||TreeNode||||Tree|
 ||Unit Testing|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Unit Testing|
 ||Parameterized Unit Testing|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Unit Testing|
-|1|Two Sum|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Hash map|
+|1|Two Sum|[:shipit:](cpp/example/src/TwoSum/twoSum.cpp) [:heavy_check_mark:](cpp/example/tst/TwoSum/TwoSum-test.cpp)|:heavy_check_mark:|:heavy_check_mark:|Hash map|
 |2|Add Two Numbers|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Linked List|
 |3|Length of Longest Substring|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
 |7|Reverse Integer|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:||
