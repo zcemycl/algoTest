@@ -5,9 +5,9 @@ using Sample.DuplicateEmails;
 namespace Sample.Tests{
     public class UnitTest_DuplicateEmails{
         [Theory]
-        [InlineData(0,0)]
-        public void checkResult(int n,int expected){
-            Assert.Equal(expected,duplicateEmails.naive(n));
+        [InlineData("a@b.com")]
+        public void checkResult(string s){
+            Assert.Equal(s,duplicateEmails.naive());
         }
     }
 }
