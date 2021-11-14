@@ -73,7 +73,7 @@ pytest
 |69|Sqrtx|[:shipit:](cpp/example/src/Sqrtx/sqrtx.cpp) [:heavy_check_mark:](cpp/example/tst/Sqrtx/Sqrtx-test.cpp)|[:shipit:](cs/sample/Sample/Sqrtx/Sqrtx.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/Sqrtx/testSqrtx.cs)|[:shipit:](py/solns/sqrtx/sqrtx.py) [:heavy_check_mark:](py/tests/testSqrtx/test_Sqrtx.py)|Binary Search|
 |82|Remove Duplicates from Sorted Array 2|||[:shipit:](py/solns/rmDuplicatesFromSortedArr2/rmDuplicatesFromSortedArr2.py) [:heavy_check_mark:](py/tests/testRmDuplicatesFromSortedArr2/test_RmDuplicatesFromSortedArr2.py)|Linked List|
 |100|Same Tree|||[:shipit:](py/solns/sameTree/sameTree.py) [:heavy_check_mark:](py/tests/testSameTree/test_SameTree.py)|Tree|
-|182|Duplicate Emails|||[:shipit:](py/solns/duplicateEmails/duplicateEmails.py) [:heavy_check_mark:](py/tests/testDuplicateEmails/test_DuplicateEmails.py)|SQL, Sqlite3|
+|182|Duplicate Emails|[:shipit:](cpp/example/src/DuplicateEmails/duplicateEmails.cpp) [:heavy_check_mark:](cpp/example/tst/DuplicateEmails/DuplicateEmails-test.cpp)||[:shipit:](py/solns/duplicateEmails/duplicateEmails.py) [:heavy_check_mark:](py/tests/testDuplicateEmails/test_DuplicateEmails.py)|SQL, Sqlite3|
 |193|Valid Phone Numbers||||Shell, Regular Expression|
 |195|Tenth Line||||Shell|
 |203|Remove Linked List Elements|||[:shipit:](py/solns/removeLinkedListElements/removeLinkedListElements.py) [:heavy_check_mark:](py/tests/testRemoveLinkedListElements/test_RemoveLinkedListElements.py)|Linked List|

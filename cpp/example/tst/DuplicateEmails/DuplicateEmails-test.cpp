@@ -16,6 +16,6 @@ INSTANTIATE_TEST_CASE_P(
     DuplicateEmailsTests,
     duplicateEmails_MultipleParamsTests,
     ::testing::Values(
-        make_tuple("abc")
+        make_tuple("a@b.com")
     )
 );

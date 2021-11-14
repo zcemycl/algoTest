@@ -21,6 +21,7 @@ jobs:
     - name: Sample Test
       run: |
         cd cs/sample
+        sudo apt-get install sqlite3 libsqlite3-dev
         dotnet restore
         dotnet build --no-restore
         dotnet test --no-build --verbosity normal
