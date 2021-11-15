@@ -16,12 +16,15 @@ class ListNode:
             l = l.next
         return printStr
     @staticmethod
-    def listNode_fromStr(s):
+    def listNode_fromStr(s,pos=-1):
         result = ListNode()
         tmp = result
-        for tmps in s:
+        for i,tmps in enumerate(s):
             tmp.next = ListNode(int(tmps))
             tmp = tmp.next
+            if i==pos: need = tmp
+        if pos!=-1:
+            tmp.next = need
         return result.next
     @staticmethod
     def listNode_fromStrReverse(s):

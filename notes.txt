@@ -12,6 +12,8 @@
 69. Sqrtx
 82. Remove Duplicates from Sorted Array 2
 100. Same Tree
+141. Linked List Cycle
+142. Linked List Cycle 2
 182. Duplicate Emails
 193. Valid Phone Numbers
 195. Tenth Line
