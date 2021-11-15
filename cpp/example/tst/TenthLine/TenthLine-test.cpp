@@ -4,19 +4,19 @@
 using namespace std;
 
 class tenthLine_MultipleParamsTests : 
-    public ::testing::TestWithParam<tuple<int,int>>{
+    public ::testing::TestWithParam<tuple<string>>{
 };
 
 TEST_P(tenthLine_MultipleParamsTests, CheckAns){
-    int n = get<0>(GetParam());
-    int expected = get<1>(GetParam());
-    ASSERT_EQ(expected,tenthLine::naive(n));
+    string expected = get<0>(GetParam());
+    // ASSERT_EQ(expected,tenthLine::naive());
+    ASSERT_EQ(expected,tenthLine::linuxCMD());
 };
 
 INSTANTIATE_TEST_CASE_P(
     TenthLineTests,
     tenthLine_MultipleParamsTests,
     ::testing::Values(
-        make_tuple(0,0)
+        make_tuple("Line 10")
     )
 );
