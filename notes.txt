@@ -16,6 +16,7 @@
 121. Best Time to Buy and Sell Stock*
 141. Linked List Cycle
 142. Linked List Cycle 2
+152. Maximum Product Subarray*
 182. Duplicate Emails
 193. Valid Phone Numbers
 195. Tenth Line

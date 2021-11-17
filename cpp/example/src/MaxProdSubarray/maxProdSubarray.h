@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class maxSubarray{
+class maxProdSubarray{
     public:
         static int naive(vector<int>& nums);
 };
