@@ -1,0 +1,1 @@
+add_library(prodOfArrExceptSelf prodOfArrExceptSelf.cpp prodOfArrExceptSelf.h)
