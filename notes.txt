@@ -13,6 +13,7 @@
 33. Search in Rotated Sorted Array*
 53. Maximum Subarray*
 66. Plus One
+70. Climbing Stairs*
 69. Sqrtx
 82. Remove Duplicates from Sorted Array 2
 100. Same Tree*
@@ -28,6 +29,7 @@
 217. Contains Duplicate*
 219. Contains Duplicate 2
 238. Product of Array Except Self*
+371. Sum of Two Integers*
 442. Find All Duplicates in an Array
 704. Binary Search
 989. Add to Array-Form of Integer
