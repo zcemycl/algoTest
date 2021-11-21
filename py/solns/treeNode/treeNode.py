@@ -8,17 +8,19 @@ class TreeNode:
     def treeNode_fromList2(nums):
         if len(nums)==0: return None
         q = []
-        result = TreeNode(nums[0])
+        result = TreeNode(nums[0]) if nums[0] else None
         tmp = result
         q.append(tmp)
         for i in range(1,len(nums)):
             if i%2==1:
                 tmp = q.pop(0)
-                tmp.left = TreeNode(val=nums[i])
-                q.append(tmp.left)
+                if nums[i]!=None:
+                    tmp.left = TreeNode(val=nums[i])
+                    q.append(tmp.left)
             elif i%2==0:
-                tmp.right = TreeNode(val=nums[i])
-                q.append(tmp.right)
+                if nums[i]!=None:
+                    tmp.right = TreeNode(val=nums[i])
+                    q.append(tmp.right)
         return result
     
     @staticmethod
@@ -27,14 +29,16 @@ class TreeNode:
         ls = []
         while (len(q)!=0):
             tmp = q.pop(0)
-            print(tmp.val)
-            ls.append(tmp.val)
-            if tmp.left:
-                print('left: ',tmp.left,tmp.left.val)
+            if tmp is not None:
+                ls.append(tmp.val)
+            else: ls.append(None)
+            if tmp is not None:
                 q.append(tmp.left)
-            if tmp.right:
-                print('right: ',tmp.right,tmp.right.val)
                 q.append(tmp.right)
+        for i in reversed(range(len(ls))):
+            if ls[i] == None:
+                ls.pop()
+            else: break
         return ls
 
 if __name__ == "__main__":

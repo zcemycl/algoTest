@@ -9,5 +9,4 @@ class UnitTest_TreeNode(unittest.TestCase):
     def test_fromList2(self,nums):
         t = TreeNode.treeNode_fromList2(nums)
         ts = TreeNode.treeNode2List(t)
-        print("2. ",ts)
         self.assertEqual(ts,nums)

@@ -49,7 +49,6 @@ class Solution:
             
         tmp = result
         for _ in range(i-1):
-            print(tmp.val)
             tmp = tmp.next
         if tmp.next.val == 0: tmp.next = None
         return result

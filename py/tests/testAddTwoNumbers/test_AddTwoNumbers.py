@@ -20,7 +20,6 @@ class TestCase(unittest.TestCase):
         s1 = Solution.printListNode(inp1)
         s2 = Solution.printListNode(inp2)
         s3 = Solution.printListNode(result)
-        print(s1+' + '+s2+' = '+s3)
     @timeit
     def test_naive_9_9(self):
         inp1 = Solution.listNode_fromStr('9')
@@ -29,7 +28,6 @@ class TestCase(unittest.TestCase):
         s1 = Solution.printListNode(inp1)
         s2 = Solution.printListNode(inp2)
         s3 = Solution.printListNode(result)
-        print(s1+' + '+s2+' = '+s3)
     @timeit
     def test_naive_10_10(self):
         inp1 = Solution.listNode_fromStr('10')
@@ -38,7 +36,6 @@ class TestCase(unittest.TestCase):
         s1 = Solution.printListNode(inp1)
         s2 = Solution.printListNode(inp2)
         s3 = Solution.printListNode(result)
-        print(s1+' + '+s2+' = '+s3)
     @timeit
     def test_naive_2000_20(self):
         inp1 = Solution.listNode_fromStr('2000')
@@ -47,7 +44,6 @@ class TestCase(unittest.TestCase):
         s1 = Solution.printListNode(inp1)
         s2 = Solution.printListNode(inp2)
         s3 = Solution.printListNode(result)
-        print(s1+' + '+s2+' = '+s3)
     @timeit
     def test_naive_2000_20(self):
         inp1 = Solution.listNode_fromStr('2080')
@@ -56,10 +52,8 @@ class TestCase(unittest.TestCase):
         s1 = Solution.printListNode(inp1)
         s2 = Solution.printListNode(inp2)
         s3 = Solution.printListNode(result)
-        print(s1+' + '+s2+' = '+s3)
     @timeit
     def test_onepass_9_9(self):
         inp1 = Solution.listNode_fromStr('9')
         inp2 = inp1
         result = Solution.onepass(inp1,inp2)
-        print(Solution.printListNode(result))

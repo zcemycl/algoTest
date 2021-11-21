@@ -17,6 +17,7 @@
 69. Sqrtx
 82. Remove Duplicates from Sorted Array 2
 100. Same Tree*
+112. Path Sum
 121. Best Time to Buy and Sell Stock*
 141. Linked List Cycle
 142. Linked List Cycle 2
