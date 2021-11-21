@@ -5,18 +5,8 @@ class TreeNode:
         self.right = right
 
     @staticmethod
-    def treeNode_fromList(nums,root,i,n):
-        if i<n:
-            tmp = TreeNode(nums[i])
-            root = tmp
-            root.left = Solution.treeNode_fromList(nums,
-                root.left,2*i+1,n)
-            root.right = Solution.treeNode_fromList(nums,
-                root.right,2*i+2,n)
-        return root
-
-    @staticmethod
     def treeNode_fromList2(nums):
+        if len(nums)==0: return None
         q = []
         result = TreeNode(nums[0])
         tmp = result
@@ -31,17 +21,25 @@ class TreeNode:
                 q.append(tmp.right)
         return result
     
-
     @staticmethod
     def treeNode2List(node):
         q=[node]
         ls = []
         while (len(q)!=0):
             tmp = q.pop(0)
+            print(tmp.val)
             ls.append(tmp.val)
             if tmp.left:
+                print('left: ',tmp.left,tmp.left.val)
                 q.append(tmp.left)
             if tmp.right:
+                print('right: ',tmp.right,tmp.right.val)
                 q.append(tmp.right)
         return ls
-            
+
+if __name__ == "__main__":
+    a = TreeNode.treeNode_fromList([1,2,3,4,5],TreeNode(),0,5)
+    b = TreeNode.treeNode_fromList([5,4,8,11,None,13,4,7,2,None,None,None,1],
+        TreeNode(),0,9)
+    c = TreeNode.treeNode_fromList2(
+        [5,4,8,11,None,13,4,7,2,None,None,None,1])

@@ -17,13 +17,7 @@ namespace Sample.LengthOfLongestSubString{
                     tmp[tmp.GetUpperBound(0)] = s[i];
                 }              
                 if (tmp.Length > maxLen)
-                    maxLen = tmp.Length;  
-                for (int j=tmp.GetLowerBound(0);j<=tmp.GetUpperBound(0);j++){
-                    Console.Write(tmp[j]);
-                    Console.Write(" ");
-                }
-                Console.WriteLine();
-                
+                    maxLen = tmp.Length;                  
             }
             return maxLen;
             
