@@ -4,19 +4,26 @@
 using namespace std;
 
 class countInversions_MultipleParamsTests : 
-    public ::testing::TestWithParam<tuple<int,int>>{
+    public ::testing::TestWithParam<tuple<vector<int>,int>>{
 };
 
 TEST_P(countInversions_MultipleParamsTests, CheckAns){
-    int n = get<0>(GetParam());
+    vector<int> nums = get<0>(GetParam());
+    if (nums.size()==0)
+        nums = countInversions::loadtxt2arr();
     int expected = get<1>(GetParam());
-    ASSERT_EQ(expected,countInversions::naive(n));
+    int count; vector<int> arr;
+    tie(arr,count) = countInversions::naive(nums);
+    ASSERT_EQ(expected,count);
 };
 
 INSTANTIATE_TEST_CASE_P(
     CountInversionsTests,
     countInversions_MultipleParamsTests,
     ::testing::Values(
-        make_tuple(0,0)
+        make_tuple(vector<int>{4,3,2,1},6),
+        make_tuple(vector<int>{5,4,3,2,1},10),
+        make_tuple(vector<int>{2,3,1},2),
+        make_tuple(vector<int>{},2407905288)
     )
 );
