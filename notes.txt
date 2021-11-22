@@ -34,6 +34,7 @@
 404. Sum of Left Leaves
 442. Find All Duplicates in an Array
 704. Binary Search
+912. Sort an Array
 989. Add to Array-Form of Integer
 1009. Complement of Base 10 Integer
 1056. Confusing Number
