@@ -5,7 +5,8 @@ from solns.mergeSort.mergeSort import *
 
 class UnitTest_MergeSort(unittest.TestCase):
     @p.expand([
-        []
+        [[4,5,1,8,10,11,0,7,9],[0,1,4,5,7,8,9,10,11]],
+        [[4,2,3,1],[1,2,3,4]]
     ])
-    def test_naive(self):
-        pass
+    def test_naive(self,nums,expected):
+        self.assertEqual(Solution.naive(nums), expected)
