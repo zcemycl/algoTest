@@ -15,6 +15,8 @@ TEST_P(countInversions_MultipleParamsTests, CheckAns){
     int count; vector<int> arr;
     tie(arr,count) = countInversions::naive(nums);
     ASSERT_EQ(expected,count);
+    nums.clear();
+    nums.shrink_to_fit();
 };
 
 INSTANTIATE_TEST_CASE_P(
