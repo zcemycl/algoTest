@@ -11,7 +11,7 @@ TEST_P(countMinCuts_MultipleParamsTests, CheckAns){
     map<int,vector<int>> graph; int total,seedId;
     tie(graph,total) = countMinCuts::loadGraph();
     int minCut = pow(total,2);
-    int numTrials = 50; 
+    int numTrials = 20; 
     for (int i=0;i<numTrials;i++){
         srand(i);
         map<int,vector<int>> tmpG(graph);
@@ -21,9 +21,10 @@ TEST_P(countMinCuts_MultipleParamsTests, CheckAns){
             minCut = result;
             seedId = i;
         }
+        cout<<i<<": "<<result<<endl;
     }
     cout<<seedId<<": "<<minCut<<endl;
-    ASSERT_LE(20,minCut);
+    ASSERT_LE(17,minCut);
 };
 
 INSTANTIATE_TEST_CASE_P(
