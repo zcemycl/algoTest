@@ -8,9 +8,22 @@ class countMinCuts_MultipleParamsTests :
 };
 
 TEST_P(countMinCuts_MultipleParamsTests, CheckAns){
-    int n = get<0>(GetParam());
-    int expected = get<1>(GetParam());
-    ASSERT_EQ(expected,countMinCuts::naive(n));
+    map<int,vector<int>> graph; int total,seedId;
+    tie(graph,total) = countMinCuts::loadGraph();
+    int minCut = pow(total,2);
+    int numTrials = 50; 
+    for (int i=0;i<numTrials;i++){
+        srand(i);
+        map<int,vector<int>> tmpG(graph);
+        int tmpT = total;
+        int result = countMinCuts::naive(tmpG,tmpT);
+        if (minCut>result){
+            minCut = result;
+            seedId = i;
+        }
+    }
+    cout<<seedId<<": "<<minCut<<endl;
+    ASSERT_LE(20,minCut);
 };
 
 INSTANTIATE_TEST_CASE_P(
