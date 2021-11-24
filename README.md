@@ -1,5 +1,5 @@
 # Algorithm Tests [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-The repo is about transitioning from Python to C family programming. It implements different leetcode solutions with C++(Cmake), C#(dotnet) and Python(pip), and test them with gtest, Xunits and pytest respectively. To ensure the code quality, it deploys testings via github actions.
+The repo is about transitioning from Python to C family programming. It implements algorithms with C++(Cmake), C#(dotnet) and Python(pip), and test them with gtest, Xunits and pytest respectively. To ensure the code quality, it deploys testings via github actions.
 
 ## Structures
 ```
@@ -50,15 +50,12 @@ pytest
 ## Contents 
 :shipit: : Solution | :heavy_check_mark: : Test | Click on Icon to read the code.
 
+### Stanford Algorithm Courses
+<details open>
+  <summary>Click to expand!</summary>
+  
 ||Tasks|C++|C#|Python|Topics|
 |---|---|---|---|---|---|
-||Sample|[:shipit:](cpp/example/src/Sample/sample.cpp) [:heavy_check_mark:](cpp/example/tst/Sample-test.cpp)|[:shipit:](cs/sample/Sample/Sample.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/UnitTest1.cs)|[:shipit:](py/solns/solnSample.py) [:heavy_check_mark:](py/tests/test_Sample.py)||
-||Learn CMake|[:shipit:](cpp/learnCMake/)||||
-||Pointers|[:shipit:](cpp/example/src/Pointer/pointer.cpp) [:heavy_check_mark:](cpp/example/tst/Pointer/Pointer-test.cpp)||||
-||ListNode|[:shipit:](cpp/example/src/ListNode/listNode.cpp) [:heavy_check_mark:](cpp/example/tst/ListNode/ListNode-test.cpp)|[:shipit:](cs/sample/Sample/ListNode/ListNode.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/ListNode/testListNode.cs)||Linked List|
-||TreeNode|[:shipit:](cpp/example/src/TreeNode/treeNode.cpp) [:heavy_check_mark:](cpp/example/tst/TreeNode/TreeNode-test.cpp)|[:shipit:](cs/sample/Sample/TreeNode/TreeNode.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/TreeNode/testTreeNode.cs)|[:shipit:](py/solns/treeNode/treeNode.py) [:heavy_check_mark:](py/tests/testTreeNode/test_TreeNode.py)|Tree|
-||Unit Testing|[:shipit:](cpp/example/src/Pointer/pointer.cpp) [:heavy_check_mark:](cpp/example/tst/Pointer/Pointer-test.cpp)|[:shipit:](cs/sample/Sample/ListNode/ListNode.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/ListNode/testListNode.cs)|[:shipit:](py/solns/solnSample.py) [:heavy_check_mark:](py/tests/test_Sample.py)|Unit Testing|
-||Parameterized Unit Testing|[:shipit:](cpp/example/src/RmElement/rmElement.cpp) [:heavy_check_mark:](cpp/example/tst/RmElement/RmElement-test.cpp)|[:shipit:](cs/sample/Sample/BinarySearch/BinarySearch.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/BinarySearch/testBinarySearch.cs)|[:shipit:](py/solns/binarySearch/binarySearch.py) [:heavy_check_mark:](py/tests/testBinarySearch/test_BinarySearch.py)|Unit Testing|
 ||Karatsuba Multiplication|[:shipit:](cpp/example/src/KaratsubaMultiply/karatsubaMultiply.cpp) [:heavy_check_mark:](cpp/example/tst/KaratsubaMultiply/KaratsubaMultiply-test.cpp)|||Divide and Conquer|
 ||Bubble Sort|[:shipit:](cpp/example/src/BubbleSort/bubbleSort.cpp) [:heavy_check_mark:](cpp/example/tst/BubbleSort/BubbleSort-test.cpp)|[:shipit:](cs/sample/Sample/BubbleSort/BubbleSort.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/BubbleSort/testBubbleSort.cs)|[:shipit:](py/solns/bubbleSort/bubbleSort.py) [:heavy_check_mark:](py/tests/testBubbleSort/test_BubbleSort.py)|Sorting Algorithm|
 ||Merge Sort|[:shipit:](cpp/example/src/MergeSort/mergeSort.cpp) [:heavy_check_mark:](cpp/example/tst/MergeSort/MergeSort-test.cpp)|[:shipit:](cs/sample/Sample/MergeSort/MergeSort.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/MergeSort/testMergeSort.cs)|[:shipit:](py/solns/mergeSort/mergeSort.py) [:heavy_check_mark:](py/tests/testMergeSort/test_MergeSort.py)|Sorting Algorithm, Divide and Conquer|
@@ -66,6 +63,17 @@ pytest
 ||Quick Sort|[:shipit:](cpp/example/src/QuickSort/quickSort.cpp) [:heavy_check_mark:](cpp/example/tst/QuickSort/QuickSort-test.cpp)||[:shipit:](py/solns/quickSort/quickSort.py) [:heavy_check_mark:](py/tests/testQuickSort/test_QuickSort.py)|Sorting Algorithm, Divide and Conquer|
 ||N-th Order Statistics|[:shipit:](cpp/example/src/OrderStats/orderStats.cpp) [:heavy_check_mark:](cpp/example/tst/OrderStats/OrderStats-test.cpp)|||Divide and Conquer, Randomized Algorithm|
 ||Minimum Cuts|[:shipit:](cpp/example/src/CountMinCuts/countMinCuts.cpp) [:heavy_check_mark:](cpp/example/tst/CountMinCuts/CountMinCuts-test.cpp)||[:shipit:](py/solns/countMinCuts/countMinCuts.py) [:heavy_check_mark:](py/tests/testCountMinCuts/test_CountMinCuts.py)|Graph, Randomized Algorithm|
+  
+</details>
+
+### Leetcode
+<details open>
+  <summary>Click to expand!</summary>
+  
+||Tasks|C++|C#|Python|Topics|
+|---|---|---|---|---|---|
+||ListNode|[:shipit:](cpp/example/src/ListNode/listNode.cpp) [:heavy_check_mark:](cpp/example/tst/ListNode/ListNode-test.cpp)|[:shipit:](cs/sample/Sample/ListNode/ListNode.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/ListNode/testListNode.cs)||Linked List|
+||TreeNode|[:shipit:](cpp/example/src/TreeNode/treeNode.cpp) [:heavy_check_mark:](cpp/example/tst/TreeNode/TreeNode-test.cpp)|[:shipit:](cs/sample/Sample/TreeNode/TreeNode.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/TreeNode/testTreeNode.cs)|[:shipit:](py/solns/treeNode/treeNode.py) [:heavy_check_mark:](py/tests/testTreeNode/test_TreeNode.py)|Tree|
 |1*|Two Sum|[:shipit:](cpp/example/src/TwoSum/twoSum.cpp) [:heavy_check_mark:](cpp/example/tst/TwoSum/TwoSum-test.cpp)|[:shipit:](cs/sample/Sample/TwoSum/TwoSum.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/TwoSum/testTwoSum.cs)|[:shipit:](py/solns/twoSum/twoSum.py) [:heavy_check_mark:](py/tests/testTwoSum/test_TwoSum.py)|Array, Hash map|
 |2|Add Two Numbers|[:shipit:](cpp/example/src/AddTwoNumbers/addTwoNumbers.cpp) [:heavy_check_mark:](cpp/example/tst/AddTwoNumbers/AddTwoNumbers-test.cpp)|[:shipit:](cs/sample/Sample/AddTwoNumbers/AddTwoNumbers.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/AddTwoNumbers/testAddTwoNumbers.cs)|[:shipit:](py/solns/addTwoNumbers/addTwoNumbers.py) [:heavy_check_mark:](py/tests/testAddTwoNumbers/test_AddTwoNumbers.py)|Linked List|
 |3|Length of Longest Substring|[:shipit:](cpp/example/src/LengthOfLongestSubString/lengthOfLongestSubString.cpp) [:heavy_check_mark:](cpp/example/tst/LengthOfLongestSubString/LengthOfLongestSubString-test.cpp)|[:shipit:](cs/sample/Sample/LengthOfLongestSubString/LengthOfLongestSubString.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/LengthOfLongestSubString/testLengthOfLongestSubString.cs)|[:shipit:](py/solns/lengthOfLongestSubString/lengthOfLongestSubString.py) [:heavy_check_mark:](py/tests/testLengthOfLongestSubString/test_LengthOfLongestSubString.py)||
@@ -120,3 +128,27 @@ pytest
 |1805|Number of Different Integers in a String|[:shipit:](cpp/example/src/NumDifferentIntsInStr/numDifferentIntsInStr.cpp) [:heavy_check_mark:](cpp/example/tst/NumDifferentIntsInStr/NumDifferentIntsInStr-test.cpp)|[:shipit:](cs/sample/Sample/NumDifferentIntsInStr/NumDifferentIntsInStr.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/NumDifferentIntsInStr/testNumDifferentIntsInStr.cs)|[:shipit:](py/solns/numDifferentIntsInStr/numDifferentIntsInStr.py) [:heavy_check_mark:](py/tests/testNumDifferentIntsInStr/test_NumDifferentIntsInStr.py)|Set|
 |1836|Remove Duplicates From an Unsorted Linked List|||[:shipit:](py/solns/rmDuplicatesFromUnsortedLinkedList/rmDuplicatesFromUnsortedLinkedList.py) [:heavy_check_mark:](py/tests/testRmDuplicatesFromUnsortedLinkedList/test_RmDuplicatesFromUnsortedLinkedList.py)|Linked List|
 
+</details>
+
+### Testing Samples
+<details>
+  <summary>Click to expand!</summary>
+
+||Tasks|C++|C#|Python|Topics|
+|---|---|---|---|---|---|
+||Unit Testing|[:shipit:](cpp/example/src/Pointer/pointer.cpp) [:heavy_check_mark:](cpp/example/tst/Pointer/Pointer-test.cpp)|[:shipit:](cs/sample/Sample/ListNode/ListNode.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/ListNode/testListNode.cs)|[:shipit:](py/solns/solnSample.py) [:heavy_check_mark:](py/tests/test_Sample.py)|Unit Testing|
+||Parameterized Unit Testing|[:shipit:](cpp/example/src/RmElement/rmElement.cpp) [:heavy_check_mark:](cpp/example/tst/RmElement/RmElement-test.cpp)|[:shipit:](cs/sample/Sample/BinarySearch/BinarySearch.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/BinarySearch/testBinarySearch.cs)|[:shipit:](py/solns/binarySearch/binarySearch.py) [:heavy_check_mark:](py/tests/testBinarySearch/test_BinarySearch.py)|Unit Testing|
+
+</details>
+
+### Others
+<details>
+  <summary>Click to expand!</summary>
+  
+||Tasks|C++|C#|Python|Topics|
+|---|---|---|---|---|---|
+||Sample|[:shipit:](cpp/example/src/Sample/sample.cpp) [:heavy_check_mark:](cpp/example/tst/Sample-test.cpp)|[:shipit:](cs/sample/Sample/Sample.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/UnitTest1.cs)|[:shipit:](py/solns/solnSample.py) [:heavy_check_mark:](py/tests/test_Sample.py)||
+||Learn CMake|[:shipit:](cpp/learnCMake/)||||
+||Pointers|[:shipit:](cpp/example/src/Pointer/pointer.cpp) [:heavy_check_mark:](cpp/example/tst/Pointer/Pointer-test.cpp)||||
+  
+</details>
