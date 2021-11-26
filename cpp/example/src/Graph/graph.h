@@ -1,8 +1,13 @@
 #include <iostream>
+#include <list>
 
 using namespace std;
 
-class graph{
+class Graph{
     public:
-        static int naive(int n);
+        int V; // number of vertices
+        list<int> *adj;
+        Graph(int V);
+        void addEdge(int v,int w);
+        void addEdges(int v,list<int> ws);
 };
