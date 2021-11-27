@@ -64,6 +64,7 @@ pytest
 ||N-th Order Statistics|[:shipit:](cpp/example/src/OrderStats/orderStats.cpp) [:heavy_check_mark:](cpp/example/tst/OrderStats/OrderStats-test.cpp)|||Divide and Conquer, Randomized Algorithm|
 ||Minimum Cuts|[:shipit:](cpp/example/src/CountMinCuts/countMinCuts.cpp) [:heavy_check_mark:](cpp/example/tst/CountMinCuts/CountMinCuts-test.cpp)||[:shipit:](py/solns/countMinCuts/countMinCuts.py) [:heavy_check_mark:](py/tests/testCountMinCuts/test_CountMinCuts.py)|Graph, Randomized Algorithm|
 ||Breadth First Search|[:shipit:](cpp/example/src/Bfs/bfs.cpp) [:heavy_check_mark:](cpp/example/tst/Bfs/Bfs-test.cpp)||[:shipit:](py/solns/bfs/bfs.py) [:heavy_check_mark:](py/tests/testBfs/test_Bfs.py)|Graph, BFS, Queue|
+||Depth First Search|||[:shipit:](py/solns/dfs/dfs.py) [:heavy_check_mark:](py/tests/testDfs/test_Dfs.py)|Graph, DFS|
   
 </details>
 
