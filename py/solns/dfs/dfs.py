@@ -6,5 +6,6 @@ class Solution:
             visited.add(s)
             seq+=str(s)
             for child in G[s]:
-                seq = Solution.naive(G,child,visited,seq)
+                if child not in visited:    
+                    seq = Solution.naive(G,child,visited,seq)
         return seq

@@ -1,0 +1,1 @@
+add_library(bfsShortestPaths bfsShortestPaths.cpp bfsShortestPaths.h)
