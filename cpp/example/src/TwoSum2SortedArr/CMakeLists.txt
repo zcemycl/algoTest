@@ -1,0 +1,1 @@
+add_library(twoSum2SortedArr twoSum2SortedArr.cpp twoSum2SortedArr.h)
