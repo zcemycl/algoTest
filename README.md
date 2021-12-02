@@ -68,6 +68,7 @@ pytest
 ||Undirected Connectivity|||[:shipit:](py/solns/bfsConnectivity/bfsConnectivity.py) [:heavy_check_mark:](py/tests/testBfsConnectivity/test_BfsConnectivity.py)|Undirected Graph, BFS|
 ||Depth First Search|||[:shipit:](py/solns/dfs/dfs.py) [:heavy_check_mark:](py/tests/testDfs/test_Dfs.py)|Graph, DFS|
 ||Topological Sort|||[:shipit:](py/solns/topologicalSort/topologicalSort.py) [:heavy_check_mark:](py/tests/testTopologicalSort/test_TopologicalSort.py)|Directed Acyclic Graph, DFS|
+||Strongly Connected Components||||Directed Graph, DFS|
   
 </details>
 
