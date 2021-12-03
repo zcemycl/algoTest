@@ -9,5 +9,13 @@ class UnitTest_ClimbingStairs(unittest.TestCase):
     ])
     def test_naive(self,n,expected):
         self.assertEqual(Solution.naive(n),expected)
+    @p.expand([
+        [2,2],[3,3],[4,5],[5,8]
+    ])
+    def test_dp(self,n,expected):
         self.assertEqual(Solution.dp(n),expected)
+    @p.expand([
+        [2,2],[3,3],[4,5],[5,8]
+    ])
+    def test_formula(self,n,expected):
         self.assertEqual(Solution.formula(n),expected)
