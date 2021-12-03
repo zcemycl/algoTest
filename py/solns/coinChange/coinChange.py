@@ -27,5 +27,6 @@ class Solution:
                 dpl[i]=1
             else:
                 for c in coins:
-                    dpl[i] = min(dpl[i],1+dpl[i-c])
-        return dpl[-1]
+                    if i>=c:
+                        dpl[i] = min(dpl[i],1+dpl[i-c])
+        return dpl[-1] if dpl[-1]!=amount+1 else -1

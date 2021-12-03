@@ -15,4 +15,4 @@ class UnitTest_CoinChange(unittest.TestCase):
         [[1,3,4,5],7,2]
     ])
     def test_dp(self,coins,amount,expected):
-        self.assertEqual(Solution.naive(coins,amount),expected)
+        self.assertEqual(Solution.dp(coins,amount),expected)
