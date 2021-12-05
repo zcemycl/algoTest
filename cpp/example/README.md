@@ -2,7 +2,7 @@
 1. Git clone googletest library. 
 ```
 mkdir -p lib/googletest 
-git clone git clone https://github.com/google/googletest/ lib/googletest
+git clone https://github.com/google/googletest/ lib/googletest
 ```
 2. Cmake.
 ```
