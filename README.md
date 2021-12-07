@@ -117,6 +117,7 @@ pytest
 |219|Contains Duplicate 2|[:shipit:](cpp/example/src/ContainsDuplicate2/containsDuplicate2.cpp) [:heavy_check_mark:](cpp/example/tst/ContainsDuplicate2/ContainsDuplicate2-test.cpp)|[:shipit:](cs/sample/Sample/ContainsDuplicate2/ContainsDuplicate2.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/ContainsDuplicate2/testContainsDuplicate2.cs)|[:shipit:](py/solns/containsDuplicate2/containsDuplicate2.py) [:heavy_check_mark:](py/tests/testContainsDuplicate2/test_ContainsDuplicate2.py)|Hashmap|
 |238*|Product of Array Except Self|[:shipit:](cpp/example/src/ProdOfArrExceptSelf/prodOfArrExceptSelf.cpp) [:heavy_check_mark:](cpp/example/tst/ProdOfArrExceptSelf/ProdOfArrExceptSelf-test.cpp)|[:shipit:](cs/sample/Sample/ProdOfArrExceptSelf/ProdOfArrExceptSelf.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/ProdOfArrExceptSelf/testProdOfArrExceptSelf.cs)|[:shipit:](py/solns/prodOfArrExceptSelf/prodOfArrExceptSelf.py) [:heavy_check_mark:](py/tests/testProdOfArrExceptSelf/test_ProdOfArrExceptSelf.py)|Array|
 |268*|Missing Number||||Bitwise Operation|
+|300*|Longest Increasing Subsequence|||[:shipit:](py/solns/longestIncreasingSubseq/longestIncreasingSubseq.py) [:heavy_check_mark:](py/tests/testLongestIncreasingSubseq/test_LongestIncreasingSubseq.py)|DFS, Dynamic Programming|
 |322*|Coin Change|||[:shipit:](py/solns/coinChange/coinChange.py) [:heavy_check_mark:](py/tests/testCoinChange/test_CoinChange.py)|Dynamic Programming|
 |338*|Counting Bits||||Bitwise Operation|
 |371*|Sum of Two Integers||||Bitwise Operation|
