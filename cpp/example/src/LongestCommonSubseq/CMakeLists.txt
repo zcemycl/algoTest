@@ -1,0 +1,1 @@
+add_library(longestCommonSubseq longestCommonSubseq.cpp longestCommonSubseq.h)
