@@ -25,11 +25,10 @@ class Solution:
         return ans
     @staticmethod
     def dfs(nums,i,ansList,visited):
-        c = 0
         if repr(ansList) not in visited:
             c = Solution.increasing(ansList)
             visited[repr(ansList)] = c
-        if i==len(nums): return c
+        if i==len(nums): return
         for j in range(i,len(nums)):
             c = Solution.dfs(nums,i+1,ansList+[],visited)
             c = Solution.dfs(nums,i+1,ansList+[nums[i]],visited)
