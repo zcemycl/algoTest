@@ -14,9 +14,10 @@
 39. Combination Sum*
 53. Maximum Subarray*
 66. Plus One
-70. Climbing Stairs*
 69. Sqrtx
+70. Climbing Stairs*
 82. Remove Duplicates from Sorted Array 2
+91. Decode Ways*
 100. Same Tree*
 112. Path Sum
 121. Best Time to Buy and Sell Stock*
