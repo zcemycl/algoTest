@@ -20,7 +20,5 @@ class UnitTest_WordBreak(unittest.TestCase):
         ["leetcode",['leet','code','tcode'],True],
     ])
     def test_dp(self,s,wordDict,expected):
-        print(s)
         res = Solution.dp(s,wordDict)
-        print(res)
         self.assertEqual(res,expected)

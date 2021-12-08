@@ -20,5 +20,4 @@ class Solution:
             for word in wordDict:
                 if s[i:i+len(word)]==word:
                     dpl[i]=max(dpl[i],dpl[i+len(word)])
-        print(dpl)
         return dpl[0]
