@@ -1,22 +1,30 @@
 
 class Solution:
-    @staticmethod
-    def naive(text1,text2):
-        if len(text1)==0 or len(text2)==0: return 0
-        Len = 0
-        for k in range(len(text1)):
-            tmpLen = 0
-            bookmark = 0
-            tmpStr = ""
-            for i,c1 in enumerate(text1[k:]):
-                for j,c2 in enumerate(text2[bookmark:]):
-                    if c1==c2:
-                        tmpStr+=c1
-                        tmpLen+=1
-                        bookmark += j+1
-                        break
-            Len = max(Len,tmpLen)
-        return Len
+    # @staticmethod
+    # def naive(text1,text2):
+    #     print(text1,text2)
+    #     if len(text1)==0 or len(text2)==0: return 0
+    #     visited = Solution.dfs(text1,text2,"",0,0,dict())
+    #     print(visited)
+    # @staticmethod
+    # def dfs(text1,text2,acum,si,sj,visited):
+    #     if acum not in visited:
+    #         print(acum)
+    #         visited[acum]=len(acum)
+    #     if si>len(text1)-1: return 
+    #     if sj>len(text2)-1:
+    #         if si<=len(text1)-1:
+    #             if acum=="":
+    #                 Solution.dfs(text1,text2,acum,si+1,0,visited)
+    #             return
+    #     # print(si,sj,text1[si],text2[sj])
+    #     if text1[si]==text2[sj]:
+    #         Solution.dfs(text1,text2,acum,si+1,sj,visited)
+    #         Solution.dfs(text1,text2,acum+text1[si],si+1,sj+1,visited)
+    #     else:
+    #         Solution.dfs(text1,text2,acum,si,sj+1,visited)
+    #     # print(visited)
+    #     return visited
     @staticmethod
     def dp(text1,text2):
         dpl=[[0 for j in range(len(text2)+1)] for i in range(len(text1)+1)]
