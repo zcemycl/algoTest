@@ -24,8 +24,8 @@ jobs:
       with:
         working-directory: ./js
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
     - run: |
+        cd js
         npm install mocha
         npm ci
         npm test
