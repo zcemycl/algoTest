@@ -1,5 +1,6 @@
-# Algorithm Tests [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-The repo is about transitioning from Python to C family programming. It implements algorithms with C++(Cmake), C#(dotnet) and Python(pip), and test them with gtest, Xunits and pytest respectively. To ensure the code quality, it deploys testings via github actions.
+# Algorithm Tests [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) <br>
+The repo is about transitioning from Python to C family programming. It implements algorithms with C++(Cmake), C#(dotnet), Python(pip) and Javascript(node), and test them with gtest, Xunits, pytest and mocha respectively. To ensure the code quality, it deploys testings via github actions.
 
 ## Structures
 ```
