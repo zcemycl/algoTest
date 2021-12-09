@@ -13,6 +13,7 @@
 33. Search in Rotated Sorted Array*
 39. Combination Sum*
 53. Maximum Subarray*
+55. Jump Game*
 62. Unique Paths*
 66. Plus One
 69. Sqrtx
