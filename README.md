@@ -54,21 +54,21 @@ pytest
 <details open>
   <summary>Click to expand!</summary>
   
-||Tasks|C++|C#|Python|Topics|
-|---|---|---|---|---|---|
-||Karatsuba Multiplication|[:shipit:](cpp/example/src/KaratsubaMultiply/karatsubaMultiply.cpp) [:heavy_check_mark:](cpp/example/tst/KaratsubaMultiply/KaratsubaMultiply-test.cpp)|||Divide and Conquer|
-||Bubble Sort|[:shipit:](cpp/example/src/BubbleSort/bubbleSort.cpp) [:heavy_check_mark:](cpp/example/tst/BubbleSort/BubbleSort-test.cpp)|[:shipit:](cs/sample/Sample/BubbleSort/BubbleSort.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/BubbleSort/testBubbleSort.cs)|[:shipit:](py/solns/bubbleSort/bubbleSort.py) [:heavy_check_mark:](py/tests/testBubbleSort/test_BubbleSort.py)|Sorting Algorithm|
-||Merge Sort|[:shipit:](cpp/example/src/MergeSort/mergeSort.cpp) [:heavy_check_mark:](cpp/example/tst/MergeSort/MergeSort-test.cpp)|[:shipit:](cs/sample/Sample/MergeSort/MergeSort.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/MergeSort/testMergeSort.cs)|[:shipit:](py/solns/mergeSort/mergeSort.py) [:heavy_check_mark:](py/tests/testMergeSort/test_MergeSort.py)|Sorting Algorithm, Divide and Conquer|
-||Count Inversions|[:shipit:](cpp/example/src/CountInversions/countInversions.cpp) [:heavy_check_mark:](cpp/example/tst/CountInversions/CountInversions-test.cpp)||[:shipit:](py/solns/countInversions/countInversions.py) [:heavy_check_mark:](py/tests/testCountInversions/test_CountInversions.py)|Divide and Conquer|
-||Quick Sort|[:shipit:](cpp/example/src/QuickSort/quickSort.cpp) [:heavy_check_mark:](cpp/example/tst/QuickSort/QuickSort-test.cpp)||[:shipit:](py/solns/quickSort/quickSort.py) [:heavy_check_mark:](py/tests/testQuickSort/test_QuickSort.py)|Sorting Algorithm, Divide and Conquer|
-||N-th Order Statistics|[:shipit:](cpp/example/src/OrderStats/orderStats.cpp) [:heavy_check_mark:](cpp/example/tst/OrderStats/OrderStats-test.cpp)|||Divide and Conquer, Randomized Algorithm|
-||Minimum Cuts|[:shipit:](cpp/example/src/CountMinCuts/countMinCuts.cpp) [:heavy_check_mark:](cpp/example/tst/CountMinCuts/CountMinCuts-test.cpp)||[:shipit:](py/solns/countMinCuts/countMinCuts.py) [:heavy_check_mark:](py/tests/testCountMinCuts/test_CountMinCuts.py)|Graph, Randomized Algorithm|
-||Breadth First Search|[:shipit:](cpp/example/src/Bfs/bfs.cpp) [:heavy_check_mark:](cpp/example/tst/Bfs/Bfs-test.cpp)||[:shipit:](py/solns/bfs/bfs.py) [:heavy_check_mark:](py/tests/testBfs/test_Bfs.py)|Graph, BFS, Queue|
-||Shortest Paths|||[:shipit:](py/solns/bfsShortestPaths/bfsShortestPaths.py) [:heavy_check_mark:](py/tests/testBfsShortestPaths/test_BfsShortestPaths.py)|Graph, BFS|
-||Undirected Connectivity|||[:shipit:](py/solns/bfsConnectivity/bfsConnectivity.py) [:heavy_check_mark:](py/tests/testBfsConnectivity/test_BfsConnectivity.py)|Undirected Graph, BFS|
-||Depth First Search|||[:shipit:](py/solns/dfs/dfs.py) [:heavy_check_mark:](py/tests/testDfs/test_Dfs.py)|Graph, DFS|
-||Topological Sort|||[:shipit:](py/solns/topologicalSort/topologicalSort.py) [:heavy_check_mark:](py/tests/testTopologicalSort/test_TopologicalSort.py)|Directed Acyclic Graph, DFS|
-||Strongly Connected Components||||Directed Graph, DFS|
+|Tasks|C++|C#|Python|Topics|
+|---|---|---|---|---|
+|Karatsuba Multiplication|[:shipit:](cpp/example/src/KaratsubaMultiply/karatsubaMultiply.cpp) [:heavy_check_mark:](cpp/example/tst/KaratsubaMultiply/KaratsubaMultiply-test.cpp)|||Divide and Conquer|
+|Bubble Sort|[:shipit:](cpp/example/src/BubbleSort/bubbleSort.cpp) [:heavy_check_mark:](cpp/example/tst/BubbleSort/BubbleSort-test.cpp)|[:shipit:](cs/sample/Sample/BubbleSort/BubbleSort.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/BubbleSort/testBubbleSort.cs)|[:shipit:](py/solns/bubbleSort/bubbleSort.py) [:heavy_check_mark:](py/tests/testBubbleSort/test_BubbleSort.py)|Sorting Algorithm|
+|Merge Sort|[:shipit:](cpp/example/src/MergeSort/mergeSort.cpp) [:heavy_check_mark:](cpp/example/tst/MergeSort/MergeSort-test.cpp)|[:shipit:](cs/sample/Sample/MergeSort/MergeSort.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/MergeSort/testMergeSort.cs)|[:shipit:](py/solns/mergeSort/mergeSort.py) [:heavy_check_mark:](py/tests/testMergeSort/test_MergeSort.py)|Sorting Algorithm, Divide and Conquer|
+|Count Inversions|[:shipit:](cpp/example/src/CountInversions/countInversions.cpp) [:heavy_check_mark:](cpp/example/tst/CountInversions/CountInversions-test.cpp)||[:shipit:](py/solns/countInversions/countInversions.py) [:heavy_check_mark:](py/tests/testCountInversions/test_CountInversions.py)|Divide and Conquer|
+|Quick Sort|[:shipit:](cpp/example/src/QuickSort/quickSort.cpp) [:heavy_check_mark:](cpp/example/tst/QuickSort/QuickSort-test.cpp)||[:shipit:](py/solns/quickSort/quickSort.py) [:heavy_check_mark:](py/tests/testQuickSort/test_QuickSort.py)|Sorting Algorithm, Divide and Conquer|
+|N-th Order Statistics|[:shipit:](cpp/example/src/OrderStats/orderStats.cpp) [:heavy_check_mark:](cpp/example/tst/OrderStats/OrderStats-test.cpp)|||Divide and Conquer, Randomized Algorithm|
+|Minimum Cuts|[:shipit:](cpp/example/src/CountMinCuts/countMinCuts.cpp) [:heavy_check_mark:](cpp/example/tst/CountMinCuts/CountMinCuts-test.cpp)||[:shipit:](py/solns/countMinCuts/countMinCuts.py) [:heavy_check_mark:](py/tests/testCountMinCuts/test_CountMinCuts.py)|Graph, Randomized Algorithm|
+|Breadth First Search|[:shipit:](cpp/example/src/Bfs/bfs.cpp) [:heavy_check_mark:](cpp/example/tst/Bfs/Bfs-test.cpp)||[:shipit:](py/solns/bfs/bfs.py) [:heavy_check_mark:](py/tests/testBfs/test_Bfs.py)|Graph, BFS, Queue|
+|Shortest Paths|||[:shipit:](py/solns/bfsShortestPaths/bfsShortestPaths.py) [:heavy_check_mark:](py/tests/testBfsShortestPaths/test_BfsShortestPaths.py)|Graph, BFS|
+|Undirected Connectivity|||[:shipit:](py/solns/bfsConnectivity/bfsConnectivity.py) [:heavy_check_mark:](py/tests/testBfsConnectivity/test_BfsConnectivity.py)|Undirected Graph, BFS|
+|Depth First Search|||[:shipit:](py/solns/dfs/dfs.py) [:heavy_check_mark:](py/tests/testDfs/test_Dfs.py)|Graph, DFS|
+|Topological Sort|||[:shipit:](py/solns/topologicalSort/topologicalSort.py) [:heavy_check_mark:](py/tests/testTopologicalSort/test_TopologicalSort.py)|Directed Acyclic Graph, DFS|
+|Strongly Connected Components||||Directed Graph, DFS|
   
 </details>
 
@@ -152,11 +152,11 @@ pytest
 <details>
   <summary>Click to expand!</summary>
 
-||Tasks|C++|C#|Python|Topics|
+|Tasks|C++|C#|Python|Js|Topics|
 |---|---|---|---|---|---|
-||Unit Testing|[:shipit:](cpp/example/src/Pointer/pointer.cpp) [:heavy_check_mark:](cpp/example/tst/Pointer/Pointer-test.cpp)|[:shipit:](cs/sample/Sample/ListNode/ListNode.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/ListNode/testListNode.cs)|[:shipit:](py/solns/solnSample.py) [:heavy_check_mark:](py/tests/test_Sample.py)|Unit Testing|
-||Parameterized Unit Testing|[:shipit:](cpp/example/src/RmElement/rmElement.cpp) [:heavy_check_mark:](cpp/example/tst/RmElement/RmElement-test.cpp)|[:shipit:](cs/sample/Sample/BinarySearch/BinarySearch.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/BinarySearch/testBinarySearch.cs)|[:shipit:](py/solns/binarySearch/binarySearch.py) [:heavy_check_mark:](py/tests/testBinarySearch/test_BinarySearch.py)|Unit Testing|
-||Testing with Fixture|[:shipit:](cpp/example/src/Bfs/bfs.cpp) [:heavy_check_mark:](cpp/example/tst/Bfs/Bfs-test.cpp)||[:shipit:](py/solns/bfs/bfs.py) [:heavy_check_mark:](py/tests/testBfs/test_Bfs.py)|Unit Testing|
+|Unit Testing|[:shipit:](cpp/example/src/Pointer/pointer.cpp) [:heavy_check_mark:](cpp/example/tst/Pointer/Pointer-test.cpp)|[:shipit:](cs/sample/Sample/ListNode/ListNode.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/ListNode/testListNode.cs)|[:shipit:](py/solns/solnSample.py) [:heavy_check_mark:](py/tests/test_Sample.py)|[:shipit:](js/src/sample/sample1.js) [:heavy_check_mark:](js/test/sample/sample1.test.js)|Unit Testing|
+|Parameterized Unit Testing|[:shipit:](cpp/example/src/RmElement/rmElement.cpp) [:heavy_check_mark:](cpp/example/tst/RmElement/RmElement-test.cpp)|[:shipit:](cs/sample/Sample/BinarySearch/BinarySearch.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/BinarySearch/testBinarySearch.cs)|[:shipit:](py/solns/binarySearch/binarySearch.py) [:heavy_check_mark:](py/tests/testBinarySearch/test_BinarySearch.py)||Unit Testing|
+|Testing with Fixture|[:shipit:](cpp/example/src/Bfs/bfs.cpp) [:heavy_check_mark:](cpp/example/tst/Bfs/Bfs-test.cpp)||[:shipit:](py/solns/bfs/bfs.py) [:heavy_check_mark:](py/tests/testBfs/test_Bfs.py)||Unit Testing|
 
 </details>
 
@@ -164,10 +164,10 @@ pytest
 <details>
   <summary>Click to expand!</summary>
   
-||Tasks|C++|C#|Python|Topics|
-|---|---|---|---|---|---|
-||Sample|[:shipit:](cpp/example/src/Sample/sample.cpp) [:heavy_check_mark:](cpp/example/tst/Sample-test.cpp)|[:shipit:](cs/sample/Sample/Sample.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/UnitTest1.cs)|[:shipit:](py/solns/solnSample.py) [:heavy_check_mark:](py/tests/test_Sample.py)||
-||Learn CMake|[:shipit:](cpp/learnCMake/)||||
-||Pointers|[:shipit:](cpp/example/src/Pointer/pointer.cpp) [:heavy_check_mark:](cpp/example/tst/Pointer/Pointer-test.cpp)||||
+|Tasks|C++|C#|Python|Js|
+|---|---|---|---|---|
+|Sample|[:shipit:](cpp/example/src/Sample/sample.cpp) [:heavy_check_mark:](cpp/example/tst/Sample-test.cpp)|[:shipit:](cs/sample/Sample/Sample.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/UnitTest1.cs)|[:shipit:](py/solns/solnSample.py) [:heavy_check_mark:](py/tests/test_Sample.py)|[:shipit:](js/src/sample/sample1.js) [:heavy_check_mark:](js/test/sample/sample1.test.js)|
+|Learn CMake|[:shipit:](cpp/learnCMake/)||||
+|Pointers|[:shipit:](cpp/example/src/Pointer/pointer.cpp) [:heavy_check_mark:](cpp/example/tst/Pointer/Pointer-test.cpp)||||
   
 </details>
