@@ -1,0 +1,1 @@
+add_library(longestConsecutiveSeq longestConsecutiveSeq.cpp longestConsecutiveSeq.h)
