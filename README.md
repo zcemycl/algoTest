@@ -131,6 +131,7 @@ pytest
 |268*|Missing Number||||Bitwise Operation|
 |300*|Longest Increasing Subsequence|||[:shipit:](py/solns/longestIncreasingSubseq/longestIncreasingSubseq.py) [:heavy_check_mark:](py/tests/testLongestIncreasingSubseq/test_LongestIncreasingSubseq.py)|Recursive, DFS, Dynamic Programming|
 |322*|Coin Change|||[:shipit:](py/solns/coinChange/coinChange.py) [:heavy_check_mark:](py/tests/testCoinChange/test_CoinChange.py)|Recursive, DFS, Dynamic Programming|
+|323*|Number of Connected Components in an Undirected Graph|||[:shipit:](py/solns/numOfConnectedComponentsInUndirectedGraph/numOfConnectedComponentsInUndirectedGraph.py) [:heavy_check_mark:](py/tests/testNumOfConnectedComponentsInUndirectedGraph/test_NumOfConnectedComponentsInUndirectedGraph.py)|DFS, Graph|
 |338*|Counting Bits||||Bitwise Operation|
 |371*|Sum of Two Integers||||Bitwise Operation|
 |404|Sum of Left Leaves|[:shipit:](cpp/example/src/SumOfLeftLeaves/sumOfLeftLeaves.cpp) [:heavy_check_mark:](cpp/example/tst/SumOfLeftLeaves/SumOfLeftLeaves-test.cpp)|[:shipit:](cs/sample/Sample/SumOfLeftLeaves/SumOfLeftLeaves.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/SumOfLeftLeaves/testSumOfLeftLeaves.cs)|[:shipit:](py/solns/sumOfLeftLeaves/sumOfLeftLeaves.py) [:heavy_check_mark:](py/tests/testSumOfLeftLeaves/test_SumOfLeftLeaves.py)|Tree|
