@@ -1,21 +1,21 @@
 from collections import defaultdict
 class Solution:
     @staticmethod
-    def naive(n,prerequisites):
+    def graph(n,prerequisites):
         adj = {i:[] for i in range(n)}
-        for pre in prerequisites:
-            adj[pre[0]].append(pre[1])
+        for u,v in prerequisites:
+            adj[u].append(v)
         visited = set()
-        def dfs(c):
-            if c in visited: return False
-            if adj[c] == []:
+        def dfs(i):
+            if i in visited: return False
+            if len(adj[i])==0: 
                 return True
-            visited.add(c)
-            for pre in adj[c]:
+            visited.add(i)
+            for pre in adj[i]:
                 if not dfs(pre): return False
-            visited.remove(c)
-            adj[c] = []
+            visited.remove(i)
+            adj[i] = []
             return True
-        for c in range(n):
-            if not dfs(c): return False
+        for i in range(n):
+            if not dfs(i): return False
         return True
