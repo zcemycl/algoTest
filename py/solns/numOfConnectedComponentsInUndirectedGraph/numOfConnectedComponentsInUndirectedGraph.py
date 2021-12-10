@@ -6,7 +6,6 @@ class Solution:
         for u,v in edges:
             adj[u].append(v)
             adj[v].append(u)
-        print(adj)
 
         def dfs(i):
             if i in visited: return
