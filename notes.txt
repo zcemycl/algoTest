@@ -42,6 +42,7 @@
 217. Contains Duplicate*
 219. Contains Duplicate 2
 238. Product of Array Except Self*
+261. Graph Valid Tree*
 300. Longest Increasing Subsequence*
 322. Coin Change*
 323. Number of Connected Components in an Undirected Graph*
