@@ -9,8 +9,8 @@ class Solution:
                 or i<0 or j<0  \
                 or str(i)+','+str(j) in visited:
                 return
-            if grid[j][i]=="0": return
             visited.add(str(i)+','+str(j))
+            if grid[j][i]=="0": return
             dfs(i+1,j)
             dfs(i-1,j)
             dfs(i,j+1)
