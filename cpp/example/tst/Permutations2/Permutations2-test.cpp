@@ -1,0 +1,22 @@
+#include "Permutations2/permutations2.h"
+#include "gtest/gtest.h"
+
+using namespace std;
+
+class permutations2_MultipleParamsTests : 
+    public ::testing::TestWithParam<tuple<int,int>>{
+};
+
+TEST_P(permutations2_MultipleParamsTests, CheckAns){
+    int n = get<0>(GetParam());
+    int expected = get<1>(GetParam());
+    ASSERT_EQ(expected,permutations2::naive(n));
+};
+
+INSTANTIATE_TEST_CASE_P(
+    Permutations2Tests,
+    permutations2_MultipleParamsTests,
+    ::testing::Values(
+        make_tuple(0,0)
+    )
+);
