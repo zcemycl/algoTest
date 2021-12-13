@@ -1,0 +1,1 @@
+add_library(nonOverlappingIntervals nonOverlappingIntervals.cpp nonOverlappingIntervals.h)
