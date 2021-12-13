@@ -7,7 +7,7 @@
 13. Roman to Integer
 15. 3Sum*
 20. Valid Parentheses*
-21. Merge Two Sorted Lists
+21. Merge Two Sorted Lists*
 26. Remove Duplicates from Sorted Array
 27. Remove Element
 33. Search in Rotated Sorted Array*
@@ -57,6 +57,7 @@
 371. Sum of Two Integers*
 404. Sum of Left Leaves
 417. Pacific Atlantic Water Flow*
+424. Longest Repeating Character Replacement*
 435. Non-overlapping Intervals*
 442. Find All Duplicates in an Array
 695. Max Area of Island

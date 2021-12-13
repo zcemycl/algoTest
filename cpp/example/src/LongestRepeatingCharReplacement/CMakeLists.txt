@@ -1,0 +1,1 @@
+add_library(longestRepeatingCharReplacement longestRepeatingCharReplacement.cpp longestRepeatingCharReplacement.h)
