@@ -15,3 +15,16 @@ class Solution:
             if len(tmp) > maxLen:
                 maxLen = len(tmp)
         return maxLen
+    @staticmethod
+    def slidingWindows(s):
+        i,j,maxVal = 0,0,0
+        visited = set()
+        while j<len(s):
+            if s[j] not in visited:
+                visited.add(s[j])
+                j+=1
+            else:
+                visited.remove(s[i])
+                i+=1
+            maxVal = max(maxVal,len(visited))
+        return maxVal
