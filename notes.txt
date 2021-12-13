@@ -46,6 +46,7 @@
 217. Contains Duplicate*
 219. Contains Duplicate 2
 238. Product of Array Except Self*
+252. Meeting Rooms*
 261. Graph Valid Tree*
 269. Alien Dictionary*
 300. Longest Increasing Subsequence*
