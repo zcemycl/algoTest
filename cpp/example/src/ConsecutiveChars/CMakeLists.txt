@@ -1,0 +1,1 @@
+add_library(consecutiveChars consecutiveChars.cpp consecutiveChars.h)

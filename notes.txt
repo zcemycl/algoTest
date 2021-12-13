@@ -68,6 +68,7 @@
 1304. Find N Unique Integers Sum up to Zero
 1356. Sort Integers by The Number of 1 Bits
 1394. Find Lucky Integer in an Array
+1446. Consecutive Characters
 1464. Maximum Product of Two Elements in an Array
 1805. Number of Different Integers in a String
 1836. Remove Duplicates From an Unsorted Linked List
