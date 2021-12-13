@@ -12,6 +12,7 @@
 27. Remove Element
 33. Search in Rotated Sorted Array*
 39. Combination Sum*
+46. Permutations
 53. Maximum Subarray*
 55. Jump Game*
 56. Merge Intervals*
