@@ -14,6 +14,7 @@
 39. Combination Sum*
 46. Permutations
 47. Permutations II
+49. Group Anagrams*
 53. Maximum Subarray*
 55. Jump Game*
 56. Merge Intervals*
@@ -47,6 +48,7 @@
 217. Contains Duplicate*
 219. Contains Duplicate 2
 238. Product of Array Except Self*
+242. Valid Anagram*
 252. Meeting Rooms*
 253. Meeting Rooms II*
 261. Graph Valid Tree*
