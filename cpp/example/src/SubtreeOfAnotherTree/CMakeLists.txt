@@ -1,0 +1,1 @@
+add_library(subtreeOfAnotherTree subtreeOfAnotherTree.cpp subtreeOfAnotherTree.h)

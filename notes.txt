@@ -64,6 +64,7 @@
 424. Longest Repeating Character Replacement*
 435. Non-overlapping Intervals*
 442. Find All Duplicates in an Array
+572. Subtree of Another Tree*
 695. Max Area of Island
 704. Binary Search
 912. Sort an Array
