@@ -48,6 +48,7 @@
 213. House Robber 2*
 217. Contains Duplicate*
 219. Contains Duplicate 2
+226. Invert Binary Tree*
 238. Product of Array Except Self*
 242. Valid Anagram*
 252. Meeting Rooms*
