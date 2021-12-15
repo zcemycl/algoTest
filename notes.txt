@@ -49,6 +49,7 @@
 217. Contains Duplicate*
 219. Contains Duplicate 2
 226. Invert Binary Tree*
+230. Kth Smallest Element in a BST
 238. Product of Array Except Self*
 242. Valid Anagram*
 252. Meeting Rooms*
