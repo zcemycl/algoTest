@@ -78,6 +78,7 @@
 695. Max Area of Island
 700. Search in a Binary Search Tree
 704. Binary Search
+814. Binary Tree Pruning
 912. Sort an Array
 938. Range Sum of BST
 989. Add to Array-Form of Integer

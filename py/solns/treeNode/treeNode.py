@@ -8,7 +8,7 @@ class TreeNode:
     def treeNode_fromList2(nums):
         if len(nums)==0: return None
         q = []
-        result = TreeNode(nums[0]) if nums[0] else None
+        result = TreeNode(nums[0]) if nums[0]!=None else None
         tmp = result
         q.append(tmp)
         for i in range(1,len(nums)):
