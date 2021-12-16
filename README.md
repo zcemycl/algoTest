@@ -110,6 +110,7 @@ pytest
 |70*|Climbing Stairs|[:shipit:](cpp/example/src/ClimbingStairs/climbingStairs.cpp) [:heavy_check_mark:](cpp/example/tst/ClimbingStairs/ClimbingStairs-test.cpp)|[:shipit:](cs/sample/Sample/ClimbingStairs/ClimbingStairs.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/ClimbingStairs/testClimbingStairs.cs)|[:shipit:](py/solns/climbingStairs/climbingStairs.py) [:heavy_check_mark:](py/tests/testClimbingStairs/test_ClimbingStairs.py)|Dynamic Programming|
 |77|Combinations|||[:shipit:](py/solns/combinations/combinations.py) [:heavy_check_mark:](py/tests/testCombinations/test_Combinations.py)|DFS|
 |78|Subsets|||[:shipit:](py/solns/subsets/subsets.py) [:heavy_check_mark:](py/tests/testSubsets/test_Subsets.py)|DFS|
+|79*|Word Search|||[:shipit:](py/solns/wordSearch/wordSearch.py) [:heavy_check_mark:](py/tests/testWordSearch/test_WordSearch.py)|Matrix|
 |82|Remove Duplicates from Sorted Array 2|||[:shipit:](py/solns/rmDuplicatesFromSortedArr2/rmDuplicatesFromSortedArr2.py) [:heavy_check_mark:](py/tests/testRmDuplicatesFromSortedArr2/test_RmDuplicatesFromSortedArr2.py)|Linked List|
 |90|Subsets II|||[:shipit:](py/solns/subsets2/subsets2.py) [:heavy_check_mark:](py/tests/testSubsets2/test_Subsets2.py)|DFS, Set, Sorting|
 |91*|Decode Ways|||[:shipit:](py/solns/decodeWays/decodeWays.py) [:heavy_check_mark:](py/tests/testDecodeWays/test_DecodeWays.py)|DFS, Recursive, Dynamic Programming|

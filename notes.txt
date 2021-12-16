@@ -26,6 +26,7 @@
 70. Climbing Stairs*
 77. Combinations
 78. Subsets
+79. Word Search*
 82. Remove Duplicates from Sorted Array 2
 90. Subsets II
 91. Decode Ways*
