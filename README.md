@@ -98,6 +98,7 @@ pytest
 |39*|Combination Sum|||[:shipit:](py/solns/combinationSum/combinationSum.py) [:heavy_check_mark:](py/tests/testCombinationSum/test_CombinationSum.py)|Recursive, DFS, Backtracking|
 |46|Permutations|||[:shipit:](py/solns/permutations/permutations.py) [:heavy_check_mark:](py/tests/testPermutations/test_Permutations.py)|Recursive, DFS, Backtracking|
 |47|Permutations II|||[:shipit:](py/solns/permutations2/permutations2.py) [:heavy_check_mark:](py/tests/testPermutations2/test_Permutations2.py)|Recursive, DFS, Backtracking|
+|48*|Rotate Image|||[:shipit:](py/solns/rotateImg/rotateImg.py) [:heavy_check_mark:](py/tests/testRotateImg/test_RotateImg.py)|Matrix|
 |49*|Group Anagrams|||[:shipit:](py/solns/groupAnagrams/groupAnagrams.py) [:heavy_check_mark:](py/tests/testGroupAnagrams/test_GroupAnagrams.py)|String, Hashmap|
 |53*|Maximum Subarray|[:shipit:](cpp/example/src/MaxSubarray/maxSubarray.cpp) [:heavy_check_mark:](cpp/example/tst/MaxSubarray/MaxSubarray-test.cpp)|[:shipit:](cs/sample/Sample/MaxSubarray/MaxSubarray.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/MaxSubarray/testMaxSubarray.cs)|[:shipit:](py/solns/maxSubarray/maxSubarray.py) [:heavy_check_mark:](py/tests/testMaxSubarray/test_MaxSubarray.py)|Array|
 |55*|Jump Game||||Dynamic Programming|
