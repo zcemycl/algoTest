@@ -1,0 +1,1 @@
+add_library(lowestCommonAncestorOfBST lowestCommonAncestorOfBST.cpp lowestCommonAncestorOfBST.h)
