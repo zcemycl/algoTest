@@ -26,6 +26,7 @@
 66. Plus One
 69. Sqrtx
 70. Climbing Stairs*
+73. Set Matrix Zeros*
 77. Combinations
 78. Subsets
 79. Word Search*
