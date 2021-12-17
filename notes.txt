@@ -49,6 +49,8 @@
 153. Find Minimum in Rotated Sorted Array*
 167. Two Sum II - Input Array Is Sorted
 182. Duplicate Emails
+190. Reverse Bits*
+191. Number of 1 Bits*
 193. Valid Phone Numbers
 195. Tenth Line
 198. House Robber*
