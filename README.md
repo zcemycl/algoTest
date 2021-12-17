@@ -153,7 +153,7 @@ pytest
 |252*|Meeting Rooms|||[:shipit:](py/solns/meetingRooms/meetingRooms.py) [:heavy_check_mark:](py/tests/testMeetingRooms/test_MeetingRooms.py)|Interval|
 |253*|Meeting Rooms II|||[:shipit:](py/solns/meetingRooms2/meetingRooms2.py) [:heavy_check_mark:](py/tests/testMeetingRooms2/test_MeetingRooms2.py)|Interval|
 |261*|Graph Valid Tree|||[:shipit:](py/solns/graphValidTree/graphValidTree.py) [:heavy_check_mark:](py/tests/testGraphValidTree/test_GraphValidTree.py)|Graph, Tree, DFS|
-|268*|Missing Number||||Bitwise Operation|
+|268*|Missing Number|||[:shipit:](py/solns/missingNum/missingNum.py) [:heavy_check_mark:](py/tests/testMissingNum/test_MissingNum.py)|Bitwise Operation|
 |269*|Alien Dictionary||||Graph, DFS, Topological Sort|
 |300*|Longest Increasing Subsequence|||[:shipit:](py/solns/longestIncreasingSubseq/longestIncreasingSubseq.py) [:heavy_check_mark:](py/tests/testLongestIncreasingSubseq/test_LongestIncreasingSubseq.py)|Recursive, DFS, Dynamic Programming|
 |322*|Coin Change|||[:shipit:](py/solns/coinChange/coinChange.py) [:heavy_check_mark:](py/tests/testCoinChange/test_CoinChange.py)|Recursive, DFS, Dynamic Programming|

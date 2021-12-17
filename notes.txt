@@ -69,6 +69,7 @@
 252. Meeting Rooms*
 253. Meeting Rooms II*
 261. Graph Valid Tree*
+268. Missing Number*
 269. Alien Dictionary*
 300. Longest Increasing Subsequence*
 322. Coin Change*
