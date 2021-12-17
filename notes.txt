@@ -17,6 +17,7 @@
 48. Rotate Image*
 49. Group Anagrams*
 53. Maximum Subarray*
+54. Spiral Matrix*
 55. Jump Game*
 56. Merge Intervals*
 57. Insert Interval*

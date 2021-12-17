@@ -101,6 +101,7 @@ pytest
 |48*|Rotate Image|||[:shipit:](py/solns/rotateImg/rotateImg.py) [:heavy_check_mark:](py/tests/testRotateImg/test_RotateImg.py)|Matrix|
 |49*|Group Anagrams|||[:shipit:](py/solns/groupAnagrams/groupAnagrams.py) [:heavy_check_mark:](py/tests/testGroupAnagrams/test_GroupAnagrams.py)|String, Hashmap|
 |53*|Maximum Subarray|[:shipit:](cpp/example/src/MaxSubarray/maxSubarray.cpp) [:heavy_check_mark:](cpp/example/tst/MaxSubarray/MaxSubarray-test.cpp)|[:shipit:](cs/sample/Sample/MaxSubarray/MaxSubarray.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/MaxSubarray/testMaxSubarray.cs)|[:shipit:](py/solns/maxSubarray/maxSubarray.py) [:heavy_check_mark:](py/tests/testMaxSubarray/test_MaxSubarray.py)|Array|
+|54*|Spiral Matrix|||[:shipit:](py/solns/spiralMatrix/spiralMatrix.py) [:heavy_check_mark:](py/tests/testSpiralMatrix/test_SpiralMatrix.py)|Matrix|
 |55*|Jump Game||||Dynamic Programming|
 |56*|Merge Intervals|||[:shipit:](py/solns/mergeIntervals/mergeIntervals.py) [:heavy_check_mark:](py/tests/testMergeIntervals/test_MergeIntervals.py)|Interval|
 |57*|Insert Interval|||[:shipit:](py/solns/insertInterval/insertInterval.py) [:heavy_check_mark:](py/tests/testInsertInterval/test_InsertInterval.py)|Interval|
