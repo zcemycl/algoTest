@@ -22,6 +22,7 @@
 56. Merge Intervals*
 57. Insert Interval*
 62. Unique Paths*
+64. Minimum Path Sum
 66. Plus One
 69. Sqrtx
 70. Climbing Stairs*
