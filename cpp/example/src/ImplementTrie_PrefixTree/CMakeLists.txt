@@ -1,0 +1,1 @@
+add_library(implementTrie_PrefixTree implementTrie_PrefixTree.cpp implementTrie_PrefixTree.h)
