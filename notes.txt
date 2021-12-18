@@ -45,7 +45,7 @@
 128. Longest Consecutive Sequence*
 133. Clone Graph*
 139. Word Break*
-141. Linked List Cycle
+141. Linked List Cycle*
 142. Linked List Cycle 2
 144. Binary Tree Preorder Traversal
 145. Binary Tree Postorder Traversal
@@ -60,6 +60,7 @@
 198. House Robber*
 200. Number of Islands*
 203. Remove Linked List Elements
+206. Reverse Linked List*
 207. Course Schedule*
 208. Implement Trie (Prefix Tree)*
 213. House Robber 2*
