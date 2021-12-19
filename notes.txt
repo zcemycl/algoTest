@@ -65,6 +65,7 @@
 206. Reverse Linked List*
 207. Course Schedule*
 208. Implement Trie (Prefix Tree)*
+211. Design Add and Search Words Data Structure*
 213. House Robber 2*
 217. Contains Duplicate*
 219. Contains Duplicate 2
