@@ -71,7 +71,12 @@ pytest
 |Topological Sort|||[:shipit:](py/solns/topologicalSort/topologicalSort.py) [:heavy_check_mark:](py/tests/testTopologicalSort/test_TopologicalSort.py)|Directed Acyclic Graph, DFS|
 |Strongly Connected Components|||[:shipit:](py/solns/stronglyConnectedComponents/stronglyConnectedComponents.py) [:heavy_check_mark:](py/tests/testStronglyConnectedComponents/test_StronglyConnectedComponents.py)|Directed Graph, DFS|
 |Dijkstra Algorithm|||[:shipit:](py/solns/dijkstra/dijkstra.py) [:heavy_check_mark:](py/tests/testDijkstra/test_Dijkstra.py)|Directed Graph, Heap|
-  
+|Heap||||Array, Heap|
+|Selection Sort||||Sorting Algorithm|
+|Heap Sort||||Sorting Algorithm, Heap|
+|Median Maintenance|||[:shipit:](py/solns/medianMaintenance/medianMaintenance.py) [:heavy_check_mark:](py/tests/testMedianMaintenance/test_MedianMaintenance.py)|Heap|
+|Red Black Trees||||Binary Search Tree|
+
 </details>
 
 ### Leetcode
