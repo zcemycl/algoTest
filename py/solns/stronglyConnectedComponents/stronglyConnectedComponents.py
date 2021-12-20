@@ -116,19 +116,19 @@ class Solution:
                     for neighbor in self.Grev.graph[i]:
                         if neighbor not in visited:
                             stack.append(neighbor)
-
+        print(len(self.G.graph),len(self.Grev.graph),len(n2t))
         visited = set()
         res = []
         for leader in range(self.maxNode,-1,-1):
-            if leader not in visited:
+            if leader not in visited and \
+                t2n[leader] in self.G.graph:
                 stack = [leader]
-                members,count = [],0
+                count = 0
                 while stack!=[]:
                     i = stack.pop()
-                    if i in visited: break
+                    if i not in visited: 
+                        count+=1
                     visited.add(i)
-                    members.append(i)
-                    count+=1
                     for neighbor in self.G.graph[t2n[i]]:
                         newT = n2t[neighbor]
                         if newT not in visited:

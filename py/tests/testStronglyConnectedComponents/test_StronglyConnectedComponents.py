@@ -12,7 +12,7 @@ class UnitTest_StronglyConnectedComponents(unittest.TestCase):
         self.assertEqual(s.kosarajuTwoPassRecursive(),expected)
     @p.expand([
         ['/SCCsimple.txt',[3,3,3,1]],
-        # ['/SCC.txt',[412,381,246,238,217]]
+        # ['/SCC.txt',[412,381,246,238,217] or [600498, 319, 192, 184, 180]]
     ])
     def test_loop(self,path,expected):
         s = Solution(path)
