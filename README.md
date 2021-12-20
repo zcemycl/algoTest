@@ -70,6 +70,7 @@ pytest
 |Depth First Search|||[:shipit:](py/solns/dfs/dfs.py) [:heavy_check_mark:](py/tests/testDfs/test_Dfs.py)|Graph, DFS|
 |Topological Sort|||[:shipit:](py/solns/topologicalSort/topologicalSort.py) [:heavy_check_mark:](py/tests/testTopologicalSort/test_TopologicalSort.py)|Directed Acyclic Graph, DFS|
 |Strongly Connected Components|||[:shipit:](py/solns/stronglyConnectedComponents/stronglyConnectedComponents.py) [:heavy_check_mark:](py/tests/testStronglyConnectedComponents/test_StronglyConnectedComponents.py)|Directed Graph, DFS|
+|Dijkstra Algorithm|||[:shipit:](py/solns/dijkstra/dijkstra.py) [:heavy_check_mark:](py/tests/testDijkstra/test_Dijkstra.py)|Directed Graph, Heap|
   
 </details>
 
