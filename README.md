@@ -76,6 +76,10 @@ pytest
 |Heap Sort||||Sorting Algorithm, Heap|
 |Median Maintenance|||[:shipit:](py/solns/medianMaintenance/medianMaintenance.py) [:heavy_check_mark:](py/tests/testMedianMaintenance/test_MedianMaintenance.py)|Heap|
 |Red Black Trees||||Binary Search Tree|
+|Hash Table||||Hashmap|
+|Bloom Filters||||Bloom Filters|
+|Union Find||||Union Find|
+|Two Sums||||Hashmap|
 
 </details>
 
