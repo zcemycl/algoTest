@@ -177,7 +177,7 @@ pytest
 |252*|Meeting Rooms|||[:shipit:](py/solns/meetingRooms/meetingRooms.py) [:heavy_check_mark:](py/tests/testMeetingRooms/test_MeetingRooms.py)|Interval|
 |253*|Meeting Rooms II|||[:shipit:](py/solns/meetingRooms2/meetingRooms2.py) [:heavy_check_mark:](py/tests/testMeetingRooms2/test_MeetingRooms2.py)|Interval|
 |261*|Graph Valid Tree|||[:shipit:](py/solns/graphValidTree/graphValidTree.py) [:heavy_check_mark:](py/tests/testGraphValidTree/test_GraphValidTree.py)|Graph, Tree, DFS|
-|268*|Missing Number|||[:shipit:](py/solns/missingNum/missingNum.py) [:heavy_check_mark:](py/tests/testMissingNum/test_MissingNum.py)|Bitwise Operation|
+|268*|Missing Number|[:shipit:](cpp/example/src/MissingNum/missingNum.cpp) [:heavy_check_mark:](cpp/example/tst/MissingNum/MissingNum-test.cpp)||[:shipit:](py/solns/missingNum/missingNum.py) [:heavy_check_mark:](py/tests/testMissingNum/test_MissingNum.py)|Bitwise Operation|
 |269*|Alien Dictionary|||[:shipit:](py/solns/alienDict/alienDict.py) [:heavy_check_mark:](py/tests/testAlienDict/test_AlienDict.py)|Graph, DFS, Topological Sort|
 |271*|Encode and Decode Strings|||[:shipit:](py/solns/encodeDecodeStrs/encodeDecodeStrs.py) [:heavy_check_mark:](py/tests/testEncodeDecodeStrs/test_EncodeDecodeStrs.py)|String|
 |295*|Find Median from Data Stream|||[:shipit:](py/solns/findMedianFromDataStream/findMedianFromDataStream.py) [:heavy_check_mark:](py/tests/testFindMedianFromDataStream/test_FindMedianFromDataStream.py)|Heap|
@@ -187,7 +187,7 @@ pytest
 |323*|Number of Connected Components in an Undirected Graph|||[:shipit:](py/solns/numOfConnectedComponentsInUndirectedGraph/numOfConnectedComponentsInUndirectedGraph.py) [:heavy_check_mark:](py/tests/testNumOfConnectedComponentsInUndirectedGraph/test_NumOfConnectedComponentsInUndirectedGraph.py)|DFS, Graph|
 |338*|Counting Bits|||[:shipit:](py/solns/countingBits/countingBits.py) [:heavy_check_mark:](py/tests/testCountingBits/test_CountingBits.py)|Bitwise Operation|
 |347*|Top K Frequent Elements|||[:shipit:](py/solns/topKFrequentElements/topKFrequentElements.py) [:heavy_check_mark:](py/tests/testTopKFrequentElements/test_TopKFrequentElements.py)|Heap|
-|371*|Sum of Two Integers|||[:shipit:](py/solns/sumOfTwoInts/sumOfTwoInts.py) [:heavy_check_mark:](py/tests/testSumOfTwoInts/test_SumOfTwoInts.py)|Bitwise Operation|
+|371*|Sum of Two Integers|[:shipit:](cpp/example/src/SumOfTwoInts/sumOfTwoInts.cpp) [:heavy_check_mark:](cpp/example/tst/SumOfTwoInts/SumOfTwoInts-test.cpp)||[:shipit:](py/solns/sumOfTwoInts/sumOfTwoInts.py) [:heavy_check_mark:](py/tests/testSumOfTwoInts/test_SumOfTwoInts.py)|Bitwise Operation|
 |394|Decode String|||[:shipit:](py/solns/decodeStr/decodeStr.py) [:heavy_check_mark:](py/tests/testDecodeStr/test_DecodeStr.py)|Stack|
 |404|Sum of Left Leaves|[:shipit:](cpp/example/src/SumOfLeftLeaves/sumOfLeftLeaves.cpp) [:heavy_check_mark:](cpp/example/tst/SumOfLeftLeaves/SumOfLeftLeaves-test.cpp)|[:shipit:](cs/sample/Sample/SumOfLeftLeaves/SumOfLeftLeaves.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/SumOfLeftLeaves/testSumOfLeftLeaves.cs)|[:shipit:](py/solns/sumOfLeftLeaves/sumOfLeftLeaves.py) [:heavy_check_mark:](py/tests/testSumOfLeftLeaves/test_SumOfLeftLeaves.py)|Tree|
 |417*|Pacific Atlantic Water Flow|||[:shipit:](py/solns/pacificAtlanticWaterFlow/pacificAtlanticWaterFlow.py) [:heavy_check_mark:](py/tests/testPacificAtlanticWaterFlow/test_PacificAtlanticWaterFlow.py)|Graph, DFS|
