@@ -6,7 +6,7 @@ class UnitTest_AlienDict(unittest.TestCase):
     @p.expand([
         [ ["wrt","wrf","er","ett","rftt"],"wertf"],
         [["z","x"],"zx"],[["z","x","z"],""],
-        [["aba"],"ab"],[["b","b"],"b"],
+        [["aba"],"ba"],[["b","b"],"b"],
         [["b","c","a","ab","aa"],"bca"],
         [["ab","adc"],"abdc"]
     ])
