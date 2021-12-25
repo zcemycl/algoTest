@@ -17,6 +17,7 @@ INSTANTIATE_TEST_CASE_P(
     NumOf1BitsTests,
     numOf1Bits_MultipleParamsTests,
     ::testing::Values(
-        make_tuple(0,0)
+        make_tuple(11,3),make_tuple(128,1),
+        make_tuple(4294967293,31)
     )
 );
