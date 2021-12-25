@@ -173,6 +173,7 @@ pytest
 |261*|Graph Valid Tree|||[:shipit:](py/solns/graphValidTree/graphValidTree.py) [:heavy_check_mark:](py/tests/testGraphValidTree/test_GraphValidTree.py)|Graph, Tree, DFS|
 |268*|Missing Number|||[:shipit:](py/solns/missingNum/missingNum.py) [:heavy_check_mark:](py/tests/testMissingNum/test_MissingNum.py)|Bitwise Operation|
 |269*|Alien Dictionary|||[:shipit:](py/solns/alienDict/alienDict.py) [:heavy_check_mark:](py/tests/testAlienDict/test_AlienDict.py)|Graph, DFS, Topological Sort|
+|295*|Find Median from Data Stream|||[:shipit:](py/solns/findMedianFromDataStream/findMedianFromDataStream.py) [:heavy_check_mark:](py/tests/testFindMedianFromDataStream/test_FindMedianFromDataStream.py)|Heap|
 |297*|Serialize and Deserialize Binary Tree|||[:shipit:](py/solns/serialDeserializeBT/serialDeserializeBT.py) [:heavy_check_mark:](py/tests/testSerialDeserializeBT/test_SerialDeserializeBT.py)|Binary Tree, Preorder Traversal|
 |300*|Longest Increasing Subsequence|||[:shipit:](py/solns/longestIncreasingSubseq/longestIncreasingSubseq.py) [:heavy_check_mark:](py/tests/testLongestIncreasingSubseq/test_LongestIncreasingSubseq.py)|Recursive, DFS, Dynamic Programming|
 |322*|Coin Change|||[:shipit:](py/solns/coinChange/coinChange.py) [:heavy_check_mark:](py/tests/testCoinChange/test_CoinChange.py)|Recursive, DFS, Dynamic Programming|
