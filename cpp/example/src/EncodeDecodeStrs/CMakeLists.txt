@@ -1,0 +1,1 @@
+add_library(encodeDecodeStrs encodeDecodeStrs.cpp encodeDecodeStrs.h)
