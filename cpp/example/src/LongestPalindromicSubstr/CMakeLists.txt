@@ -1,0 +1,1 @@
+add_library(longestPalindromicSubstr longestPalindromicSubstr.cpp longestPalindromicSubstr.h)
