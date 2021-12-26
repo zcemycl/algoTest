@@ -1,8 +1,12 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 class palindromicSubstrs{
     public:
-        static int naive(int n);
+        string s;
+        int res=0,length;
+        void loop(int start,int end);
+        int naive(string s);
 };
