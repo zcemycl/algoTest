@@ -1,8 +1,13 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 class longestPalindromicSubstr{
     public:
-        static int naive(int n);
+        string res,s;
+        int length,maxLen;
+        longestPalindromicSubstr();
+        void loop(int start,int end);
+        string naive(string s);
 };
