@@ -4,19 +4,23 @@
 using namespace std;
 
 class binaryTreePreorderTraversal_MultipleParamsTests : 
-    public ::testing::TestWithParam<tuple<int,int>>{
+    public ::testing::TestWithParam<tuple<vector<string>,vector<int>>>{
 };
 
 TEST_P(binaryTreePreorderTraversal_MultipleParamsTests, CheckAns){
-    int n = get<0>(GetParam());
-    int expected = get<1>(GetParam());
-    ASSERT_EQ(expected,binaryTreePreorderTraversal::naive(n));
+    vector<string> nums = get<0>(GetParam());
+    TreeNode* root = TreeNode::treeNode_fromList2(nums);
+    vector<int> expected = get<1>(GetParam());
+    binaryTreePreorderTraversal soln;
+    ASSERT_EQ(expected,soln.naive(root));
 };
 
 INSTANTIATE_TEST_CASE_P(
     BinaryTreePreorderTraversalTests,
     binaryTreePreorderTraversal_MultipleParamsTests,
     ::testing::Values(
-        make_tuple(0,0)
+        make_tuple(vector<string>{"1","None","2","3"},vector<int>{1,2,3}),
+        make_tuple(vector<string>{"1"},vector<int>{1}),
+        make_tuple(vector<string>{},vector<int>{})
     )
 );
