@@ -16,6 +16,7 @@
 33. Search in Rotated Sorted Array*
 35. Search Insert Position
 36. Valid Sudoku
+37. Sudoku Solver
 39. Combination Sum*
 46. Permutations
 47. Permutations II
