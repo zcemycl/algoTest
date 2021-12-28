@@ -1,0 +1,1 @@
+add_library(middleOfLinkedLs middleOfLinkedLs.cpp middleOfLinkedLs.h)
