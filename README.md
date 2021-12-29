@@ -252,6 +252,7 @@ pytest
 |Song|[:shipit:](py/solns/song/song.py) [:heavy_check_mark:](py/tests/testSong/test_Song.py)|Python, Linked List|
 |Train Composition|[:shipit:](py/solns/trainComposition/trainComposition.py) [:heavy_check_mark:](py/tests/testTrainComposition/test_TrainComposition.py)|Python, Deque|
 |Route Planner|[:shipit:](py/solns/routePlanner/routePlanner.py) [:heavy_check_mark:](py/tests/testRoutePlanner/test_RoutePlanner.py)|Python, Stack, DFS, Graph|
+|Two Sum|[:shipit:](py/solns/twoSumTestDome/twoSumTestDome.py) [:heavy_check_mark:](py/tests/testTwoSumTestDome/test_TwoSumTestDome.py)|Python|
 
 </details>
 
