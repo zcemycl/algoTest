@@ -253,6 +253,7 @@ pytest
 |Train Composition|[:shipit:](py/solns/trainComposition/trainComposition.py) [:heavy_check_mark:](py/tests/testTrainComposition/test_TrainComposition.py)|Python, Deque|
 |Route Planner|[:shipit:](py/solns/routePlanner/routePlanner.py) [:heavy_check_mark:](py/tests/testRoutePlanner/test_RoutePlanner.py)|Python, Stack, DFS, Graph|
 |Two Sum|[:shipit:](py/solns/twoSumTestDome/twoSumTestDome.py) [:heavy_check_mark:](py/tests/testTwoSumTestDome/test_TwoSumTestDome.py)|Python|
+|Pipeline|[:shipit:](py/solns/pipeline/pipeline.py) [:heavy_check_mark:](py/tests/testPipeline/test_Pipeline.py)|Python, Nested Function|
 
 </details>
 
