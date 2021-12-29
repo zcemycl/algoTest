@@ -246,6 +246,7 @@ pytest
 |League Table|[:shipit:](py/solns/leagueTable/leagueTable.py) [:heavy_check_mark:](py/tests/testLeagueTable/test_LeagueTable.py)|Python, Counter, OrderedDict, Sorting|
 |Ice Cream Machine|[:shipit:](py/solns/iceCreamMachine/iceCreamMachine.py) [:heavy_check_mark:](py/tests/testIceCreamMachine/test_IceCreamMachine.py)|Python|
 |Binary Search Tree|[:shipit:](py/solns/bstNamedTuple/bstNamedTuple.py) [:heavy_check_mark:](py/tests/testBstNamedTuple/test_BstNamedTuple.py)|Python, NamedTuple, BST|
+|Merge Names|[:shipit:](py/solns/mergeNames/mergeNames.py) [:heavy_check_mark:](py/tests/testMergeNames/test_MergeNames.py)|Python, Set|
 
 </details>
 
