@@ -12,7 +12,8 @@ class Song:
         """
         visited = set()
         while self.next:
-            if id(self.next) in visited:
+            if id(self) in visited:
                 return True
-            visited.add(id(self.next))
+            visited.add(id(self))
+            self = self.next
         return False
