@@ -70,7 +70,7 @@
 *.pyx    text diff=python
 *.pyz    text diff=python
 *.pyi    text diff=python
-# *.py linguist-detectable=false
+*.py linguist-detectable=false
 
 
 # Binary files
