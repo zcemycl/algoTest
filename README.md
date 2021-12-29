@@ -236,6 +236,17 @@ pytest
 
 </details>
 
+
+### TestDome
+<details>
+  <summary>Click to expand!</summary>
+  
+|Tasks||Topics|
+|---|---|---|
+|League Table|[:shipit:](py/solns/leagueTable/leagueTable.py) [:heavy_check_mark:](py/tests/testLeagueTable/test_LeagueTable.py)|Python, Counter, OrderedDict, Sorting|
+
+</details>
+
 ### Others
 <details>
   <summary>Click to expand!</summary>
