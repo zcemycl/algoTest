@@ -259,6 +259,7 @@ pytest
 |Dog Classification|[:shipit:](py/solns/dogClassify/dogClassify.py) [:heavy_check_mark:](py/tests/testDogClassify/test_DogClassify.py)|Python, Data Science, Decision Boundary|
 |Stock Prices|[:shipit:](py/solns/stockPrices/stockPrices.py) [:heavy_check_mark:](py/tests/testStockPrices/test_StockPrices.py)|Python, Data Science, Correlation|
 |Pet Detection|[:shipit:](py/solns/petDetection/petDetection.py) [:heavy_check_mark:](py/tests/testPetDetection/test_PetDetection.py)|Python, Data Science, Confusion Matrix|
+|Marketing Costs|[:shipit:](py/solns/marketingCosts/marketingCosts.py) [:heavy_check_mark:](py/tests/testMarketingCosts/test_MarketingCosts.py)|Python, Data Science, Linear Regression|
 
 </details>
 
