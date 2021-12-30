@@ -258,6 +258,7 @@ pytest
 |Login Table|[:shipit:](py/solns/loginTable/loginTable.py) [:heavy_check_mark:](py/tests/testLoginTable/test_LoginTable.py)|Python, Data Science, Pandas|
 |Dog Classification|[:shipit:](py/solns/dogClassify/dogClassify.py) [:heavy_check_mark:](py/tests/testDogClassify/test_DogClassify.py)|Python, Data Science, Decision Boundary|
 |Stock Prices|[:shipit:](py/solns/stockPrices/stockPrices.py) [:heavy_check_mark:](py/tests/testStockPrices/test_StockPrices.py)|Python, Data Science, Correlation|
+|Pet Detection|[:shipit:](py/solns/petDetection/petDetection.py) [:heavy_check_mark:](py/tests/testPetDetection/test_PetDetection.py)|Python, Data Science, Confusion Matrix|
 
 </details>
 
