@@ -254,6 +254,7 @@ pytest
 |Route Planner|[:shipit:](py/solns/routePlanner/routePlanner.py) [:heavy_check_mark:](py/tests/testRoutePlanner/test_RoutePlanner.py)|Python, Stack, DFS, Graph|
 |Two Sum|[:shipit:](py/solns/twoSumTestDome/twoSumTestDome.py) [:heavy_check_mark:](py/tests/testTwoSumTestDome/test_TwoSumTestDome.py)|Python|
 |Pipeline|[:shipit:](py/solns/pipeline/pipeline.py) [:heavy_check_mark:](py/tests/testPipeline/test_Pipeline.py)|Python, Nested Function|
+|Iris Classifier|[:shipit:](py/solns/irisClassifier/irisClassifier.py) [:heavy_check_mark:](py/tests/testIrisClassifier/test_IrisClassifier.py)|Python, Data Science|
 
 </details>
 
