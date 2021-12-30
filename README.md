@@ -261,6 +261,7 @@ pytest
 |Pet Detection|[:shipit:](py/solns/petDetection/petDetection.py) [:heavy_check_mark:](py/tests/testPetDetection/test_PetDetection.py)|Python, Data Science, Confusion Matrix|
 |Marketing Costs|[:shipit:](py/solns/marketingCosts/marketingCosts.py) [:heavy_check_mark:](py/tests/testMarketingCosts/test_MarketingCosts.py)|Python, Data Science, Linear Regression|
 |AB Test|[:shipit:](py/solns/abTest/README.md) |Python, Data Science, Probability, Bayes Law|
+|Petri Dish|[:shipit:](py/solns/petriDish/README.md)|Python, Pearson Correlation|
 
 </details>
 
