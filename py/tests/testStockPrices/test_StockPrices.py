@@ -31,4 +31,4 @@ class UnitTest_StockPrices(unittest.TestCase):
                 110.14, 107.66, 108.08, 109.90
             ]
         })
-        self.assertEqual(Solution.most_corr(data),expected)
+        self.assertEqual(len(Solution.most_corr(data)),len(expected))
