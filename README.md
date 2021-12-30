@@ -260,6 +260,7 @@ pytest
 |Stock Prices|[:shipit:](py/solns/stockPrices/stockPrices.py) [:heavy_check_mark:](py/tests/testStockPrices/test_StockPrices.py)|Python, Data Science, Correlation|
 |Pet Detection|[:shipit:](py/solns/petDetection/petDetection.py) [:heavy_check_mark:](py/tests/testPetDetection/test_PetDetection.py)|Python, Data Science, Confusion Matrix|
 |Marketing Costs|[:shipit:](py/solns/marketingCosts/marketingCosts.py) [:heavy_check_mark:](py/tests/testMarketingCosts/test_MarketingCosts.py)|Python, Data Science, Linear Regression|
+|AB Test|[:shipit:](py/solns/abTest/README.md) |Python, Data Science, Probability, Bayes Law|
 
 </details>
 
