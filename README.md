@@ -254,7 +254,9 @@ pytest
 |Route Planner|[:shipit:](py/solns/routePlanner/routePlanner.py) [:heavy_check_mark:](py/tests/testRoutePlanner/test_RoutePlanner.py)|Python, Stack, DFS, Graph|
 |Two Sum|[:shipit:](py/solns/twoSumTestDome/twoSumTestDome.py) [:heavy_check_mark:](py/tests/testTwoSumTestDome/test_TwoSumTestDome.py)|Python|
 |Pipeline|[:shipit:](py/solns/pipeline/pipeline.py) [:heavy_check_mark:](py/tests/testPipeline/test_Pipeline.py)|Python, Nested Function|
-|Iris Classifier|[:shipit:](py/solns/irisClassifier/irisClassifier.py) [:heavy_check_mark:](py/tests/testIrisClassifier/test_IrisClassifier.py)|Python, Data Science|
+|Iris Classifier|[:shipit:](py/solns/irisClassifier/irisClassifier.py) [:heavy_check_mark:](py/tests/testIrisClassifier/test_IrisClassifier.py)|Python, Data Science, Sklearn|
+|Login Table|[:shipit:](py/solns/loginTable/loginTable.py) [:heavy_check_mark:](py/tests/testLoginTable/test_LoginTable.py)|Python, Data Science, Pandas|
+|Dog Classification|[:shipit:](py/solns/dogClassify/dogClassify.py) [:heavy_check_mark:](py/tests/testDogClassify/test_DogClassify.py)|Python, Data Science, Decision Boundary|
 
 </details>
 
