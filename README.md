@@ -263,6 +263,7 @@ pytest
 |Route Planner|[:shipit:](py/solns/routePlanner/routePlanner.py) [:heavy_check_mark:](py/tests/testRoutePlanner/test_RoutePlanner.py)|Python, Stack, DFS, Graph|
 |Two Sum|[:shipit:](py/solns/twoSumTestDome/twoSumTestDome.py) [:heavy_check_mark:](py/tests/testTwoSumTestDome/test_TwoSumTestDome.py)|Python|
 |Pipeline|[:shipit:](py/solns/pipeline/pipeline.py) [:heavy_check_mark:](py/tests/testPipeline/test_Pipeline.py)|Python, Nested Function|
+|Log Patch|[:shipit:](py/solns/logPatch/logPatch.py) [:heavy_check_mark:](py/tests/testLogPatch/test_LogPatch.py)|Python, Monkey Patching|
 |Iris Classifier|[:shipit:](py/solns/irisClassifier/irisClassifier.py) [:heavy_check_mark:](py/tests/testIrisClassifier/test_IrisClassifier.py)|Python, Data Science, Sklearn|
 |Login Table|[:shipit:](py/solns/loginTable/loginTable.py) [:heavy_check_mark:](py/tests/testLoginTable/test_LoginTable.py)|Python, Data Science, Pandas|
 |Dog Classification|[:shipit:](py/solns/dogClassify/dogClassify.py) [:heavy_check_mark:](py/tests/testDogClassify/test_DogClassify.py)|Python, Data Science, Decision Boundary|
@@ -272,6 +273,7 @@ pytest
 |AB Test|[:shipit:](py/solns/abTest/README.md) |Python, Data Science, Probability, Bayes Law|
 |Petri Dish|[:shipit:](py/solns/petriDish/README.md)|Python, Data Science, Pearson Correlation|
 |Election Poll|[:shipit:](py/solns/electionPoll/electionPoll.py) [:heavy_check_mark:](py/tests/testElectionPoll/test_ElectionPoll.py)|Python, Data Science, Descriptive Statistic|
+
 
 </details>
 
