@@ -242,7 +242,7 @@ pytest
 
 |Tasks||Language|Topics|
 |---|---|---|---|
-|||||
+|Height of a Binary Tree|[:shipit:](py/solns/heightBT/heightBT.py) [:heavy_check_mark:](py/tests/testHeightBT/test_HeightBT.py)|Python|Binary Tree|
 
 </details>
 
