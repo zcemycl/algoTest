@@ -273,7 +273,7 @@ pytest
 |AB Test|[:shipit:](py/solns/abTest/README.md) |Python, Data Science, Probability, Bayes Law|
 |Petri Dish|[:shipit:](py/solns/petriDish/README.md)|Python, Data Science, Pearson Correlation|
 |Election Poll|[:shipit:](py/solns/electionPoll/electionPoll.py) [:heavy_check_mark:](py/tests/testElectionPoll/test_ElectionPoll.py)|Python, Data Science, Descriptive Statistic|
-|Employees to Digits|[:shipit:](py/solns/digits2Employee/digits2Employee.py) [:heavy_check_mark:](py/tests/testDigits2Employee/test_Digits2Employee.py)|Numerical Reasoning|
+|Digits to Employees|[:shipit:](py/solns/digits2Employee/digits2Employee.py) [:heavy_check_mark:](py/tests/testDigits2Employee/test_Digits2Employee.py)|Numerical Reasoning|
 
 
 </details>
