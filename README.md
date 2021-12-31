@@ -243,6 +243,7 @@ pytest
 |Tasks||Language|Topics|
 |---|---|---|---|
 |Height of a Binary Tree|[:shipit:](py/solns/heightBT/heightBT.py) [:heavy_check_mark:](py/tests/testHeightBT/test_HeightBT.py)|Python|Binary Tree|
+|Lowest Common Ancestor|[:shipit:](py/solns/lca/lca.py) [:heavy_check_mark:](py/tests/testLca/test_Lca.py)|Python|Binary Search Tree|
 
 </details>
 
