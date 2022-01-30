@@ -1,0 +1,1 @@
+add_library(rearrangeSpacesBetweenWords rearrangeSpacesBetweenWords.cpp rearrangeSpacesBetweenWords.h)
