@@ -129,6 +129,7 @@
 1119. Remove Vowels from a String
 1143. Longest Common Subsequence*
 1290. Convert Binary Number in a Linked List to Integer
+1293. Shortest Path in a Grid with Obstacles Elimination
 1304. Find N Unique Integers Sum up to Zero
 1356. Sort Integers by The Number of 1 Bits
 1394. Find Lucky Integer in an Array

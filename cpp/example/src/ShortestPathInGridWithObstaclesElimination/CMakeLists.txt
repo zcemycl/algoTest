@@ -1,0 +1,1 @@
+add_library(shortestPathInGridWithObstaclesElimination shortestPathInGridWithObstaclesElimination.cpp shortestPathInGridWithObstaclesElimination.h)
