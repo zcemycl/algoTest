@@ -108,6 +108,7 @@
 572. Subtree of Another Tree*
 589. N-ary Tree Preorder Traversal
 590. N-ary Tree Postorder Traversal
+637. Average of Levels in Binary Tree
 647. Palindromic Substrings*
 662. Maximum Width of Binary Tree
 695. Max Area of Island
