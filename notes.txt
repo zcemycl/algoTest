@@ -108,6 +108,7 @@
 589. N-ary Tree Preorder Traversal
 590. N-ary Tree Postorder Traversal
 647. Palindromic Substrings*
+662. Maximum Width of Binary Tree
 695. Max Area of Island
 700. Search in a Binary Search Tree
 704. Binary Search
