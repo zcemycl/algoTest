@@ -114,6 +114,7 @@ pytest
 |36|Valid Sudoku|||[:shipit:](py/solns/validSudoku/validSudoku.py) [:heavy_check_mark:](py/tests/testValidSudoku/test_ValidSudoku.py)|Set|
 |37|Sudoku Solver|||[:shipit:](py/solns/sudokuSolver/sudokuSolver.py) [:heavy_check_mark:](py/tests/testSudokuSolver/test_SudokuSolver.py)|Set|
 |39*|Combination Sum|||[:shipit:](py/solns/combinationSum/combinationSum.py) [:heavy_check_mark:](py/tests/testCombinationSum/test_CombinationSum.py)|Recursive, DFS, Backtracking|
+|42|Trapping Rain Water|||[:shipit:](py/solns/trapRain/trapRain.py)|List|
 |46|Permutations|||[:shipit:](py/solns/permutations/permutations.py) [:heavy_check_mark:](py/tests/testPermutations/test_Permutations.py)|Recursive, DFS, Backtracking|
 |47|Permutations II|||[:shipit:](py/solns/permutations2/permutations2.py) [:heavy_check_mark:](py/tests/testPermutations2/test_Permutations2.py)|Recursive, DFS, Backtracking|
 |48*|Rotate Image|[:shipit:](cpp/example/src/RotateImg/rotateImg.cpp) [:heavy_check_mark:](cpp/example/tst/RotateImg/RotateImg-test.cpp)||[:shipit:](py/solns/rotateImg/rotateImg.py) [:heavy_check_mark:](py/tests/testRotateImg/test_RotateImg.py)|Matrix|

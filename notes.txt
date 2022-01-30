@@ -20,6 +20,7 @@
 36. Valid Sudoku
 37. Sudoku Solver
 39. Combination Sum*
+42. Trapping Rain Water
 46. Permutations
 47. Permutations II
 48. Rotate Image*
