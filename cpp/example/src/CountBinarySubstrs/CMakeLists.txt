@@ -1,0 +1,1 @@
+add_library(countBinarySubstrs countBinarySubstrs.cpp countBinarySubstrs.h)

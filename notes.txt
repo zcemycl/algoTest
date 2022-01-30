@@ -113,6 +113,7 @@
 647. Palindromic Substrings*
 662. Maximum Width of Binary Tree
 695. Max Area of Island
+696. Count Binary Substrings
 700. Search in a Binary Search Tree
 704. Binary Search
 814. Binary Tree Pruning

@@ -208,6 +208,7 @@ pytest
 |647*|Palindromic Substrings|[:shipit:](cpp/example/src/PalindromicSubstrs/palindromicSubstrs.cpp) [:heavy_check_mark:](cpp/example/tst/PalindromicSubstrs/PalindromicSubstrs-test.cpp)||[:shipit:](py/solns/palindromicSubstrs/palindromicSubstrs.py) [:heavy_check_mark:](py/tests/testPalindromicSubstrs/test_PalindromicSubstrs.py)|String|
 |662|Maximum Width of Binary Tree|||[:shipit:](py/solns/maxWidthBT/maxWidthBT.py)|Binary Tree|
 |695|Max Area of Island|||[:shipit:](py/solns/maxAreaIsland/maxAreaIsland.py) [:heavy_check_mark:](py/tests/testMaxAreaIsland/test_MaxAreaIsland.py)|Graph, DFS|
+|696|Count Binary Substrings|||[:shipit:](py/solns/countBinarySubstrs/countBinarySubstrs.py)|List, String|
 |700|Search in a Binary Search Tree|||[:shipit:](py/solns/searchInBST/searchInBST.py) [:heavy_check_mark:](py/tests/testSearchInBST/test_SearchInBST.py)|Binary Search Tree|
 |704|Binary Search|[:shipit:](cpp/example/src/BinarySearch/binarySearch.cpp) [:heavy_check_mark:](cpp/example/tst/BinarySearch/BinarySearch-test.cpp)|[:shipit:](cs/sample/Sample/BinarySearch/BinarySearch.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/BinarySearch/testBinarySearch.cs)|[:shipit:](py/solns/binarySearch/binarySearch.py) [:heavy_check_mark:](py/tests/testBinarySearch/test_BinarySearch.py)|Binary Search|
 |814|Binary Tree Pruning|||[:shipit:](py/solns/binaryTreePruning/binaryTreePruning.py) [:heavy_check_mark:](py/tests/testBinaryTreePruning/test_BinaryTreePruning.py)|Binary Tree, DFS|
