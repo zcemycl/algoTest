@@ -33,6 +33,7 @@
 62. Unique Paths*
 64. Minimum Path Sum
 66. Plus One
+68. Text Justification
 69. Sqrtx
 70. Climbing Stairs*
 73. Set Matrix Zeros*

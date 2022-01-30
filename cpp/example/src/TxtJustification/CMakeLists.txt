@@ -1,0 +1,1 @@
+add_library(txtJustification txtJustification.cpp txtJustification.h)
