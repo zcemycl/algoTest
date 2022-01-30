@@ -87,6 +87,7 @@
 242. Valid Anagram*
 252. Meeting Rooms*
 253. Meeting Rooms II*
+257. Binary Tree Paths
 261. Graph Valid Tree*
 268. Missing Number*
 269. Alien Dictionary*

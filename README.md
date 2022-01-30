@@ -181,6 +181,7 @@ pytest
 |242*|Valid Anagram|||[:shipit:](py/solns/validAnagram/validAnagram.py) [:heavy_check_mark:](py/tests/testValidAnagram/test_ValidAnagram.py)|String, Hashmap|
 |252*|Meeting Rooms|||[:shipit:](py/solns/meetingRooms/meetingRooms.py) [:heavy_check_mark:](py/tests/testMeetingRooms/test_MeetingRooms.py)|Interval|
 |253*|Meeting Rooms II|||[:shipit:](py/solns/meetingRooms2/meetingRooms2.py) [:heavy_check_mark:](py/tests/testMeetingRooms2/test_MeetingRooms2.py)|Interval|
+|257|Binary Tree Paths|||[:shipit:](py/solns/bTPaths/bTPaths.py)|Binary Tree|
 |261*|Graph Valid Tree|||[:shipit:](py/solns/graphValidTree/graphValidTree.py) [:heavy_check_mark:](py/tests/testGraphValidTree/test_GraphValidTree.py)|Graph, Tree, DFS|
 |268*|Missing Number|[:shipit:](cpp/example/src/MissingNum/missingNum.cpp) [:heavy_check_mark:](cpp/example/tst/MissingNum/MissingNum-test.cpp)||[:shipit:](py/solns/missingNum/missingNum.py) [:heavy_check_mark:](py/tests/testMissingNum/test_MissingNum.py)|Bitwise Operation|
 |269*|Alien Dictionary|||[:shipit:](py/solns/alienDict/alienDict.py) [:heavy_check_mark:](py/tests/testAlienDict/test_AlienDict.py)|Graph, DFS, Topological Sort|
