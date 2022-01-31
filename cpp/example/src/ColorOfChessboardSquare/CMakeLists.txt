@@ -1,0 +1,1 @@
+add_library(colorOfChessboardSquare colorOfChessboardSquare.cpp colorOfChessboardSquare.h)

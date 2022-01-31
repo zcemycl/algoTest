@@ -139,4 +139,5 @@
 1464. Maximum Product of Two Elements in an Array
 1592. Rearrange Spaces Between Words
 1805. Number of Different Integers in a String
+1812. Determine Color of a Chessboard Square
 1836. Remove Duplicates From an Unsorted Linked List
