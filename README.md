@@ -124,6 +124,7 @@ pytest
 |55*|Jump Game|||[:shipit:](py/solns/jumpGame/jumpGame.py) [:heavy_check_mark:](py/tests/testJumpGame/test_JumpGame.py)|Dynamic Programming, Greedy|
 |56*|Merge Intervals|||[:shipit:](py/solns/mergeIntervals/mergeIntervals.py) [:heavy_check_mark:](py/tests/testMergeIntervals/test_MergeIntervals.py)|Interval|
 |57*|Insert Interval|||[:shipit:](py/solns/insertInterval/insertInterval.py) [:heavy_check_mark:](py/tests/testInsertInterval/test_InsertInterval.py)|Interval|
+|58|Length of Last Word|||[:shipit:](py/solns/lenOfLastWord/lenOfLastWord.py)|String|
 |62*|Unique Paths|||[:shipit:](py/solns/uniquePaths/uniquePaths.py) [:heavy_check_mark:](py/tests/testUniquePaths/test_UniquePaths.py)|Dynamic Programming|
 |63|Unique Paths II|||[:shipit:](py/solns/uniquePaths2/uniquePaths2.py)|Dynamic Programming|
 |64|Minimum Path Sum|||[:shipit:](py/solns/minPathSum/minPathSum.py) [:heavy_check_mark:](py/tests/testMinPathSum/test_MinPathSum.py)|Dynamic Programming, DFS|

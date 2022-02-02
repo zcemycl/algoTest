@@ -30,6 +30,7 @@
 55. Jump Game*
 56. Merge Intervals*
 57. Insert Interval*
+58. Length of Last Word
 62. Unique Paths*
 63. Unique Paths II
 64. Minimum Path Sum
