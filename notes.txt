@@ -147,3 +147,4 @@
 1805. Number of Different Integers in a String
 1812. Determine Color of a Chessboard Square
 1836. Remove Duplicates From an Unsorted Linked List
+1929. Concatenation of Array

@@ -242,6 +242,7 @@ pytest
 |1805|Number of Different Integers in a String|[:shipit:](cpp/example/src/NumDifferentIntsInStr/numDifferentIntsInStr.cpp) [:heavy_check_mark:](cpp/example/tst/NumDifferentIntsInStr/NumDifferentIntsInStr-test.cpp)|[:shipit:](cs/sample/Sample/NumDifferentIntsInStr/NumDifferentIntsInStr.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/NumDifferentIntsInStr/testNumDifferentIntsInStr.cs)|[:shipit:](py/solns/numDifferentIntsInStr/numDifferentIntsInStr.py) [:heavy_check_mark:](py/tests/testNumDifferentIntsInStr/test_NumDifferentIntsInStr.py)|Set|
 |1812|Determine Color of a Chessboard Square|||[:shipit:](py/solns/colorOfChessboardSquare/colorOfChessboardSquare.py)|Hashmap|
 |1836|Remove Duplicates From an Unsorted Linked List|||[:shipit:](py/solns/rmDuplicatesFromUnsortedLinkedList/rmDuplicatesFromUnsortedLinkedList.py) [:heavy_check_mark:](py/tests/testRmDuplicatesFromUnsortedLinkedList/test_RmDuplicatesFromUnsortedLinkedList.py)|Linked List|
+|1929|Concatenation of Array|||[:shipit:](py/solns/concatArray/concatArray.py)|List|
 
 </details>
 
