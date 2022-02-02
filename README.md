@@ -125,6 +125,7 @@ pytest
 |56*|Merge Intervals|||[:shipit:](py/solns/mergeIntervals/mergeIntervals.py) [:heavy_check_mark:](py/tests/testMergeIntervals/test_MergeIntervals.py)|Interval|
 |57*|Insert Interval|||[:shipit:](py/solns/insertInterval/insertInterval.py) [:heavy_check_mark:](py/tests/testInsertInterval/test_InsertInterval.py)|Interval|
 |62*|Unique Paths|||[:shipit:](py/solns/uniquePaths/uniquePaths.py) [:heavy_check_mark:](py/tests/testUniquePaths/test_UniquePaths.py)|Dynamic Programming|
+|63|Unique Paths II|||[:shipit:](py/solns/uniquePaths2/uniquePaths2.py)|Dynamic Programming|
 |64|Minimum Path Sum|||[:shipit:](py/solns/minPathSum/minPathSum.py) [:heavy_check_mark:](py/tests/testMinPathSum/test_MinPathSum.py)|Dynamic Programming, DFS|
 |66|Plus One|[:shipit:](cpp/example/src/PlusOne/plusOne.cpp) [:heavy_check_mark:](cpp/example/tst/PlusOne/PlusOne-test.cpp)|[:shipit:](cs/sample/Sample/PlusOne/PlusOne.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/PlusOne/testPlusOne.cs)|[:shipit:](py/solns/plusOne/plusOne.py) [:heavy_check_mark:](py/tests/testPlusOne/test_PlusOne.py)||
 |68|Text Justification|||[:shipit:](py/solns/txtJustification/txtJustification.py)|String|
