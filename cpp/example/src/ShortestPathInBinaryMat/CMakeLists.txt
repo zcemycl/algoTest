@@ -1,0 +1,1 @@
+add_library(shortestPathInBinaryMat shortestPathInBinaryMat.cpp shortestPathInBinaryMat.h)
