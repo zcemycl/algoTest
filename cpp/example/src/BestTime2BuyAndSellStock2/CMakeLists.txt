@@ -1,0 +1,1 @@
+add_library(bestTime2BuyAndSellStock2 bestTime2BuyAndSellStock2.cpp bestTime2BuyAndSellStock2.h)
