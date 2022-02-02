@@ -141,6 +141,7 @@
 1394. Find Lucky Integer in an Array
 1446. Consecutive Characters
 1464. Maximum Product of Two Elements in an Array
+1518. Water Bottles
 1592. Rearrange Spaces Between Words
 1609. Even Odd Tree
 1805. Number of Different Integers in a String
