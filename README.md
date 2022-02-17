@@ -200,6 +200,7 @@ pytest
 |323*|Number of Connected Components in an Undirected Graph|||[:shipit:](py/solns/numOfConnectedComponentsInUndirectedGraph/numOfConnectedComponentsInUndirectedGraph.py) [:heavy_check_mark:](py/tests/testNumOfConnectedComponentsInUndirectedGraph/test_NumOfConnectedComponentsInUndirectedGraph.py)|DFS, Graph|
 |338*|Counting Bits|||[:shipit:](py/solns/countingBits/countingBits.py) [:heavy_check_mark:](py/tests/testCountingBits/test_CountingBits.py)|Bitwise Operation|
 |347*|Top K Frequent Elements|||[:shipit:](py/solns/topKFrequentElements/topKFrequentElements.py) [:heavy_check_mark:](py/tests/testTopKFrequentElements/test_TopKFrequentElements.py)|Heap|
+|359|Logger Rate Limiter|||[:shipit:](py/solns/loggerRateLimiter/loggerRateLimiter.py)|Hashmap|
 |366|Find Leaves in Binary Tree|||[:shipit:](py/solns/findLeavesBT/findLeavesBT.py)|Binary Tree|
 |371*|Sum of Two Integers|[:shipit:](cpp/example/src/SumOfTwoInts/sumOfTwoInts.cpp) [:heavy_check_mark:](cpp/example/tst/SumOfTwoInts/SumOfTwoInts-test.cpp)||[:shipit:](py/solns/sumOfTwoInts/sumOfTwoInts.py) [:heavy_check_mark:](py/tests/testSumOfTwoInts/test_SumOfTwoInts.py)|Bitwise Operation|
 |377|Combination Sum IV|||[:shipit:](py/solns/combinationSum4/combinationSum4.py)|Dynamic Programming|
