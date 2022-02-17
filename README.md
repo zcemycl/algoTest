@@ -250,6 +250,7 @@ pytest
 |1836|Remove Duplicates From an Unsorted Linked List|||[:shipit:](py/solns/rmDuplicatesFromUnsortedLinkedList/rmDuplicatesFromUnsortedLinkedList.py) [:heavy_check_mark:](py/tests/testRmDuplicatesFromUnsortedLinkedList/test_RmDuplicatesFromUnsortedLinkedList.py)|Linked List|
 |1929|Concatenation of Array|||[:shipit:](py/solns/concatArray/concatArray.py)|List|
 |2007|Find Original Array From Doubled Array|||[:shipit:](py/solns/findOriginalArrFromDoubledArr/findOriginalArrFromDoubledArr.py)|Hashmap|
+|2096|Step-By-Step Directions From a Binary Tree Node to Another|||[:shipit:](py/solns/stepByStepDirectionsFromBTNodeToAnother/stepByStepDirectionsFromBTNodeToAnother.py)|Hashmap, Graph, Binary Tree|
 
 </details>
 
