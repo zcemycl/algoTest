@@ -1,0 +1,1 @@
+add_library(countSqSubmatricesWithAll1s countSqSubmatricesWithAll1s.cpp countSqSubmatricesWithAll1s.h)
