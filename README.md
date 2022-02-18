@@ -217,6 +217,7 @@ pytest
 |590|N-ary Tree Postorder Traversal|[:shipit:](cpp/example/src/NaryTreePostorderTraversal/naryTreePostorderTraversal.cpp) [:heavy_check_mark:](cpp/example/tst/NaryTreePostorderTraversal/NaryTreePostorderTraversal-test.cpp)||[:shipit:](py/solns/naryTreePostorderTraversal/naryTreePostorderTraversal.py) [:heavy_check_mark:](py/tests/testNaryTreePostorderTraversal/test_NaryTreePostorderTraversal.py)|Tree, Postorder Traversal|
 |637|Average of Levels in Binary Tree|||[:shipit:](py/solns/avgOfLevelsBT/avgOfLevelsBT.py)|Binary Tree|
 |647*|Palindromic Substrings|[:shipit:](cpp/example/src/PalindromicSubstrs/palindromicSubstrs.cpp) [:heavy_check_mark:](cpp/example/tst/PalindromicSubstrs/PalindromicSubstrs-test.cpp)||[:shipit:](py/solns/palindromicSubstrs/palindromicSubstrs.py) [:heavy_check_mark:](py/tests/testPalindromicSubstrs/test_PalindromicSubstrs.py)|String|
+|652|Find Duplicate Subtrees|||[:shipit:](py/solns/findDuplicateSubtrees/findDuplicateSubtrees.py)|Binary Tree, DFS, Hashmap|
 |662|Maximum Width of Binary Tree|||[:shipit:](py/solns/maxWidthBT/maxWidthBT.py)|Binary Tree|
 |695|Max Area of Island|||[:shipit:](py/solns/maxAreaIsland/maxAreaIsland.py) [:heavy_check_mark:](py/tests/testMaxAreaIsland/test_MaxAreaIsland.py)|Graph, DFS|
 |696|Count Binary Substrings|||[:shipit:](py/solns/countBinarySubstrs/countBinarySubstrs.py)|List, String|
