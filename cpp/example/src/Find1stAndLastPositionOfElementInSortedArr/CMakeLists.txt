@@ -1,0 +1,1 @@
+add_library(find1stAndLastPositionOfElementInSortedArr find1stAndLastPositionOfElementInSortedArr.cpp find1stAndLastPositionOfElementInSortedArr.h)
