@@ -15,6 +15,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Example Test
       run: |
+        sudo apt-get update --fix-missing
         cd cpp/example
         sudo apt-get install sqlite3 libsqlite3-dev libboost-all-dev
         mkdir -p lib/googletest
