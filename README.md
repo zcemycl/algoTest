@@ -158,6 +158,7 @@ pytest
 |124*|Binary Tree Maximum Path Sum||||Binary Tree|
 |125*|Valid Palindrome|||[:shipit:](py/solns/validPalindrome/validPalindrome.py) [:heavy_check_mark:](py/tests/testValidPalindrome/test_ValidPalindrome.py)|String, Two Pointers|
 |128*|Longest Consecutive Sequence|||[:shipit:](py/solns/longestConsecutiveSeq/longestConsecutiveSeq.py) [:heavy_check_mark:](py/tests/testLongestConsecutiveSeq/test_LongestConsecutiveSeq.py)|Set, Graph|
+|129|Sum Root to Leaf Numbers|||[:shipit:](py/solns/sumRoot2LeafNo/sumRoot2LeafNo.py)|Binary Tree|
 |133*|Clone Graph|||[:shipit:](py/solns/cloneGraph/cloneGraph.py) [:heavy_check_mark:](py/tests/testCloneGraph/test_CloneGraph.py)|BFS, Graph|
 |139*|Word Break|||[:shipit:](py/solns/wordBreak/wordBreak.py) [:heavy_check_mark:](py/tests/testWordBreak/test_WordBreak.py)|Recursive, DFS, Dynamic Programming|
 |141*|Linked List Cycle|||[:shipit:](py/solns/linkedListCycle/linkedListCycle.py) [:heavy_check_mark:](py/tests/testLinkedListCycle/test_LinkedListCycle.py)|Linked List|
