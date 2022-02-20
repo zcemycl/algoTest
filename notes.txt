@@ -40,6 +40,7 @@
 69. Sqrtx
 70. Climbing Stairs*
 73. Set Matrix Zeros*
+74. Search a 2D Matrix
 76. Minimum Window Substring*
 77. Combinations
 78. Subsets
