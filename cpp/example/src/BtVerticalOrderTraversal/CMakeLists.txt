@@ -1,0 +1,1 @@
+add_library(btVerticalOrderTraversal btVerticalOrderTraversal.cpp btVerticalOrderTraversal.h)

@@ -204,6 +204,7 @@ pytest
 |295*|Find Median from Data Stream|||[:shipit:](py/solns/findMedianFromDataStream/findMedianFromDataStream.py) [:heavy_check_mark:](py/tests/testFindMedianFromDataStream/test_FindMedianFromDataStream.py)|Heap|
 |297*|Serialize and Deserialize Binary Tree|||[:shipit:](py/solns/serialDeserializeBT/serialDeserializeBT.py) [:heavy_check_mark:](py/tests/testSerialDeserializeBT/test_SerialDeserializeBT.py)|Binary Tree, Preorder Traversal|
 |300*|Longest Increasing Subsequence|||[:shipit:](py/solns/longestIncreasingSubseq/longestIncreasingSubseq.py) [:heavy_check_mark:](py/tests/testLongestIncreasingSubseq/test_LongestIncreasingSubseq.py)|Recursive, DFS, Dynamic Programming|
+|314|Binary Tree Vertical Order Traversal|||[:shipit:](py/solns/btVerticalOrderTraversal/btVerticalOrderTraversal.py)|Binary Tree, BFS|
 |322*|Coin Change|||[:shipit:](py/solns/coinChange/coinChange.py) [:heavy_check_mark:](py/tests/testCoinChange/test_CoinChange.py)|Recursive, DFS, Dynamic Programming|
 |323*|Number of Connected Components in an Undirected Graph|||[:shipit:](py/solns/numOfConnectedComponentsInUndirectedGraph/numOfConnectedComponentsInUndirectedGraph.py) [:heavy_check_mark:](py/tests/testNumOfConnectedComponentsInUndirectedGraph/test_NumOfConnectedComponentsInUndirectedGraph.py)|DFS, Graph|
 |338*|Counting Bits|||[:shipit:](py/solns/countingBits/countingBits.py) [:heavy_check_mark:](py/tests/testCountingBits/test_CountingBits.py)|Bitwise Operation|
