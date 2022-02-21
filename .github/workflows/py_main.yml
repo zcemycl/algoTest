@@ -34,6 +34,6 @@ jobs:
         run: |
           cd py
           sudo apt-get install sqlite3 libsqlite3-dev
-          pip install pytest parameterized numpy pandas
+          pip install pytest parameterized numpy pandas multiset==2.1.1
           pytest
 
