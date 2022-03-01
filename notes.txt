@@ -75,6 +75,7 @@
 143. Reorder List*
 144. Binary Tree Preorder Traversal
 145. Binary Tree Postorder Traversal
+148. Sort List
 152. Maximum Product Subarray*
 153. Find Minimum in Rotated Sorted Array*
 167. Two Sum II - Input Array Is Sorted
