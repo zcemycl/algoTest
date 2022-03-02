@@ -142,6 +142,7 @@
 876. Middle of the Linked List
 912. Sort an Array
 938. Range Sum of BST
+973. K Closest Points to Origin
 980. Unique Paths III
 989. Add to Array-Form of Integer
 1009. Complement of Base 10 Integer
