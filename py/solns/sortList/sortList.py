@@ -31,7 +31,7 @@ class Solution:
         else:
             ptr.next = list2
         return res.next
-    def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def sortList(self, head):
         if head == None or head.next == None:
             return head
         mid = self.getHalf(head)

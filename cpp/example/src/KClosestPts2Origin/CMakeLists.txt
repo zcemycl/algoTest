@@ -1,0 +1,1 @@
+add_library(kClosestPts2Origin kClosestPts2Origin.cpp kClosestPts2Origin.h)
