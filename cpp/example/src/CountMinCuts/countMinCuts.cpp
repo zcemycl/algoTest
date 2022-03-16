@@ -1,6 +1,7 @@
 #include "countMinCuts.h"
 
 tuple<int,vector<int>> countMinCuts::str2vec(string numstr){
+    cout<<numstr<<endl;
     istringstream ss(numstr);
     string word; vector<int> result;
     int i=0; int key;
@@ -22,7 +23,11 @@ void countMinCuts::printVec(vector<int>& nums){
 
 tuple<map<int,vector<int>>,int> countMinCuts::loadGraph(){
     map<int,vector<int>> graph;
-    string curPath = fs::current_path();
+    // string curPath = fs::current_path();
+    // cout<<fs::current_path()<<endl;
+    string curPath = std::filesystem::current_path();
+    // string curPath = boost::filesystem::path full_path( boost::filesystem::current_path() );
+    cout<<curPath<<endl;
     curPath = curPath.substr(0,curPath.find("build"));
     ifstream myfile (curPath+"src/CountMinCuts/kargerMinCut.txt");
     vector<int> result;string line;int key;int total = 0;
