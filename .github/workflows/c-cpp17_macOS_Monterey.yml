@@ -1,0 +1,26 @@
+name: C/C++ CI MacOS Monterey C++17
+
+on:
+  push:
+    branches: [ macOS_Monterey ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: macos-11
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Example Test
+      run: |
+        sudo brew update
+        cd cpp/example
+        sudo brew install sqlite3 libsqlite3-dev
+        mkdir -p lib/googletest
+        git clone https://github.com/google/googletest/ lib/googletest
+        cmake -B build -DCMAKE_BUILD_TYPE=Release
+        cd build
+        make example_tst
+        ./tst/example_tst
