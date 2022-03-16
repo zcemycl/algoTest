@@ -4,17 +4,13 @@
 #include <string>
 #include <tuple>
 #include <fstream>
+#include <sstream>
 #include <stdio.h>
+#include <filesystem>
 #include <stdlib.h>
-#include <bits/stdc++.h>
+#include <string>
 #include <math.h>
 
-#if __has_include(<experimental/filesystem>)
-  #include <experimental/filesystem> 
-  namespace fs = std::experimental::filesystem;
-#else
-  error "Missing the <filesystem> header."
-#endif
 using namespace std;
 
 class countMinCuts{
