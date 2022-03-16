@@ -1,10 +1,10 @@
 #include <iostream>
-// #include "Formula.h"
-// #include <Adder/adder.h>
-// #include <Sample/sample.h>
-// #include <Sample1/sample1.h>
-// #include <TwoSum/twoSum.h>
-// #include <map>
+#include "Formula.h"
+#include <Adder/adder.h>
+#include <Sample/sample.h>
+#include <Sample1/sample1.h>
+#include <TwoSum/twoSum.h>
+#include <map>
 
 using namespace std;
 
