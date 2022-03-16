@@ -17,3 +17,6 @@ make all
 ```
 ./configure.sh
 ```
+
+# MacOS
+1. C++ 17 is used to resolve problems from filesystem. 
