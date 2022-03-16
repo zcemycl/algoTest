@@ -12,4 +12,4 @@ add_test(NAME ${BINARY} COMMAND ${BINARY})
 
 find_package(SQLite3 REQUIRED)
 target_link_libraries(${BINARY} PUBLIC ${CMAKE_PROJECT_NAME}_lib 
-    gtest SQLite::SQLite3 stdc++fs)
+    gtest SQLite::SQLite3)
