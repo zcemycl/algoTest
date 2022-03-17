@@ -14,8 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install SQLite
+      shell: powershell
       run: 
-        Install-Module -Name SQLite
+        Install-Module -Name SQLite -Force -Verbose
     - name: Example Test
       run: |
         sudo apt-get update
