@@ -17,11 +17,9 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.x
-    - name: Change Directory
-      run: cd cs/sample
-    - name: Restore dependencies
-      run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+    - name: Sample Test
+      run: |
+        cd cs/sample
+        dotnet restore
+        dotnet build --no-restore
+        dotnet test --no-build --verbosity normal
