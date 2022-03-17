@@ -13,6 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Install SQLite
+      run: 
+        Install-Module -Name SQLite
     - name: Example Test
       run: |
         cd cpp\example
@@ -22,7 +25,7 @@ jobs:
         cd ..
         cmake -B build -DCMAKE_BUILD_TYPE=Release
         cd build
-        Install-Module -Name SQLite
+        
         
         
         
