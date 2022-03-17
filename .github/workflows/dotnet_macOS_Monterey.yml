@@ -1,0 +1,31 @@
+name: .NET
+
+on:
+  push:
+    branches: [ macOS_Monterey ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: macos-11
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET 5.0
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+    - name: Setup .NET 6.0
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.x
+    # Test Sample
+    - name: Sample Test
+      run: |
+        cd cs/sample
+        brew install sqlite3 
+        dotnet restore
+        dotnet build --no-restore
+        dotnet test --no-build --verbosity normal
