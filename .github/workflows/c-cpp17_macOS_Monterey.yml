@@ -9,15 +9,16 @@ on:
 jobs:
   build:
 
-    runs-on: macos-11
+    runs-on: macos-12
 
     steps:
     - uses: actions/checkout@v2
     - name: Example Test
       run: |
         brew update
+        brew upgrade
         cd cpp/example
-        brew install sqlite3 libsqlite3-dev
+        brew install sqlite3 
         mkdir -p lib/googletest
         git clone https://github.com/google/googletest/ lib/googletest
         cmake -B build -DCMAKE_BUILD_TYPE=Release
