@@ -22,10 +22,7 @@ jobs:
         cd ..
         cmake -B build -DCMAKE_BUILD_TYPE=Release
         cd build
-        make example_tst
-        cd tst
-        dir
-        .\example_tst
+        Install-Module -Name SQLite
         
         
         
