@@ -1,5 +1,5 @@
 multiset==3.0.1
 parametrized==0.1
-pytest==7.1.0
+pytest
 numpy 
 pandas
