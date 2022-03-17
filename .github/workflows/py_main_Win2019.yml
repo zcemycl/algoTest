@@ -1,0 +1,27 @@
+name: Python3 Win2019 
+
+on:
+  push:
+    branches: [ win2019 ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with: 
+          python-version: 3.8
+
+      # Test python scripts
+      - name: Test with pytest
+        run: |
+          cd py
+          pip install pytest parameterized numpy pandas multiset==2.1.1
+          pytest
