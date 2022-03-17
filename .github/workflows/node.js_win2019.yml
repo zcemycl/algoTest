@@ -1,0 +1,28 @@
+name: NodeJS Win2019 
+
+on:
+  push:
+    branches: [ win2019 ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    strategy:
+      matrix:
+        node-version: [15.x]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Mocha Testings
+      run: |
+        cd js
+        npm install mocha
+        npm ci
+        npm test
