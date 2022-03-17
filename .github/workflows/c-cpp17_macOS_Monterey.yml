@@ -15,10 +15,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Example Test
       run: |
-        brew update
-        brew upgrade
         cd cpp/example
-        brew install sqlite3 
         mkdir -p lib/googletest
         git clone https://github.com/google/googletest/ lib/googletest
         cmake -B build -DCMAKE_BUILD_TYPE=Release
