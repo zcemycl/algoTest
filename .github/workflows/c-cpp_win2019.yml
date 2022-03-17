@@ -1,0 +1,29 @@
+name: C/C++ CI Win2019
+
+on:
+  push:
+    branches: [ win2019 ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Example Test
+      run: |
+        cd cpp\example
+        mkdir lib
+        cd lib
+        git clone https://github.com/google/googletest/ 
+        cd ..
+        cmake -B build -DCMAKE_BUILD_TYPE=Release
+        cd build
+        make example_tst
+        ./tst/example_tst
+        
+        
+        
