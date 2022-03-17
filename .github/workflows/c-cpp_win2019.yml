@@ -19,7 +19,6 @@ jobs:
         Install-Module -Name SQLite -Force -Verbose
     - name: Example Test
       run: |
-        sudo apt-get update
         cd cpp\example
         mkdir lib
         cd lib
