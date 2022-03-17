@@ -18,6 +18,7 @@ jobs:
         Install-Module -Name SQLite
     - name: Example Test
       run: |
+        sudo apt-get update
         cd cpp\example
         mkdir lib
         cd lib
