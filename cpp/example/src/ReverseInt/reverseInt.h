@@ -2,6 +2,7 @@
 #include <math.h>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // #include <sstream>
 // #include <filesystem>
@@ -9,6 +10,8 @@
 >>>>>>> e5ed40a (try running it in macos)
 =======
 >>>>>>> temp
+=======
+>>>>>>> 036bb09 (update)
 
 using namespace std;
 
