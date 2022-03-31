@@ -1,25 +1,22 @@
 
 class Solution:
-    @staticmethod
-    def naive(text1,text2):
+    def naive(self,text1,text2):
         if len(text1)==0 or len(text2)==0: return 0
-        Len = 0
-        for k in range(len(text1)):
-            tmpLen = 0
-            bookmark = 0
-            tmpStr = ""
-            for i,c1 in enumerate(text1[k:]):
-                for j,c2 in enumerate(text2[bookmark:]):
-                    if c1==c2:
-                        tmpStr+=c1
-                        tmpLen+=1
-                        bookmark += j+1
-                        break
-            Len = max(Len,tmpLen)
-        return Len
-    @staticmethod
-    def dfs(text1,text2,acum,i):
-        pass
+        self.l1,self.l2 = len(text1),len(text2)
+        self.Len = 0
+        def recur(i,j,acc):
+            if i==self.l1 or j==self.l2:
+                # print(acc)
+                self.Len = max(self.Len,acc)
+                return
+            if text1[i]==text2[j]:
+                acc+=1
+                recur(i+1,j+1,acc)
+                acc-=1
+            recur(i,j+1,acc)
+            recur(i+1,j,acc)
+        recur(0,0,0)
+        return self.Len
     @staticmethod
     def dp(text1,text2):
         dpl=[[0 for j in range(len(text2)+1)] for i in range(len(text1)+1)]
