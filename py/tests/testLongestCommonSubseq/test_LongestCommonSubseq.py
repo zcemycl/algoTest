@@ -9,8 +9,8 @@ class UnitTest_LongestCommonSubseq(unittest.TestCase):
         ['abc','abc',3],
         ['zzace','abyclle',3],['abyclle','zzace',3],
         ['ezupkr','ubmrapg',2],['bsbininm','jmjkbkjkv',1],
-        # ['ylqpejqbalahwr','yrkzavgdmdgtqpg',3],
-        # ['mhunuzqrkzsnidwbun','szulspmhwpazoxijwbq',6]
+        # ['ylqpejqbalahwr','yrkzavgdmdgtqpg',3], # too long to run
+        # ['mhunuzqrkzsnidwbun','szulspmhwpazoxijwbq',6] # too long to run
     ])
     def test_naive(self,text1,text2,expected):
         s = Solution()
