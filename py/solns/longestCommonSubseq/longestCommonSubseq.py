@@ -4,8 +4,9 @@ class Solution:
         if len(text1)==0 or len(text2)==0: return 0
         self.l1,self.l2 = len(text1),len(text2)
         self.Len = 0
+        self.common = set(text1) & set(text2)
         def recur(i,j,acc):
-            if i==self.l1 or j==self.l2:
+            if i>=self.l1 or j>=self.l2:
                 # print(acc)
                 self.Len = max(self.Len,acc)
                 return
@@ -13,6 +14,12 @@ class Solution:
                 acc+=1
                 recur(i+1,j+1,acc)
                 acc-=1
+            if text1[i] not in self.common:
+                recur(i+1,j,acc)
+                return 
+            if text2[j] not in self.common:
+                recur(i,j+1,acc)
+                return  
             recur(i,j+1,acc)
             recur(i+1,j,acc)
         recur(0,0,0)
