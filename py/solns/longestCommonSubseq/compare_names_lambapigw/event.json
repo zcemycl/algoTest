@@ -1,0 +1,6 @@
+{
+    "queryStringParameters": {
+        "text1": "abc",
+        "text2": "aebdc"
+    }
+}
