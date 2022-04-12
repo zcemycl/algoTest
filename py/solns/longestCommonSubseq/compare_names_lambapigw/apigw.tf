@@ -35,6 +35,16 @@ resource "aws_api_gateway_deployment" "predictDeploy" {
     ]
     rest_api_id = aws_api_gateway_rest_api.func_test_api.id 
     stage_name = "v1"
+    triggers = {
+        redeployment = sha1(jsonencode([
+            aws_api_gateway_resource.predictResource,
+            aws_api_gateway_method.predictMethod,
+            aws_api_gateway_integration.predictInt
+        ]))
+    }
+    lifecycle {
+        create_before_destroy = true
+    }
     provisioner "local-exec" {
         command = "echo ${aws_api_gateway_deployment.predictDeploy.invoke_url} >> apikey.txt"
     }
