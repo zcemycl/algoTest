@@ -158,7 +158,7 @@ pytest
 |119|Pascal's Triangle II|||[:shipit:](py/solns/pascalTriangle2/pascalTriangle2.py)|List|
 |121*|Best Time to Buy and Sell Stock|[:shipit:](cpp/example/src/BestTime2BuyAndSellStock/bestTime2BuyAndSellStock.cpp) [:heavy_check_mark:](cpp/example/tst/BestTime2BuyAndSellStock/BestTime2BuyAndSellStock-test.cpp)|[:shipit:](cs/sample/Sample/BestTime2BuyAndSellStock/BestTime2BuyAndSellStock.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/BestTime2BuyAndSellStock/testBestTime2BuyAndSellStock.cs)|[:shipit:](py/solns/bestTime2BuyAndSellStock/bestTime2BuyAndSellStock.py) [:heavy_check_mark:](py/tests/testBestTime2BuyAndSellStock/test_BestTime2BuyAndSellStock.py)|Array|
 |122|Best Time to Buy and Sell Stock II|||[:shipit:](py/solns/bestTime2BuyAndSellStock2/bestTime2BuyAndSellStock2.py)|Array|
-|124*|Binary Tree Maximum Path Sum||||Binary Tree|
+|124*|Binary Tree Maximum Path Sum|||[:shipit:](py/solns/binaryTreeMaxPathSum/binaryTreeMaxPathSum.py) [:heavy_check_mark:](py/tests/testBinaryTreeMaxPathSum/test_BinaryTreeMaxPathSum.py)|Binary Tree|
 |125*|Valid Palindrome|||[:shipit:](py/solns/validPalindrome/validPalindrome.py) [:heavy_check_mark:](py/tests/testValidPalindrome/test_ValidPalindrome.py)|String, Two Pointers|
 |128*|Longest Consecutive Sequence|||[:shipit:](py/solns/longestConsecutiveSeq/longestConsecutiveSeq.py) [:heavy_check_mark:](py/tests/testLongestConsecutiveSeq/test_LongestConsecutiveSeq.py)|Set, Graph|
 |129|Sum Root to Leaf Numbers|||[:shipit:](py/solns/sumRoot2LeafNo/sumRoot2LeafNo.py)|Binary Tree|
