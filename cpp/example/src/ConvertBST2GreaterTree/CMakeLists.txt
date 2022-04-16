@@ -1,0 +1,1 @@
+add_library(convertBST2GreaterTree convertBST2GreaterTree.cpp convertBST2GreaterTree.h)
