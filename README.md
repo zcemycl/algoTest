@@ -136,8 +136,8 @@ pytest
 |70*|Climbing Stairs|[:shipit:](cpp/example/src/ClimbingStairs/climbingStairs.cpp) [:heavy_check_mark:](cpp/example/tst/ClimbingStairs/ClimbingStairs-test.cpp)|[:shipit:](cs/sample/Sample/ClimbingStairs/ClimbingStairs.cs) [:heavy_check_mark:](cs/sample/Sample.Tests/ClimbingStairs/testClimbingStairs.cs)|[:shipit:](py/solns/climbingStairs/climbingStairs.py) [:heavy_check_mark:](py/tests/testClimbingStairs/test_ClimbingStairs.py)|Dynamic Programming|
 |73*|Set Matrix Zeros|||[:shipit:](py/solns/setMatrixZeros/setMatrixZeros.py) [:heavy_check_mark:](py/tests/testSetMatrixZeros/test_SetMatrixZeros.py)|Matrix|
 |74|Search a 2D Matrix|||[:shipit:](py/solns/search2DMat/search2DMat.py)|Binary Search, Matrix|
+|76*|Minimum Window Substring|||[:shipit:](py/solns/minWindowSubstr/minWindowSubstr.py) [:heavy_check_mark:](py/tests/testMinWindowSubstr/test_MinWindowSubstr.py)|String|
 |77|Combinations|||[:shipit:](py/solns/combinations/combinations.py) [:heavy_check_mark:](py/tests/testCombinations/test_Combinations.py)|DFS|
-|76*|Minimum Window Substring||||String|
 |78|Subsets|||[:shipit:](py/solns/subsets/subsets.py) [:heavy_check_mark:](py/tests/testSubsets/test_Subsets.py)|DFS|
 |79*|Word Search|||[:shipit:](py/solns/wordSearch/wordSearch.py) [:heavy_check_mark:](py/tests/testWordSearch/test_WordSearch.py)|Matrix|
 |82|Remove Duplicates from Sorted Array 2|||[:shipit:](py/solns/rmDuplicatesFromSortedArr2/rmDuplicatesFromSortedArr2.py) [:heavy_check_mark:](py/tests/testRmDuplicatesFromSortedArr2/test_RmDuplicatesFromSortedArr2.py)|Linked List|
