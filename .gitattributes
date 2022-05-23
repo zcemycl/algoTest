@@ -77,7 +77,6 @@
 # ============
 *.db     binary
 *.p      binary
-*.pkl    binary
 *.pickle binary
 *.pyc    binary export-ignore
 *.pyo    binary export-ignore
@@ -90,6 +89,4 @@
 # with the python modules ``pickle``, ``dbm.*``,
 # ``shelve``, ``marshal``, ``anydbm``, & ``bsddb``
 # (among others).
-
-
 
