@@ -8,7 +8,8 @@
 *.h     text diff=cpp
 *.h++   text diff=cpp
 *.hh    text diff=cpp
-*.cu  text diff=cuda
+*.cu    text diff=cuda
+*.cuh   text diff=cuda
 
 # Compiled Object files
 *.slo   binary
