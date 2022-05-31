@@ -17,7 +17,7 @@ example.version
 ####
 ```
 
-### Method 2
+### Method 2 (required `pip install pybind11[global]`)
 1. Create `CMakeLists.txt` in parent directory of src. 
 2. Compile the library via, 
 ```
