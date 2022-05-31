@@ -1,0 +1,9 @@
+/home/yui/anaconda3/lib/python3.7/site-packages/example-0.0.0-py3.7-linux-x86_64.egg/example.cpython-37m-x86_64-linux-gnu.so
+/home/yui/anaconda3/lib/python3.7/site-packages/example-0.0.0-py3.7-linux-x86_64.egg/example.py
+/home/yui/anaconda3/lib/python3.7/site-packages/example-0.0.0-py3.7-linux-x86_64.egg/__pycache__/example.cpython-37.pyc
+/home/yui/anaconda3/lib/python3.7/site-packages/example-0.0.0-py3.7-linux-x86_64.egg/EGG-INFO/top_level.txt
+/home/yui/anaconda3/lib/python3.7/site-packages/example-0.0.0-py3.7-linux-x86_64.egg/EGG-INFO/not-zip-safe
+/home/yui/anaconda3/lib/python3.7/site-packages/example-0.0.0-py3.7-linux-x86_64.egg/EGG-INFO/native_libs.txt
+/home/yui/anaconda3/lib/python3.7/site-packages/example-0.0.0-py3.7-linux-x86_64.egg/EGG-INFO/SOURCES.txt
+/home/yui/anaconda3/lib/python3.7/site-packages/example-0.0.0-py3.7-linux-x86_64.egg/EGG-INFO/dependency_links.txt
+/home/yui/anaconda3/lib/python3.7/site-packages/example-0.0.0-py3.7-linux-x86_64.egg/EGG-INFO/PKG-INFO

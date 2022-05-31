@@ -30,3 +30,16 @@ cmake --install build # create example.cpython-37m-x86_64-linux-gnu.so
 import build.example as e
 e.add(1,2)
 ```
+
+### Method 3 setuptools
+1. Create `setup.py`.
+2. Install it via,
+```
+python setup.py install --record files.txt
+pip install .
+``` 
+3. Uninstall via,
+```
+xargs rm -rf < files.txt
+pip uninstall example
+```
