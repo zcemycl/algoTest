@@ -1,0 +1,7 @@
+include src/CMakeLists.txt
+include src/cudalib.h
+include src/cudemo.cu
+include src/cudemo.cuh
+include pycudemo/core.cpp
+include tests/CMakeLists.txt
+include tests/testDriver.cpp
