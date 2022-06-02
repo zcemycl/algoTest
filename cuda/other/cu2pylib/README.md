@@ -1,3 +1,6 @@
+## Create Cuda library for Python
+It uses CMake, C++ and Cuda to create pip package for python.
+
 ### How to run?
 - In your root folder, run via,
     ```
@@ -40,3 +43,4 @@
 
 ### References
 - https://stackoverflow.com/questions/65605972/cmake-unsupported-gnu-version-gcc-versions-later-than-8-are-not-supported
+- http://alanpryorjr.com/2017-07-12-pipcudemo/
