@@ -10,3 +10,4 @@ python -c "import gpu_library as g; print(g.add(3,4))"
 ```
 
 ### Method 2 (setup.py not working)
+- There could be a method combining torch cuda extension and pybind11 to create setup script.
