@@ -1,1 +1,1 @@
-# from pycudemo.core import *
+from pycudemo.core import *

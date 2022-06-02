@@ -1,6 +1,6 @@
 from setuptools import setup, Extension
 
-pycudemo_core = Extension('pycudemo',
+pycudemo_core = Extension('pycudemo.core',
 	sources=['pycudemo/core.cpp'],
 	include_dirs = ['src'],
 	libraries=['cudalib'])
