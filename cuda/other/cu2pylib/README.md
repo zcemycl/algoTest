@@ -4,6 +4,13 @@
     cmake -S . -B build
     cmake --build build -j 2
     ./build/tests/tst_cudalib 
+
+    ### for every new terminal/ put them in .bashrc
+    export LIBRARY_PATH=/home/yui/Documents/proj/github/algoTest/cuda/other/cu2pylib/build/src:$LIBRARY_PATH
+    export LD_LIBRARY_PATH=/home/yui/Documents/proj/github/algoTest/cuda/other/cu2pylib/build/src:$LD_LIBRARY_PATH
+    ###
+
+    env | grep LIBRARY_PATH # check path is set up
     pip install .
     cd ..
     python -c "import pycudemo as p; print(p.add(3,4))"
@@ -25,6 +32,10 @@
     sudo ln -s /usr/bin/gcc-7 /usr/bin/cc
     sudo ln -s /usr/bin/g++-7 /usr/bin/c++
     gcc --version
+    ```
+- This error arises from LD_LIBRARY_PATH and LIBRARY_PATH, 
+    ```
+    ImportError: libcudalib.so: cannot open shared object file: No such file or directory
     ```
 
 ### References
