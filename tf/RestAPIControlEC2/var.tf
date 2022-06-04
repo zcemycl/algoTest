@@ -14,7 +14,7 @@ variable "ec2_config" {
         type = "t2.micro"
         # type = "g4dn.xlarge"
         ami = "ami-0b2834542914df958"
-        root_volume_size = 100
+        root_volume_size = 50
         root_volume_type = "io2"
         root_volume_iops = 100
         user = "ubuntu"
@@ -30,7 +30,7 @@ variable "ebs_config" {
     default = {
         region = "eu-west-2"
         az = "eu-west-2a"
-        size = 30
+        size = 10
         iops = 100
         type = "io2"
         multi_attach_enabled = false
