@@ -618,3 +618,4 @@ mykey.pub
 .terraform/
 *.hcl
 *.csv
+leoTestRepo/
