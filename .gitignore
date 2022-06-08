@@ -616,3 +616,5 @@ info.txt
 mykey.pub
 *.zip
 .terraform/
+*.hcl
+*.csv

@@ -14,7 +14,7 @@ resource "aws_lambda_function" "test_lambda"{
     handler = "${lookup(var.lambda_config,"handler")}"
     source_code_hash = data.archive_file.lambda_function.output_base64sha256
     runtime = "${lookup(var.lambda_config,"runtime")}"
-    role = "${aws_iam_role.lambda_role.arn}"
+    role = "${aws_iam_role.lambda_role_2.arn}"
 
     provisioner "local-exec" {
         command = "echo ${aws_lambda_function.test_lambda.invoke_arn} >> info.txt"
