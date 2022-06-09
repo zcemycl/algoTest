@@ -1,6 +1,6 @@
 import unittest
 from parameterized import parameterized as p
-from flask.src.utils.utils import *
+from web.utils.utils import *
 
 class UnitTest_Utils(unittest.TestCase):
     @p.expand([

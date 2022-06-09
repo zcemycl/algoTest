@@ -3,12 +3,11 @@ phases:
   install: 
     commands: 
       - echo "install step"
+      - pip install -r requirements.txt
+      - echo $CODEBUILD_SRC_DIR
+      - pwd
   pre_build: 
     commands: 
-      - echo "pre_build step"
-  build:
-    commands: 
-      - echo "build command"
-  post_build:
-    commands: 
-      - echo "post_build step"
+      - echo "test step"
+      - export PYTHONPATH=$(pwd)
+      - pytest

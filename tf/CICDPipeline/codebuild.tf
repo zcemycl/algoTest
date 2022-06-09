@@ -34,6 +34,27 @@ resource "aws_iam_role_policy" "example" {
         "logs:CreateLogStream",
         "logs:PutLogEvents"
       ]
+    },
+    {
+      "Action": [
+       "s3:PutObject",
+       "s3:GetObject",
+       "s3:GetObjectVersion",
+       "s3:GetBucketVersioning"
+      ],
+      "Resource": [
+        "*"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Effect": "Allow",
+      "Resource": [
+        "*"
+      ],
+      "Action": [
+        "codebuild:*"
+      ]
     }
   ]
 }
@@ -60,6 +81,10 @@ resource "aws_codebuild_project" "leo_test_build" {
     }
 
     source_version = "refs/heads/master"
+    # source {
+    #     type = "CODEPIPELINE"
+    #     buildspec = "${file("config/buildspec.yml")}"
+    # }
 
     environment {
         compute_type = "BUILD_GENERAL1_SMALL"
@@ -67,8 +92,12 @@ resource "aws_codebuild_project" "leo_test_build" {
         type = "LINUX_CONTAINER"
     }    
 
+    # artifacts {
+    #     type = "CODEPIPELINE"
+    # }
+
     artifacts {
-        type = "NO_ARTIFACTS"
+      type = "NO_ARTIFACTS"
     }
 
     logs_config {
