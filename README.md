@@ -15,9 +15,12 @@ algoTest
 │   └── sample (Leetcode c# questions)
 │       ├── Sample (solutions)
 │       └── Sample.Tests (test scripts)
+├── cu [cuda]
 ├── py [Python3] 
 │   ├── solns (solutions)
 │   └── tests (test scripts)
+├── js [NodeJS]
+├── tf [Terraform + AWS]
 ├── sh [Shell] 
 └── sql [SQL] 
 ```
