@@ -1,5 +1,17 @@
 # Algorithm Tests [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) <br>
+
+
+|Ubuntu|MacOS|Win2019|
+|---|---|---|
+|![example workflow](https://github.com/zcemycl/algoTest/actions/workflows/py_main.yml/badge.svg)|![example workflow](https://github.com/zcemycl/algoTest/actions/workflows/py-main_macOS_Monterey.yml/badge.svg)|![example workflow](https://github.com/zcemycl/algoTest/actions/workflows/py_main_Win2019.yml/badge.svg)|
+|![example workflow](https://github.com/zcemycl/algoTest/actions/workflows/c-cpp.yml/badge.svg)|![example workflow](https://github.com/zcemycl/algoTest/actions/workflows/c-cpp17_macOS_Monterey.yml/badge.svg)|![example workflow](https://github.com/zcemycl/algoTest/actions/workflows/c-cpp_win2019.yml/badge.svg)|
+|![example workflow](https://github.com/zcemycl/algoTest/actions/workflows/dotnet.yml/badge.svg)|![example workflow](https://github.com/zcemycl/algoTest/actions/workflows/dotnet_macOS_Monterey.yml/badge.svg)|![example workflow](https://github.com/zcemycl/algoTest/actions/workflows/dotnet_win2019.yml/badge.svg)|
+|![example workflow](https://github.com/zcemycl/algoTest/actions/workflows/node.js.yml/badge.svg)|![example workflow](https://github.com/zcemycl/algoTest/actions/workflows/nodejs_macOS_Monterey.yml/badge.svg)|![example workflow](https://github.com/zcemycl/algoTest/actions/workflows/node.js_win2019.yml/badge.svg)|
+
+
+
+
+<br>
 The repo is about transitioning from Python to C family programming. It implements algorithms with C++(Cmake), C#(dotnet), Python(pip) and Javascript(node), and test them with gtest, Xunits, pytest and mocha respectively. To ensure the code quality, it deploys testings via github actions.
 
 ## Structures
