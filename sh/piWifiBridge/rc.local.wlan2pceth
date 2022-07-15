@@ -1,0 +1,9 @@
+#!/bin/sh -e
+_IP=$(hostname -I) || true
+if [ "$_IP" ]; then
+  printf "My IP address is %s\n" "$_IP"
+fi
+
+sudo iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE
+
+exit 0

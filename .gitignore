@@ -619,3 +619,5 @@ mykey.pub
 *.hcl
 *.csv
 leoTestRepo/
+.vscode/launch.json
+.vscode/tasks.json
