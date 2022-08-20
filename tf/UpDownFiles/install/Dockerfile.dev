@@ -1,0 +1,17 @@
+FROM ubuntu:latest
+
+RUN set -xe \
+    && apt-get update -y \
+    && apt-get install python3-pip -y
+RUN pip install --upgrade pip
+
+
+COPY install/requirements.dev.txt /tmp/
+COPY client/app.py /app.py
+
+RUN pip install -r /tmp/requirements.dev.txt
+
+ENTRYPOINT [ "python3" ]
+CMD [ "app.py" ]
+
+EXPOSE 8050
