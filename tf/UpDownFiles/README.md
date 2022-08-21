@@ -20,3 +20,13 @@ docker push {aws_ecr_repository.my_first_ecr_repo.repository_url}:latest
 6. Link task to cluster
 7. Change the ec2 sg with 8888 ingress
 8. Browse public dns address
+
+
+### References
+1. [Deploying Django to AWS ECS with Terraform](https://testdriven.io/blog/deploying-django-to-ecs-with-terraform/)
+2. [How to use Docker to deploy a Dashboard app on AWS](https://towardsdatascience.com/how-to-use-docker-to-deploy-a-dashboard-app-on-aws-8df5fb322708)
+3. [How to Deploy a Dockerised Application on AWS ECS With Terraform](https://medium.com/avmconsulting-blog/how-to-deploy-a-dockerised-node-js-application-on-aws-ecs-with-terraform-3e6bceb48785)
+4. [Deploying an AWS ECS Cluster of EC2 Instances With Terraform](https://medium.com/swlh/creating-an-aws-ecs-cluster-of-ec2-instances-with-terraform-85a10b5cfbe3)
+5. [How to Deploy a Docker App to AWS using Elastic Container Service (ECS)](https://www.youtube.com/watch?v=zs3tyVgiBQQ&t=157s)
+6. [Managing Amazon ECS Using Terraform](https://hands-on.cloud/managing-amazon-ecs-using-terraform/)
+7. [Create an AWS ECS Cluster Using Terraform ](https://dev.to/thnery/create-an-aws-ecs-cluster-using-terraform-g80)
