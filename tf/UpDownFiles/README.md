@@ -15,3 +15,8 @@ aws-vault exec xxx -- aws ecr get-login-password --region {var.AWS_REGION} | doc
 docker tag dash:latest {aws_ecr_repository.my_first_ecr_repo.repository_url}:latest
 docker push {aws_ecr_repository.my_first_ecr_repo.repository_url}:latest
 ```
+4. create ecs cluster (ec2 linux + networking: cluster, asg, subnets, vpc)
+5. create ecs task (ec2)
+6. Link task to cluster
+7. Change the ec2 sg with 8888 ingress
+8. Browse public dns address
