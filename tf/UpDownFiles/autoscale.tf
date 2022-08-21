@@ -1,7 +1,6 @@
 resource "aws_launch_configuration" "ecs_launch_config" {
     image_id             = "ami-070d0f1b66ccfd0fa"
     iam_instance_profile = aws_iam_instance_profile.ecs_agent.name
-    # security_groups      = [aws_security_group.ecs_sg.id]
     security_groups      = [aws_security_group.service_security_group.id]
     user_data            = "#!/bin/bash\necho ECS_CLUSTER=dash-cluster >> /etc/ecs/ecs.config"
     instance_type        = "t3.micro"
@@ -9,6 +8,7 @@ resource "aws_launch_configuration" "ecs_launch_config" {
         volume_size = 30
     }
     associate_public_ip_address = true
+    # associate_public_ip_address = false
 }
 
 resource "aws_autoscaling_group" "failure_analysis_ecs_asg" {

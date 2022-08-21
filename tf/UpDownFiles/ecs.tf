@@ -34,9 +34,6 @@ resource "aws_ecs_service" "dash_service" {
     cluster         = aws_ecs_cluster.dash_cluster.id
     task_definition = aws_ecs_task_definition.dash_task.arn
     desired_count   = 2
-    # scheduling_strategy = "REPLICA"
-    # force_new_deployment = true
-
     network_configuration {
         subnets = aws_subnet.pub_subnet.*.id
         assign_public_ip = false
@@ -57,26 +54,4 @@ resource "aws_ecs_service" "dash_service" {
 
 resource "aws_ecs_cluster" "dash_cluster" {
     name = "dash-cluster"
-}
-
-
-resource "aws_iam_role" "ecsTaskExecutionRole" {
-  name               = "ecsTaskExecutionRole_new"
-  assume_role_policy = "${data.aws_iam_policy_document.assume_role_policy.json}"
-}
-
-data "aws_iam_policy_document" "assume_role_policy" {
-  statement {
-    actions = ["sts:AssumeRole"]
-
-    principals {
-      type        = "Service"
-      identifiers = ["ecs-tasks.amazonaws.com"]
-    }
-  }
-}
-
-resource "aws_iam_role_policy_attachment" "ecsTaskExecutionRole_policy" {
-  role       = "${aws_iam_role.ecsTaskExecutionRole.name}"
-  policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy"
 }
