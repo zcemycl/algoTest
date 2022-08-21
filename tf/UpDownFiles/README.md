@@ -3,6 +3,7 @@
 ```
 docker build -t dash -f install/Dockerfile.dev .
 docker run -dp 8050:8050 dash # http://0.0.0.0:8050
+docker exec -it xxxxx bash
 ```
 2. terraform to create ecr
 ```

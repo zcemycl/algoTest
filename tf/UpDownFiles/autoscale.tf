@@ -1,7 +1,8 @@
 resource "aws_launch_configuration" "ecs_launch_config" {
     image_id             = "ami-070d0f1b66ccfd0fa"
     iam_instance_profile = aws_iam_instance_profile.ecs_agent.name
-    security_groups      = [aws_security_group.ecs_sg.id]
+    # security_groups      = [aws_security_group.ecs_sg.id]
+    security_groups      = [aws_security_group.service_security_group.id]
     user_data            = "#!/bin/bash\necho ECS_CLUSTER=dash-cluster >> /etc/ecs/ecs.config"
     instance_type        = "t3.micro"
     root_block_device {
@@ -12,7 +13,7 @@ resource "aws_launch_configuration" "ecs_launch_config" {
 
 resource "aws_autoscaling_group" "failure_analysis_ecs_asg" {
     name                      = "asg"
-    vpc_zone_identifier       = [aws_subnet.pub_subnet.id]
+    vpc_zone_identifier       = aws_subnet.pub_subnet.*.id
     launch_configuration      = aws_launch_configuration.ecs_launch_config.name
 
     desired_capacity          = 2

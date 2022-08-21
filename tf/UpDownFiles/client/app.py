@@ -84,4 +84,4 @@ def update_output(list_of_contents, list_of_names, list_of_dates):
         return children
 
 if __name__ == '__main__':
-    app.run_server(host='0.0.0.0', port=8050,debug=True)
+    app.run_server(host='0.0.0.0', port=8050,debug=True, dev_tools_hot_reload=False)
