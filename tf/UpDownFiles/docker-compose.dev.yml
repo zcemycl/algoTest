@@ -6,15 +6,25 @@ services:
       dockerfile: Dockerfile.dev
       context: ./client
     ports:
-      - "8050:8050"
+      - 8050:8050
     volumes:
+      - /tmp/
       - ./client/app.py:/app.py
+    networks:
+      - my_network
   server:
     image: dash-server-dev
     build:
       context: ./server
       dockerfile: Dockerfile.server.dev
     ports:
-      - "5000:5000"
+      - 5000:5000
     volumes:
       - ./server/app.py:/app.py
+    networks:
+      - my_network
+    depends_on:
+      - client
+networks: 
+  my_network:
+    driver : bridge

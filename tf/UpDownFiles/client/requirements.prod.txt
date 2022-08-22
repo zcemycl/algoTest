@@ -9,3 +9,4 @@ pandas
 scipy
 matplotlib
 seaborn
+requests

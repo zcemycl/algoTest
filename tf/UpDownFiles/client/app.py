@@ -8,6 +8,8 @@ from dash.dependencies import Input, Output, State
 from dash import dcc, html, dash_table
 
 import pandas as pd
+import requests
+import json
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -36,10 +38,21 @@ app.layout = html.Div([
     html.Div(id='output-data-upload'),
 ])
 
-def parse_contents(contents, filename, date):
+def parse_contents(contents, filename: str, date: float):
     content_type, content_string = contents.split(',')
 
     decoded = base64.b64decode(content_string)
+    try:
+        r = requests.get('http://server:5000/summary', 
+            json={"data": content_string, 
+                "filename": filename, 
+                "date": date})
+        summary = json.loads(r.content)
+        print(summary)
+    except Exception as e:
+        print('[ERROR] ', e)
+        print('[ERROR] Send file unsuccessfully... ')
+
     try:
         if 'csv' in filename:
             # Assume that the user uploaded a CSV file
@@ -55,7 +68,7 @@ def parse_contents(contents, filename, date):
         ])
 
     return html.Div([
-        html.H5(filename),
+        html.H1(filename),
         html.H6(datetime.datetime.fromtimestamp(date)),
 
         dash_table.DataTable(

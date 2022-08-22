@@ -30,12 +30,13 @@ docker push {aws_ecr_repository.my_first_ecr_repo.repository_url}:latest
 
 ### Useful commands
 ```
-docker build -t dash-dev -f install/Dockerfile.dev .
-docker run -p 8050:8050 -v $(pwd)/client/app.py:/app.py dash-dev
-docker build -t dash-server-dev -f install/Dockerfile.server.dev .
+docker build -t dash-client-dev -f client/Dockerfile.dev client
+docker run -p 8050:8050 -v $(pwd)/client/app.py:/app.py dash-client-dev
+docker build -t dash-server-dev -f server/Dockerfile.server.dev server
 docker run -p 5000:5000 -v $(pwd)/server/app.py:/app.py dash-server-dev
-
-docker compose -f install/docker-compose.dev.yml up
+docker logs --follow dask-xxxx-dev
+### latest
+docker compose -f docker-compose.dev.yml up
 ```
 
 
