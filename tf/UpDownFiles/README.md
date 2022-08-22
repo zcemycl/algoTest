@@ -28,6 +28,11 @@ docker push {aws_ecr_repository.my_first_ecr_repo.repository_url}:latest
 7. Change the ec2 sg with 8888 ingress
 8. Browse public dns address
 
+### Useful commands
+```
+
+```
+
 
 ### References
 1. [Deploying Django to AWS ECS with Terraform](https://testdriven.io/blog/deploying-django-to-ecs-with-terraform/)
