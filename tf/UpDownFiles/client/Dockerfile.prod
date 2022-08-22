@@ -5,13 +5,10 @@ RUN set -xe \
     && apt-get install python3-pip -y
 RUN pip install --upgrade pip
 
-
-COPY install/requirements.prod.txt /tmp/
-COPY client/app.py /app.py
-
+COPY requirements.prod.txt /tmp/
 RUN pip install -r /tmp/requirements.prod.txt
 
+COPY app.py /app.py
+EXPOSE 8050
 ENTRYPOINT [ "python3" ]
 CMD [ "app.py", "--dev", "False" ]
-
-EXPOSE 8050

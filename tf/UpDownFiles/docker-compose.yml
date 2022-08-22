@@ -1,0 +1,16 @@
+version: "2.7"
+services:
+  client:
+    image: dash-client-prod
+    build:
+      dockerfile: Dockerfile.prod
+      context: ./client
+    ports:
+      - "8050:8050"
+  server:
+    image: dash-server-prod
+    build:
+      context: ./server
+      dockerfile: Dockerfile.server.prod
+    ports:
+      - "5000:5000"

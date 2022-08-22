@@ -55,7 +55,7 @@ def parse_contents(contents, filename, date):
         ])
 
     return html.Div([
-        html.H2(filename),
+        html.H5(filename),
         html.H6(datetime.datetime.fromtimestamp(date)),
 
         dash_table.DataTable(

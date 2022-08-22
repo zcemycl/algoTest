@@ -1,0 +1,20 @@
+version: "2.7"
+services:
+  client:
+    image: dash-client-dev
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./client
+    ports:
+      - "8050:8050"
+    volumes:
+      - ./client/app.py:/app.py
+  server:
+    image: dash-server-dev
+    build:
+      context: ./server
+      dockerfile: Dockerfile.server.dev
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./server/app.py:/app.py

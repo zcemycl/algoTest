@@ -1,17 +1,17 @@
 import argparse
 import numpy as np
 import pandas as pd
-from flask import Flask, request, send_file
+from flask import Flask, request, send_file, jsonify, render_template
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return {"message", "Hello Flask!"}
+    return "<h4>Hello Flask! Bye Flask!</h4>"
 
 @app.route("/summary", methods=["GET"])
 def summary():
-    return None
+    return jsonify({"message": "Hello Flask!"})
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
