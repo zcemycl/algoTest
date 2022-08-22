@@ -621,3 +621,5 @@ mykey.pub
 leoTestRepo/
 .vscode/launch.json
 .vscode/tasks.json
+
+*.DS_Store
