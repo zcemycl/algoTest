@@ -1,8 +1,14 @@
 ### Notes
 1. testing with dockerfile.
 ```
-docker build -t dash -f install/Dockerfile.dev .
-docker run -dp 8050:8050 dash # http://0.0.0.0:8050
+# http://0.0.0.0:8050
+# prod
+docker build -t dash-prod -f install/Dockerfile.prod .
+docker run -dp 8050:8050 dash-prod 
+# dev
+docker build -t dash-dev -f install/Dockerfile.dev .
+docker run -p 8050:8050 -v $(pwd)/client/app.py:/app.py dash-dev
+# get into running image
 docker exec -it xxxxx bash
 ```
 2. terraform to create ecr

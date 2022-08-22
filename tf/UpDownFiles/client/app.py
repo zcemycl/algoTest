@@ -1,4 +1,5 @@
 import base64
+import argparse
 import datetime
 import io
 
@@ -54,7 +55,7 @@ def parse_contents(contents, filename, date):
         ])
 
     return html.Div([
-        html.H5(filename),
+        html.H2(filename),
         html.H6(datetime.datetime.fromtimestamp(date)),
 
         dash_table.DataTable(
@@ -84,4 +85,10 @@ def update_output(list_of_contents, list_of_names, list_of_dates):
         return children
 
 if __name__ == '__main__':
-    app.run_server(host='0.0.0.0', port=8050,debug=True, dev_tools_hot_reload=False)
+    p = argparse.ArgumentParser()
+    p.add_argument('--host', type=str, default="0.0.0.0")
+    p.add_argument('--port', type=str, default=8050)
+    p.add_argument('--dev', type=bool, default=True)
+    args = p.parse_args()
+    app.run_server(host=args.host, port=args.port,
+        debug=args.dev, dev_tools_hot_reload=args.dev)

@@ -7,11 +7,14 @@ RUN pip install --upgrade pip
 
 
 COPY install/requirements.dev.txt /tmp/
-COPY client/app.py /app.py
-
 RUN pip install -r /tmp/requirements.dev.txt
 
+
+COPY client/app.py /app.py
+
+
+
 ENTRYPOINT [ "python3" ]
-CMD [ "app.py" ]
+CMD [ "app.py", "--dev", "True" ]
 
 EXPOSE 8050

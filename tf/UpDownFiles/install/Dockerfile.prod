@@ -12,6 +12,6 @@ COPY client/app.py /app.py
 RUN pip install -r /tmp/requirements.dev.txt
 
 ENTRYPOINT [ "python3" ]
-CMD [ "app.py" ]
+CMD [ "app.py", "--dev", "False" ]
 
 EXPOSE 8050
