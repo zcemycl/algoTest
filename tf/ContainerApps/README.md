@@ -16,6 +16,7 @@ bicep --version
 
 ### Commands
 ```
+az account list-locations -o table
 az group create --name exampleRG  --location eastus
 az deployment group create --resource-group exampleRG --template-file main.bicep --parameters adminUsername=ubuntu
 az resource list --resource-group exampleRG
