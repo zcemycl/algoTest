@@ -623,3 +623,5 @@ leoTestRepo/
 .vscode/tasks.json
 
 *.DS_Store
+.python_packages
+*.json
