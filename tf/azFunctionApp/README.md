@@ -1,9 +1,15 @@
 ### How to start?
 1. Create Resource group. 
+    ```
+    az group create --name rg-blog-example  --location westeurope
+    ```
 2. Create storage account. (must)
 3. Create function app. (you must choose a location with dynamic workers)
     ```
     az functionapp create --consumption-plan-location westeurope --runtime python --runtime-version 3.7 --functions-version 4 --name leoassassFunc --os-type linux --storage-account funcstorageacc1197 -g rg-blog-sample
+    ### 2 and 3 tegether by bicep
+    az deployment group create --resource-group rg-blog-example --template-file main.bicep --parameters appInsightsLocation=westeurope
+
     ```
 4. Create the folder which contains multiple function folders and settings files.
     a. Use Azure VSCode extension. 
@@ -21,3 +27,8 @@
     - Click in Functions -> Functions. Go to your specific function. 
     - Get Function Url. (It should include a code as api key.)
     - Or get it from Function keys. (Add `?code=` followed by your key, and `&params=` for other parameters.)
+
+### References
+1. [Develop Azure Functions by using Visual Studio Code](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=python)
+2. [Quickstart: Create and deploy Azure Functions resources using Bicep](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-bicep?tabs=CLI)
+3. [Quickstart: Create a Python function in Azure from the command line](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-python?tabs=azure-cli%2Cbash%2Cbrowser)
