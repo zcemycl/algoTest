@@ -1,0 +1,98 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "webAppName": { "type": "string" },
+      "hostingPlanName": {
+        "defaultValue": "[concat('asp-', parameters('webAppName'))]",
+        "type": "string"
+      },
+      "location": {
+        "defaultValue": "CentralUS",
+        "type": "string"
+      },
+      "skuCode": {
+        "defaultValue": "P1v2",
+        "type": "string"
+      },
+      "acrRG": {
+        "type": "string"
+      },
+      "acrURL": {
+        "type": "string"
+      },
+      "acrImage": {
+        "type": "string"
+      },
+      "acrTag": {
+        "type": "string"
+      }
+    },
+    "variables": {
+      "linuxFxVersion": "[concat('DOCKER|', parameters('acrURL'), '/', parameters('acrImage'), ':', parameters('acrTag'))]"
+    },
+    "resources": [
+      {
+        "type": "Microsoft.Resources/deployments",
+        "apiVersion": "2020-10-01",
+        "name": "acrPUll_Permission",
+        "resourceGroup": "[parameters('acrRG')]",
+        "properties": {
+          "mode": "Incremental",
+          "parameters": {},
+          "template": {
+            "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+            "contentVersion": "1.0.0.0",
+            "metadata": {},
+            "parameters": {},
+            "resources": [
+              {
+                "type": "Microsoft.Authorization/roleAssignments",
+                "apiVersion": "2020-04-01-preview",
+                "name": "[guid(concat('Microsoft.Web/sites/', parameters('webAppName')))]",
+                "properties": {
+                  "roleDefinitionId": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Authorization/roleDefinitions/', '7f951dda-4ed3-4680-a7ca-43fe172d538d')]",
+                  "principalId": "[reference(resourceId('Microsoft.Web/sites', parameters('webAppName')),'2019-08-01', 'full').identity.principalId]",
+                  "principalType": "ServicePrincipal"
+                }
+              }
+            ]
+          }
+        },
+        "dependsOn": [
+          "[concat('Microsoft.Web/sites/', parameters('webAppName'))]"
+        ]
+      },
+      {
+        "apiVersion": "2022-03-01",
+        "name": "[parameters('webAppName')]",
+        "type": "Microsoft.Web/sites",
+        "location": "[parameters('location')]",
+        "identity": { "type": "SystemAssigned" },
+        "tags": {},
+        "dependsOn": [
+          "[concat('Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]"
+        ],
+        "properties": {
+          "name": "[parameters('webAppName')]",
+          "siteConfig": {
+            "alwaysOn": true,
+            "linuxFxVersion": "[variables('linuxFxVersion')]",
+            "acrUseManagedIdentityCreds": true
+          },
+          "serverFarmId": "[concat('/subscriptions/', subscription().subscriptionId,'/resourcegroups/', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]"
+        }
+      },
+      {
+        "apiVersion": "2018-11-01",
+        "name": "[parameters('hostingPlanName')]",
+        "type": "Microsoft.Web/serverfarms",
+        "location": "[parameters('location')]",
+        "properties": {
+          "name": "[parameters('hostingPlanName')]",
+          "reserved": true
+        },
+        "sku": { "Name": "[parameters('skuCode')]" }
+      }
+    ]
+  }
