@@ -1,5 +1,8 @@
 ### How to start?
 1. Create Resource Group.
+    ```
+    az group create --name exampleRG  --location uksouth
+    ```
 2. Deploy bicep file. 
     ```
     az deployment group create --resource-group rg-blog-sample --template-file main.bicep --parameters acrName=abcCR
