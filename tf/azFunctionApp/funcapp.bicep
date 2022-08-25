@@ -1,5 +1,6 @@
 param sites_leoleoassassFunc_name string = 'leoleoassassFunc'
-param serverfarms_WestEuropeLinuxDynamicPlan_externalid string = '/subscriptions/6d1996f6-88f5-4de5-960e-1430bd75915b/resourceGroups/rg-example/providers/Microsoft.Web/serverfarms/WestEuropeLinuxDynamicPlan'
+param subscription_id string 
+var serverfarms_WestEuropeLinuxDynamicPlan_externalid = '/subscriptions/${subscription_id}/resourceGroups/rg-example/providers/Microsoft.Web/serverfarms/WestEuropeLinuxDynamicPlan'
 param location string = resourceGroup().location
 // param func_name string = ''
 param customDomainVerificationId string = ''
