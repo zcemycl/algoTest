@@ -6,10 +6,9 @@
 2. Create storage account. (must)
 3. Create function app. (you must choose a location with dynamic workers)
     ```
-    az functionapp create --consumption-plan-location westeurope --runtime python --runtime-version 3.7 --functions-version 4 --name leoassassFunc --os-type linux --storage-account funcstorageacc1197 -g rg-blog-sample
+    az functionapp create --consumption-plan-location westeurope --runtime python --runtime-version 3.7 --functions-version 4 --name leoassassFunc --os-type linux --storage-account funcstorageacc1197 -g rg-blog-example
     ### 2 and 3 tegether by bicep
-    az deployment group create --resource-group rg-blog-example --template-file main.bicep --parameters appInsightsLocation=westeurope
-
+    az deployment group create -g rg-blog-example --template-file main.bicep --parameters appInsightsLocation=westeurope appName=leosleepyFunc
     ```
 4. Create the folder which contains multiple function folders and settings files.
     a. Use Azure VSCode extension. 
