@@ -22,7 +22,7 @@ def summary():
                 # Assume that the user uploaded a CSV file
                 df = pd.read_csv(
                     io.StringIO(decoded.decode('utf-8')))
-            elif 'xls' in filename:
+            elif 'xls' in content['filename']:
                 # Assume that the user uploaded an excel file
                 df = pd.read_excel(io.BytesIO(decoded))
             df_tmp = df["contributor_occupation"]\
