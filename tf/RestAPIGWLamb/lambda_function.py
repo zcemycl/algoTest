@@ -1,4 +1,4 @@
-import json 
+import json
 
 print("Loading function")
 

@@ -1,15 +1,14 @@
-import base64
 import argparse
+import base64
 import datetime
 import io
+import json
 
 import dash
-from dash.dependencies import Input, Output, State
-from dash import dcc, html, dash_table
-
 import pandas as pd
 import requests
-import json
+from dash import dash_table, dcc, html
+from dash.dependencies import Input, Output, State
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 

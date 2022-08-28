@@ -1,6 +1,8 @@
 import unittest
+
 from parameterized import parameterized as p
 from web.utils.utils import *
+
 
 class UnitTest_Utils(unittest.TestCase):
     @p.expand([

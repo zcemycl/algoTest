@@ -1,5 +1,7 @@
-import boto3
 import json
+
+import boto3
+
 region = "eu-west-2"
 ec2 = boto3.client("ec2", region_name=region)
 

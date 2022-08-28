@@ -1,9 +1,10 @@
 import argparse
 import base64
 import io
+
 import numpy as np
 import pandas as pd
-from flask import Flask, request, send_file, jsonify, render_template
+from flask import Flask, jsonify, render_template, request, send_file
 
 app = Flask(__name__)
 
