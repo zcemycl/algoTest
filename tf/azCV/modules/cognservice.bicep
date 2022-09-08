@@ -6,13 +6,24 @@ param createdBy string = 'Leo Leung'
 param projectName string = 'Azure Trial'
 param dateTime string = utcNow()
 
-module cogncv './modules/cognservice.bicep' = {
-  name: 'cognitive-service-example'
-  params: {
-    uniqueName: uniqueName
-    location: location
+var cogncvName = '${uniqueName}cogncv'
+
+resource cogncv 'Microsoft.CognitiveServices/accounts@2022-03-01' = {
+  name: cogncvName
+  location: location
+  tags: {
     createdBy: createdBy
     projectName: projectName
     dateTime: dateTime
+  }
+  sku: {
+    name: 'F0'
+  }
+  kind: 'ComputerVision'
+  identity: {
+    type: 'SystemAssigned'
+  }
+  properties: {
+    publicNetworkAccess: 'Enabled'
   }
 }
