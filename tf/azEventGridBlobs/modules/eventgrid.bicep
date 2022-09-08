@@ -50,17 +50,6 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2021-08-01' = {
   }
 }
 
-// module queue_message_add './permission.bicep' = {
-//   name: 'queue_msg_add_permission'
-//   // scope: resourceGroup(storageAccount)
-//   params: {
-//     resourceId_Microsoft_BlobName: reference(storageAccount.id, '2019-08-01', 'full')
-//     blobName: blobName
-//   }
-// }
-
-// param StorageAccounts_externalid string = '/subscriptions/${subscription().subscriptionId}/resourceGroups/${resourceGroup().name}/providers/Microsoft.Storage/StorageAccounts/${storageAccount.name}'
-
 resource systemTopics_event_grid 'Microsoft.EventGrid/systemTopics@2022-06-15' = {
   name: eventGridName
   location: location
