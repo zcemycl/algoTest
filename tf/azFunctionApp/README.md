@@ -27,6 +27,26 @@
     - Get Function Url. (It should include a code as api key.)
     - Or get it from Function keys. (Add `?code=` followed by your key, and `&params=` for other parameters.)
 
+### Useful commands
+1. Get the invoke url.
+    ```
+    FUNCAPP_URL=`az functionapp function show \
+    --function-name HttpTrigger1 \
+    --name leofuncappuploadexcel11 \
+    -g exampleRG \
+    --query "invokeUrlTemplate" \
+    --output tsv`
+    ```
+2. Get the code for calling url with authorisation. 
+    ```
+    FUNCAPP_CODE=`az functionapp function keys list \
+    --function-name HttpTrigger1 \
+    --name leofuncappuploadexcel11 \
+    -g exampleRG \
+    --query default -o tsv`
+    ```
+
+
 ### References
 1. [Develop Azure Functions by using Visual Studio Code](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=python)
 2. [Quickstart: Create and deploy Azure Functions resources using Bicep](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-bicep?tabs=CLI)
