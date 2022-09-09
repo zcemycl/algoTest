@@ -625,3 +625,6 @@ leoTestRepo/
 *.DS_Store
 .python_packages
 *.json
+sample.bicep
+sample.json
+test.json
