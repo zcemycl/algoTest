@@ -628,3 +628,5 @@ leoTestRepo/
 sample.bicep
 sample.json
 test.json
+gcpuser
+gcpuser.pub

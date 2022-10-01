@@ -23,7 +23,7 @@ resource "google_compute_address" "static" {
 resource "google_compute_instance" "apache" {
     name = "apache"
     zone = data.google_compute_zones.availability_zones.names[0]
-    tags = ["allow-http"]
+    tags = ["allow-http", "allow-ssh"]
 
     machine_type = "e2-micro"
 
@@ -41,6 +41,10 @@ resource "google_compute_instance" "apache" {
         }
     }
 
+    metadata = {
+        ssh-keys = "gcpuser:${file("./gcpuser.pub")}"
+    }
+
     metadata_startup_script = file("startup_script.sh")
 }
 
@@ -56,4 +60,17 @@ resource "google_compute_firewall" "allow_http" {
     target_tags = ["allow-http"]
 
     priority = 1000
+}
+
+resource "google_compute_firewall" "ssh-rule" {
+    name = "allow-ssh-rule"
+    network = "default"
+
+    allow {
+        ports = ["22"]
+        protocol = "tcp"
+    }
+
+    target_tags = ["allow-ssh"]
+    source_ranges = ["0.0.0.0/0"]
 }
