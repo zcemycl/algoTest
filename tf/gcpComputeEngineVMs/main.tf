@@ -42,10 +42,10 @@ resource "google_compute_instance" "apache" {
     }
 
     metadata = {
-        ssh-keys = "gcpuser:${file("./gcpuser.pub")}"
+        ssh-keys = "${var.ssh_user}:${file(var.ssh_public_key)}"
     }
 
-    metadata_startup_script = file("startup_script.sh")
+    metadata_startup_script = file("${var.startup_script}")
 }
 
 resource "google_compute_firewall" "allow_http" {
