@@ -72,3 +72,4 @@
 8. [What Is the Python Global Interpreter Lock (GIL)?](https://realpython.com/python-gil/)
 9. [Intro to Threads and Processes in Python](https://medium.com/@bfortuner/python-multithreading-vs-multiprocessing-73072ce5600b)
 10. [What Is Hyper-Threading?](https://www.intel.co.uk/content/www/uk/en/gaming/resources/hyper-threading.html)
+11. [cls vs self — Method Types In Python](https://levelup.gitconnected.com/method-types-in-python-2c95d46281cd)
