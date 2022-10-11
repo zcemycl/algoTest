@@ -60,7 +60,11 @@
             def noofsides(self):
                 pass
         ```
-    
+15. P vs NP vs NP Hard vs NP Complete
+    - P: The general class of questions for which some algorithms can provide an answer in polynomial time.
+    - NP (nondeterministic polynomial time): The class of questions for which an answer can be verified in polynomial time.
+    - NP hard (nondeterministic polynomial acceptable problems): It is suspected that there are no polynomial-time algorithms for NP-hard problems (not proven, hypothesis). Finding a polynomial time algorithm to solve any NP-hard problem would give polynomial time algorithms for all the problems in NP. 
+    - NP Complete (nondeterministic polynomial time complete): It is a problem for which the correctness of each solution can be verified quickly (in polynomial time) and a brutal-force search algorithm can find a solution by trying all possible solutions.
 ### References
 1. [Two's complement](https://en.wikipedia.org/wiki/Two%27s_complement)
 2. [The Magic That Runs Your Code: Python Interpreters](https://www.codingdojo.com/blog/interpreters-run-python-code)
