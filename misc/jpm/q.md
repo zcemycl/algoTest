@@ -64,7 +64,24 @@
     - P: The general class of questions for which some algorithms can provide an answer in polynomial time.
     - NP (nondeterministic polynomial time): The class of questions for which an answer can be verified in polynomial time.
     - NP hard (nondeterministic polynomial acceptable problems): It is suspected that there are no polynomial-time algorithms for NP-hard problems (not proven, hypothesis). Finding a polynomial time algorithm to solve any NP-hard problem would give polynomial time algorithms for all the problems in NP. 
+        ```
+        P \neq NP
+        ```
     - NP Complete (nondeterministic polynomial time complete): It is a problem for which the correctness of each solution can be verified quickly (in polynomial time) and a brutal-force search algorithm can find a solution by trying all possible solutions.
+16. Program counter
+    - a register in a computer processor that contains the address of the instruction being executed at the current time. As each instruction gets fetched, the program counter increases its stored value by 1. After the instruction is fetched, the program counter points to the next instruction in the sequence. When the computer restarts or is reset, the program counter normally reverts to 0.
+17. CPU register
+    - A quickly accessible location available to a computer processor.
+18. Lock vs Mutex vs Semaphore vs Monitor 
+    - Lock only allows only one thread to enter the part thats locked and the lock is not shared with any other processes.
+    - Mutex can work across multiple processes, such as computer-wide and application-wide.
+    - Semaphore allows a limited number of threads to enter. 
+    - Monitor in an operating system is one method for achieving process synchronization. Programming languages help the monitor to accomplish mutual exclusion between different activities in a system.
+19. Deadlock vs Livelock vs Starvation
+    - Deadlock is a situation in which more than 1 process is blocked because it is holding a resource and also requires some resource that is acquired by some other process.
+    - Livelock occurs when 2 or more processes continually repeat the same interaction in response to changes in the other processes without doing any useful work.
+    - Starvation: When requests for resources keep on happening, some processes may never get serviced due to policy even though they are not deadlocked.
+
 ### References
 1. [Two's complement](https://en.wikipedia.org/wiki/Two%27s_complement)
 2. [The Magic That Runs Your Code: Python Interpreters](https://www.codingdojo.com/blog/interpreters-run-python-code)
