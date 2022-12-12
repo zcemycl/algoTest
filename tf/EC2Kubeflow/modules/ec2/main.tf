@@ -17,7 +17,8 @@ resource "aws_instance" "example" {
     }
     provisioner "remote-exec"{
         inline = [
-            "ls"
+            "chmod +x /tmp/setup.sh",
+            "source /tmp/setup.sh"
         ]
     }
 

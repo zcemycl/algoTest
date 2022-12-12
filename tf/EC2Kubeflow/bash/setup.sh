@@ -18,4 +18,4 @@ juju deploy kubeflow --channel=${CHANNEL} --trust
 
 USERNAME="user123@email.com"; PASSWORD="user123"; juju config dex-auth public-url=http://10.64.140.43.nip.io; juju config oidc-gatekeeper public-url=http://10.64.140.43.nip.io; juju config dex-auth static-username=${USERNAME}; juju config dex-auth static-password=${PASSWORD}
 juju run --unit istio-pilot/0 -- "export JUJU_DISPATCH_PATH=hooks/config-changed; ./dispatch" # bug here https://github.com/canonical/istio-operators/issues/113
-nice -n 16 watch -n 1 -c juju status --relations --color
+# nice -n 16 watch -n 1 -c juju status --relations --color
