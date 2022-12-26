@@ -22,6 +22,6 @@ module "emr" {
     emr_service_role = module.iam.emr_service_role
     emr_autoscaling_role = module.iam.emr_autoscaling_role
     emr_ec2_instance_profile = module.iam.emr_ec2_instance_profile
-    emr_master_security_group = module.security.sg_master_name
-    emr_slave_security_group = module.security.sg_slave_name
+    emr_master_security_group = module.security.sg_master_id
+    emr_slave_security_group = module.security.sg_slave_id
 }

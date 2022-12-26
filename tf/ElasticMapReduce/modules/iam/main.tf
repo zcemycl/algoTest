@@ -44,7 +44,7 @@ resource "aws_iam_role" "emr_autoscaling_role" {
 
 resource "aws_iam_role_policy_attachment" "emr_autoscaling_role" {
     role = aws_iam_role.emr_autoscaling_role.name
-    policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceForAutoScalingRole"
+    policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceforAutoScalingRole"
 }
 
 # IAM role for EC2
@@ -79,7 +79,7 @@ resource "aws_iam_instance_profile" "emr_ec2_instance_profile" {
 # s3 policy ?master and slave
 # master
 resource "aws_iam_policy" "user1_policy" {
-    name = "user1 iam policy"
+    name = "user1_iam_policy"
     description = "A test policy"
 
     policy = <<EOF
@@ -104,7 +104,7 @@ EOF
 
 # slave?
 resource "aws_iam_policy" "user2_policy" {
-    name = "user2 iam policy"
+    name = "user2_iam_policy"
     description = "A test policy"
 
     policy = <<EOF
@@ -125,7 +125,7 @@ EOF
 }
 
 resource "aws_iam_user_policy_attachment" "s3_bucket_for_iam_attach_user1" {
-    user = "user1 iam"
+    user = aws_iam_user.new_user[0].name
     policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceRole"
     depends_on = [
         aws_iam_user.new_user
@@ -133,7 +133,7 @@ resource "aws_iam_user_policy_attachment" "s3_bucket_for_iam_attach_user1" {
 }
 
 resource "aws_iam_user_policy_attachment" "s3_bucket_for_iam_attach_user2" {
-    user = "user2 iam"
+    user = aws_iam_user.new_user[1].name
     policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceforAutoScalingRole"
     depends_on = [
         aws_iam_user.new_user
@@ -141,7 +141,7 @@ resource "aws_iam_user_policy_attachment" "s3_bucket_for_iam_attach_user2" {
 }
 
 resource "aws_iam_user_policy_attachment" "s3_bucket_for_iam_attach_user3" {
-    user = "user1 iam"
+    user = aws_iam_user.new_user[0].name
     policy_arn = aws_iam_policy.user1_policy.arn
     depends_on = [
         aws_iam_user.new_user
@@ -149,7 +149,7 @@ resource "aws_iam_user_policy_attachment" "s3_bucket_for_iam_attach_user3" {
 }
 
 resource "aws_iam_user_policy_attachment" "s3_bucket_for_iam_attach_user4" {
-    user = "user2 iam"
+    user = aws_iam_user.new_user[1].name
     policy_arn = aws_iam_policy.user2_policy.arn
     depends_on = [
         aws_iam_user.new_user

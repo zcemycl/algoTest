@@ -27,7 +27,7 @@ EOF
         instance_profile = var.emr_ec2_instance_profile
     }
 
-    eb2_root_volume_size = "12"
+    ebs_root_volume_size = "12"
 
     master_instance_group {
         name = "EMR master"
