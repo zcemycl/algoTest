@@ -65,6 +65,12 @@ aws-vault exec {} -- terraform plan
 ```
 aws-vault exec {} --no-session -- make deploy
 ```
+6. Connect to Kubeflow Dashboard.
+```
+cd ../../..
+make port-forward
+# Navigate to your browser http://localhost:8080/
+```
 
 ### References
 1. [Documentation/Deployment Options/RDS and S3/Terraform Deployment Guide](https://awslabs.github.io/kubeflow-manifests/docs/deployment/rds-s3/guide-terraform/)
