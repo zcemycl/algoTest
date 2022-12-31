@@ -1,3 +1,22 @@
+### Must install tfenv in MacOS
+1. Install tfenv.
+```
+brew install tfenv
+```
+2. Clone the repo.
+```
+git clone https://github.com/tfutils/tfenv.git ~/.tfenv
+```
+3. Update the PATH.
+```
+echo ‘export PATH=”$HOME/.tfenv/bin:$PATH”‘ >> ~/.zprofile
+```
+4. Install terraform via tfenv.
+```
+tfenv install 1.2.7
+tfenv use 1.2.7
+```
+
 ### How to run?
 1. Clone the repo.
 ```
@@ -44,7 +63,7 @@ aws-vault exec {} -- terraform plan
 ```
 5. Build `Makefile`.
 ```
-aws-vault exec {} -- make deploy
+aws-vault exec {} --no-session -- make deploy
 ```
 
 ### References
