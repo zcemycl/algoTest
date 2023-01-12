@@ -1,0 +1,15 @@
+version: "2.1"
+services:
+  code-server:
+    image: lscr.io/linuxserver/code-server
+    container_name: code-server
+    environment:
+      - PUID=1000 # Use the UID from the command mentioned above
+      - PGID=100 # Use the GID from the command mentioned above
+      - TZ=Asia/Kolkata # Time Zone of your choice for the container
+      # - PASSWORD=password # Login password for the Web UI
+      # - SUDO_PASSWORD=password # Sudo password (Optional)
+    volumes:
+      - /tmp/docker-code-server:/config # Volume mount for the container config files (Replace the path with the path on your host)
+    ports:
+      - 8443:8443 # Port mapping for the container in the format <host-port>:<container-port>. You can choose the <host-port> as per your convenience
