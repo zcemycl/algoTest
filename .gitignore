@@ -630,3 +630,4 @@ sample.json
 test.json
 gcpuser
 gcpuser.pub
+*.ovpn
