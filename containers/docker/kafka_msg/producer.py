@@ -41,11 +41,6 @@ class CollectedVisitorsMsg(KafkaMsg):
     created_at: datetime = Field(default_factory=datetime.utcnow)
     meta: Dict = Field(default_factory=dict)
 
-producer = KafkaProducer(
-    bootstrap_servers=['localhost:9092'],
-    # value_serializer=lambda x: dumps(x).encode('utf-8')
-)
-
 async def send(msg):
     producer = AIOKafkaProducer(
         bootstrap_servers=['localhost:9092'],
@@ -59,6 +54,11 @@ async def send(msg):
         await producer.stop()
     
 def main():
+    producer = KafkaProducer(
+        bootstrap_servers=['localhost:9092'],
+        # value_serializer=lambda x: dumps(x).encode('utf-8')
+    )
+
     for j in range(10):
         print("Iteration", j)
         data = {'counter': j}
