@@ -17,7 +17,6 @@ def main():
         print(event)
         event_data = event.value
         # Do whatever you want
-        # print(event_data)
         event_data = loads(event_data.decode('utf-8'))
         print(event_data)
         try:
@@ -25,7 +24,6 @@ def main():
         except:
             pass
         print('----------')
-        # sleep(0.5)
 
 if __name__ == "__main__":
     main()
