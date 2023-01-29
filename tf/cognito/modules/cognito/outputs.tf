@@ -9,3 +9,7 @@ output "clientId" {
 output "domain" {
     value = "https://${var.user_pool_domain}.auth.${var.AWS_REGION}.amazoncognito.com"
 }
+
+output "endpoint" {
+    value = aws_cognito_user_pool.pool.endpoint
+}

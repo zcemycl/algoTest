@@ -2,6 +2,7 @@ variable "AWS_REGION" {
     default = "eu-west-2"
 }
 
+# cognito
 variable "user_pool_name" {
     default = "leotestappcognito1234"
 }
@@ -17,3 +18,13 @@ variable "user_pool_domain" {
 variable "deletion_protect" {
     default = "INACTIVE"
 }
+
+# api gateway 
+variable "apigw_name" {
+    default = "smokeapigw"
+}
+
+variable "apigw_auth_name" {
+    default = "smokingauth"
+}
+
