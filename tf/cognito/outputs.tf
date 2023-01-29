@@ -1,11 +1,11 @@
 output "userPoolId" {
-    value = aws_cognito_user_pool.pool.id
+    value = module.cognito.userPoolId
 }
 
 output "clientId" {
-    value = aws_cognito_user_pool_client.client.id
+    value = module.cognito.clientId
 }
 
 output "domain" {
-    value = "https://${var.user_pool_domain}.auth.${var.AWS_REGION}.amazoncognito.com"
+    value = module.cognito.domain
 }
