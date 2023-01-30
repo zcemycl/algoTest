@@ -28,3 +28,6 @@ variable "apigw_auth_name" {
     default = "smokingauth"
 }
 
+variable "route" {
+    default = "abc"
+}
