@@ -1,3 +1,7 @@
+variable "vpc_id" {
+    
+}
+
 variable "region" {
     default = "eu-west-2"
 }

@@ -2,16 +2,24 @@ provider "aws" {
     region = var.AWS_REGION
 }
 
-resource "aws_vpc" "vpc" {
-    cidr_block = "10.0.0.0/16"
-
-    enable_dns_support = true
-    enable_dns_hostnames = true
-
-    tags = {
-        Name = "${var.tag_author} -- ${var.tag_topic}"
-        Author = var.tag_author
-        Topic = var.tag_topic
-    }
+module "vpc" {
+    source = "./modules/vpc"
+    region = var.AWS_REGION
+    tag_author = var.tag_author
+    tag_topic = var.tag_topic
 }
 
+module "sg" {
+    source = "./modules/sg"
+    vpc_id = module.vpc.vpc_id
+    tag_author = var.tag_author
+    tag_topic = var.tag_topic
+}
+
+module "ec2" {
+    source = "./modules/ec2"
+    subnet_id = module.vpc.public_subnet1_id
+    vpc_sg_id = [module.sg.vpc_sg_id]
+    public_key = var.public_key
+    private_key = var.private_key
+}
