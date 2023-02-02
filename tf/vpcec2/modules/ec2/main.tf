@@ -18,3 +18,26 @@ resource "aws_instance" "ec2" {
         Topic = var.tag_topic
     }
 }
+
+resource "null_resource" "setup_ec2" {
+    provisioner "file" {
+        source = "./src/main.py"
+        destination = "/tmp/main.py"
+    }
+
+    provisioner "remote-exec"{
+        inline = [
+            "sudo apt-get update -y",
+            "sudo apt-get -y install nginx-light",
+            "sudo apt install python3-pip",
+            "tmux new -d 'python3 /tmp/main.py'"
+        ]
+    }
+
+    connection {
+        host = aws_instance.ec2.public_ip
+        user = var.user
+        private_key = "${file(var.private_key)}"
+        timeout = "10m"
+    }
+}
