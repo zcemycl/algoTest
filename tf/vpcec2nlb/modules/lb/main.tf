@@ -1,5 +1,5 @@
 resource "aws_lb_target_group" "lbtg" {
-    name = "${var.tag_topic} -- Load Balancer Target Group"
+    name = "load-balancer-target-group"
     port = 8080
     protocol = "TCP"
     vpc_id = var.vpc_id
@@ -18,7 +18,7 @@ resource "aws_lb_target_group_attachment" "lbtga" {
 }
 
 resource "aws_lb" "lb" {
-    name = "${var.tag_topic} -- Load Balancer"
+    name = "load-balancer"
     internal = true
     load_balancer_type = "network"
     subnets = [

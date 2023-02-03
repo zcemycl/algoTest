@@ -1,7 +1,7 @@
 resource "aws_instance" "ec2" {
     ami = "ami-071f6f7c386495dc0"
     instance_type = "t2.micro"
-    key_name = "devops"
+    # key_name = "devops"
     subnet_id = var.subnet_id
 
     associate_public_ip_address = false

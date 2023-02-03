@@ -45,7 +45,7 @@ module "apigw" {
     cognito_endpt = module.cognito.endpoint
     apigw_name = var.apigw_name
     apigw_auth_name = var.apigw_auth_name
-    vpc_sg_id = module.sg.vpc_sg_id
+    vpc_sg_id = [module.sg.vpc_sg_id]
     private_subnet1_id = module.vpc.private_subnet1_id
     lb_listener_arn = module.lb.lb_listener_arn
 }
