@@ -1,10 +1,16 @@
 from fastapi import FastAPI, HTTPException
+import urllib.request
 
 app = FastAPI()
 
 @app.get("/", status_code=200)
 def root() -> dict:
-    return {"msg": "Hello, World!"}
+    url = 'http://169.254.169.254/latest/meta-data/instance-id'
+    instanceid = urllib.request.urlopen(url).read().decode()
+    return {
+        "msg": "Hello, World!", 
+        "identifier": instanceid
+    }
 
 if __name__ == "__main__":
     import uvicorn

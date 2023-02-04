@@ -12,7 +12,7 @@ resource "aws_instance" "ec2" {
 sudo apt-get update -y
 sudo apt-get -y install nginx-light
 sudo apt install python3-pip -y
-pip3 install uvicorn fastapi
+pip3 install uvicorn fastapi urllib3
 sudo wget https://raw.githubusercontent.com/zcemycl/algoTest/main/tf/vpcec2/src/main.py
 tmux new -d 'python3 main.py'
 EOF

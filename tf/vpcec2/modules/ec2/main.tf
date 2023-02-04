@@ -30,7 +30,7 @@ resource "null_resource" "setup_ec2" {
             "sudo apt-get update -y",
             "sudo apt-get -y install nginx-light",
             "sudo apt install python3-pip -y",
-            "pip3 install uvicorn fastapi",
+            "pip3 install uvicorn fastapi urllib3",
             "tmux new -d 'python3 /tmp/main.py'"
         ]
     }
