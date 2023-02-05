@@ -6,7 +6,10 @@ app = FastAPI()
 @app.get("/", status_code=200)
 def root() -> dict:
     url = 'http://169.254.169.254/latest/meta-data/instance-id'
-    instanceid = urllib.request.urlopen(url).read().decode()
+    try:
+        instanceid = urllib.request.urlopen(url).read().decode()
+    except: 
+        instanceid = "unknown"
     return {
         "msg": "Hello, World!", 
         "identifier": instanceid
