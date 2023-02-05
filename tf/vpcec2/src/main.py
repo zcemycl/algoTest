@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 import urllib.request
+import socket
 
 app = FastAPI()
 
@@ -10,9 +11,14 @@ def root() -> dict:
         instanceid = urllib.request.urlopen(url).read().decode()
     except: 
         instanceid = "unknown"
+    try:
+        socketname = socket.gethostname()
+    except:
+        socketname = "unknown"
     return {
         "msg": "Hello, World!", 
-        "identifier": instanceid
+        "ec2_identifier": instanceid,
+        "docker_identifier": socketname
     }
 
 if __name__ == "__main__":
