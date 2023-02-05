@@ -10,6 +10,11 @@ variable "tag_topic" {
     default = "Learning and Testing"
 }
 
+# ecs
+variable "ecs_cluster_name" {
+    default = "fastapi-cluster"
+}
+
 # ecr
 variable "ecr_name" {
     default = "ecr-test-leo"
@@ -38,4 +43,13 @@ variable "user_pool_domain" {
 
 variable "deletion_protect" {
     default = "INACTIVE"
+}
+
+# api gateway
+variable "apigw_name" {
+    default = "smokeapigw"
+}
+
+variable "apigw_auth_name" {
+    default = "smokingauth"
 }

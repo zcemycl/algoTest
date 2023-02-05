@@ -1,5 +1,5 @@
 resource "aws_security_group" "sg_lb" {
-    name = "sg-lb"
+    name = "load-balancer-security-group"
     description = "Allow API Access"
     vpc_id = var.vpc_id
 
@@ -21,7 +21,7 @@ resource "aws_security_group" "sg_lb" {
 }
 
 resource "aws_security_group" "sg_ecs" {
-    vpc_id = aws_vpc.vpc.id
+    vpc_id = var.vpc_id
 
     ingress {
         from_port       = 0
