@@ -60,7 +60,7 @@ module "ecs" {
     ecr_repo_url = module.ecr.ecr_repo_url
     container_name = "fastapi-trial"
     subnets = [module.vpc.private_subnet1_id]
-    security_groups = [module.sg.sg_ecs_id, module.sg.sg_lb_id]
+    security_groups = [module.sg.sg_lb_id]
     lb_target_group_arn = module.lb.lb_target_group_arn
     ecs_cluster_name = var.ecs_cluster_name
 

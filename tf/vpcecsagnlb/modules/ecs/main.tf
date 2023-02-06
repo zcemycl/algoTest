@@ -4,7 +4,7 @@ resource "aws_ecs_task_definition" "task" {
         {
             name = var.container_name
             image = "${var.ecr_repo_url}:latest"
-            cpu = 1
+            cpu = 1024
             memory = 512
             essential = true
             environment = []
@@ -19,7 +19,7 @@ resource "aws_ecs_task_definition" "task" {
     ])
     requires_compatibilities = ["EC2"]
     network_mode = "awsvpc"
-    cpu = 2
+    cpu = 1024
     memory = 512
     execution_role_arn = var.ecs_task_execution_role_arn
     task_role_arn = var.ecs_task_execution_role_arn

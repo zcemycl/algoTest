@@ -17,7 +17,7 @@ resource "null_resource" "push_docker_image" {
     command = "aws ecr get-login-password --region ${var.AWS_REGION} | docker login --username AWS --password-stdin ${aws_ecr_repository.ecr_repo.registry_id}.dkr.ecr.${var.AWS_REGION}.amazonaws.com >> info.txt"
   }
   provisioner "local-exec" {
-    command = "docker tag dash:latest ${aws_ecr_repository.ecr_repo.repository_url}:latest >> info.txt"
+    command = "docker tag ${var.local_image_name}:latest ${aws_ecr_repository.ecr_repo.repository_url}:latest >> info.txt"
   }
   provisioner "local-exec" {
     command = "docker push ${aws_ecr_repository.ecr_repo.repository_url}:latest >> info.txt"

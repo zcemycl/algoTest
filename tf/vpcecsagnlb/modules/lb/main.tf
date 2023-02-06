@@ -12,6 +12,7 @@ resource "aws_lb_target_group" "lbtg" {
     port = 8080
     protocol = "TCP"
     vpc_id = var.vpc_id
+    target_type = "ip"
 
     health_check {
         enabled = true
