@@ -27,9 +27,11 @@ resource "aws_subnet" "private_subnet1" {
     availability_zone = "${var.region}a"
 
     tags = {
-        Name = "${var.tag_author} -- ${var.tag_topic}: Private subnet 1"
         Author = var.tag_author
         Topic = var.tag_topic
+        "Name" = "private-${var.region}a"
+        "kubernetes.io/role/internal-elb" = "1"
+        "kubernetes.io/cluster/${var.cluster_name}" = "owned"
     }
 }
 
@@ -52,9 +54,11 @@ resource "aws_subnet" "public_subnet1" {
     map_public_ip_on_launch = true
 
     tags = {
-        Name = "${var.tag_author} -- ${var.tag_topic}: Public subnet 1"
         Author = var.tag_author
         Topic = var.tag_topic
+        "Name" = "public-${var.region}a"
+        "kubernetes.io/role/elb" = "1"
+        "kubernetes.io/cluster/${var.cluster_name}" = "owned"
     }
 }
 
