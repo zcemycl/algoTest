@@ -1,3 +1,3 @@
 variable "store_name" {
-    
+
 }

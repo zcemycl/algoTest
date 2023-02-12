@@ -1,59 +1,59 @@
 provider "aws" {
-    region = var.AWS_REGION
+  region = var.AWS_REGION
 }
 
 module "vpc" {
-    source = "./modules/vpc"
-    region = var.AWS_REGION
-    tag_author = var.tag_author
-    tag_topic = var.tag_topic
+  source     = "./modules/vpc"
+  region     = var.AWS_REGION
+  tag_author = var.tag_author
+  tag_topic  = var.tag_topic
 }
 
 module "sg" {
-    source = "./modules/sg"
-    vpc_id = module.vpc.vpc_id
-    vpc_cidr_block = module.vpc.vpc_cidr_block
-    tag_author = var.tag_author
-    tag_topic = var.tag_topic
+  source         = "./modules/sg"
+  vpc_id         = module.vpc.vpc_id
+  vpc_cidr_block = module.vpc.vpc_cidr_block
+  tag_author     = var.tag_author
+  tag_topic      = var.tag_topic
 }
 
 module "compute" {
-    source = "./modules/compute"
-    subnet_id = module.vpc.private_subnet1_id
-    vpc_sg_id = [module.sg.vpc_sg_id]
-    tag_author = var.tag_author
-    tag_topic = var.tag_topic
+  source     = "./modules/compute"
+  subnet_id  = module.vpc.private_subnet1_id
+  vpc_sg_id  = [module.sg.vpc_sg_id]
+  tag_author = var.tag_author
+  tag_topic  = var.tag_topic
 }
 
 module "lb" {
-    source = "./modules/lb"
-    vpc_id = module.vpc.vpc_id
-    private_subnet1_id = module.vpc.private_subnet1_id
+  source             = "./modules/lb"
+  vpc_id             = module.vpc.vpc_id
+  private_subnet1_id = module.vpc.private_subnet1_id
 }
 
 module "ag" {
-    source = "./modules/ag"
-    private_subnet1_id = module.vpc.private_subnet1_id
-    lb_target_group_arn = module.lb.lb_target_group_arn
-    compute_template_id = module.compute.compute_template_id
+  source              = "./modules/ag"
+  private_subnet1_id  = module.vpc.private_subnet1_id
+  lb_target_group_arn = module.lb.lb_target_group_arn
+  compute_template_id = module.compute.compute_template_id
 }
 
 module "cognito" {
-    source = "./modules/cognito"
-    AWS_REGION = var.AWS_REGION
-    user_pool_name = var.user_pool_name
-    user_pool_client_name = var.user_pool_client_name
-    user_pool_domain = var.user_pool_domain
-    deletion_protect = var.deletion_protect
+  source                = "./modules/cognito"
+  AWS_REGION            = var.AWS_REGION
+  user_pool_name        = var.user_pool_name
+  user_pool_client_name = var.user_pool_client_name
+  user_pool_domain      = var.user_pool_domain
+  deletion_protect      = var.deletion_protect
 }
 
 module "apigw" {
-    source = "./modules/apigw"
-    cognito_client = module.cognito.clientId
-    cognito_endpt = module.cognito.endpoint
-    apigw_name = var.apigw_name
-    apigw_auth_name = var.apigw_auth_name
-    vpc_sg_id = [module.sg.vpc_sg_id]
-    private_subnet1_id = module.vpc.private_subnet1_id
-    lb_listener_arn = module.lb.lb_listener_arn
+  source             = "./modules/apigw"
+  cognito_client     = module.cognito.clientId
+  cognito_endpt      = module.cognito.endpoint
+  apigw_name         = var.apigw_name
+  apigw_auth_name    = var.apigw_auth_name
+  vpc_sg_id          = [module.sg.vpc_sg_id]
+  private_subnet1_id = module.vpc.private_subnet1_id
+  lb_listener_arn    = module.lb.lb_listener_arn
 }

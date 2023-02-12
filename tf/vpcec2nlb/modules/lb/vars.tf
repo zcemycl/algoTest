@@ -7,17 +7,17 @@ variable "vpc_id" {
 }
 
 variable "private_subnet1_id" {
-    
+
 }
 
 variable "AWS_REGION" {
-    default = "eu-west-2"
+  default = "eu-west-2"
 }
 
 variable "tag_author" {
-    default = "Leo Leung"
+  default = "Leo Leung"
 }
 
 variable "tag_topic" {
-    default = "Learning and Testing"
+  default = "Learning and Testing"
 }

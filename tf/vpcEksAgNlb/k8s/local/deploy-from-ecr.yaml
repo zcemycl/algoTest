@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: fastapi-trial-k8s
+spec:
+  selector: 
+    matchLabels:
+      app: fastapi-trial-k8s
+  replicas: 3
+  template:
+    metadata:
+      labels: 
+        app: fastapi-trial-k8s
+    spec:
+      containers:
+      - image: 312958015255.dkr.ecr.eu-west-2.amazonaws.com/ecr-test-leo
+        name: fastapi-trial-k8s
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+        - name: regcred

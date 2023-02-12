@@ -13,6 +13,6 @@ data "external" "owner_tag_generator" {
 }
 
 module "random" {
-    source = "./modules/random"
-    store_name = data.external.owner_tag_generator.result.username
+  source     = "./modules/random"
+  store_name = data.external.owner_tag_generator.result.username
 }

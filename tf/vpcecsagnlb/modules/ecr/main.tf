@@ -1,5 +1,5 @@
 resource "aws_ecr_repository" "ecr_repo" {
-  name = var.ecr_name
+  name         = var.ecr_name
   force_delete = var.force_delete
 
   provisioner "local-exec" {
@@ -8,7 +8,7 @@ resource "aws_ecr_repository" "ecr_repo" {
       exec `echo ${aws_ecr_repository.ecr_repo.registry_id} >> info.txt`
       exec `echo ${aws_ecr_repository.ecr_repo.repository_url} >> info.txt`
     EOT
-     
+
   }
 }
 

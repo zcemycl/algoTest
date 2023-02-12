@@ -1,5 +1,5 @@
 resource "aws_ecr_repository" "my_first_ecr_repo" {
-  name = "my-first-ecr-repo" # Naming my repository
+  name         = "my-first-ecr-repo" # Naming my repository
   force_delete = true
 
   provisioner "local-exec" {
@@ -8,7 +8,7 @@ resource "aws_ecr_repository" "my_first_ecr_repo" {
       exec `echo ${aws_ecr_repository.my_first_ecr_repo.registry_id} >> info.txt`
       exec `echo ${aws_ecr_repository.my_first_ecr_repo.repository_url} >> info.txt`
     EOT
-     
+
   }
 }
 

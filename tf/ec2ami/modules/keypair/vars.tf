@@ -1,11 +1,11 @@
-variable key_name {
-    default = "mykey"
+variable "key_name" {
+  default = "mykey"
 }
 
-variable private_key {
-    default = "mykey"
+variable "private_key" {
+  default = "mykey"
 }
 
-variable public_key {
-    default = "mykey.pub"
+variable "public_key" {
+  default = "mykey.pub"
 }

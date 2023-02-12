@@ -15,5 +15,5 @@ variable "vpc_sg_id" {
 }
 
 variable "ecs_cluster_name" {
-    
+
 }

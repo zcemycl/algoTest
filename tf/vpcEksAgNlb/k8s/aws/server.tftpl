@@ -1,0 +1,39 @@
+%{ for config_key, config_value in config }
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fastapi-trial-k8s
+spec:
+  selector:
+    matchLabels:
+      app: fastapi-trial-k8s
+  replicas: 5
+  template:
+    metadata:
+      labels:
+        app: fastapi-trial-k8s
+    spec:
+      containers:
+      - ${config_key}: ${config_value} 
+        name: fastapi-trial-k8s
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+        - name: regcred
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: fastapi-svc
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-type: nlb
+    service.beta.kubernetes.io/aws-load-balancer-internal: "true"
+spec:
+  ports:
+  - port: 8080
+    protocol: TCP
+  type: LoadBalancer
+  selector:
+    app: fastapi-trial-k8s
+%{ endfor ~}

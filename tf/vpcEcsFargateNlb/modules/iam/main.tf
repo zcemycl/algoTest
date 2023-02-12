@@ -1,8 +1,8 @@
 # ecs
 data "aws_iam_policy_document" "assume_role_policy" {
   statement {
-    sid = "assume"
-    effect = "Allow"
+    sid     = "assume"
+    effect  = "Allow"
     actions = ["sts:AssumeRole"]
 
     principals {

@@ -1,15 +1,15 @@
 variable "region" {
-    default = "eu-west-2"
+  default = "eu-west-2"
 }
 
 variable "s3_buckets_names" {
-    default = ["emr-uploads"]
+  default = ["emr-uploads"]
 }
 
 variable "name" {
-    default = "leotestemr"
+  default = "leotestemr"
 }
 
 variable "iam_name" {
-    default = ["master_node", "slave_node"]
+  default = ["master_node", "slave_node"]
 }
