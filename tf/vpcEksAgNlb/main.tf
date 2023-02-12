@@ -13,7 +13,6 @@ module "vpc" {
 module "sg" {
     source = "./modules/sg"
     vpc_id = module.vpc.vpc_id
-    cluster_name = var.cluster_name
 }
 
 module "iam" {
@@ -25,6 +24,8 @@ module "eks" {
     source = "./modules/eks"
     cluster_name = var.cluster_name
     cluster_version = var.cluster_version
+    eks_cluster_iam_arn = module.iam.eks_cluster_iam_arn
+    eks_nodes_iam_arn = module.iam.eks_nodes_iam_arn
     subnet_ids = [
         module.vpc.private_subnet1_id, 
         module.vpc.public_subnet1_id
