@@ -1,0 +1,3 @@
+variable "store_name" {
+    
+}
