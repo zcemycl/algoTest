@@ -27,3 +27,4 @@
 3. [Exposing an External IP Address to Access an Application in a Cluster](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/)
 4. [How to Run Locally Built Docker Images in Kubernetes](https://medium.com/swlh/how-to-run-locally-built-docker-images-in-kubernetes-b28fbc32cc1d)
 5. [Youtube: AWS API Gateway - EKS Integration (Terraform)](https://www.youtube.com/watch?v=4cuI4RIq4Hs&t=149s)
+6. [Integrate Amazon API Gateway with Amazon EKS](https://aws.amazon.com/tw/blogs/containers/integrate-amazon-api-gateway-with-amazon-eks/)
