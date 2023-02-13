@@ -20,6 +20,10 @@
     ```
 5. Create apigateway?
 
+### Extra steps to delete
+1. Delete Load Balancing in Load Balancers and Target Groups. This will delete the network interfaces as well.
+2. Delete private subnets by `terraform destroy` again.
+
 
 ### References
 1. [How to use a private AWS Elastic Container Registry (ECR) with an external Kubernetes Cluster or any on-prem infrastructure](https://gtsopour.medium.com/aws-elastic-container-registry-ecr-is-a-fully-managed-container-registry-7624781635d9)
