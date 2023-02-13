@@ -1,3 +1,0 @@
-variable "iam_name" {
-
-}

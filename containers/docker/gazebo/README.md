@@ -1,1 +1,0 @@
-https://registry.hub.docker.com/_/gazebo

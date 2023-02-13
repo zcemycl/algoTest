@@ -32,7 +32,6 @@ algoTest
 │   ├── solns (solutions)
 │   └── tests (test scripts)
 ├── js [NodeJS]
-├── tf [Terraform + AWS]
 ├── sh [Shell] 
 └── sql [SQL] 
 ```

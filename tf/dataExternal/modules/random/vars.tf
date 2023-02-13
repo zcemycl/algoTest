@@ -1,3 +1,0 @@
-variable "store_name" {
-
-}
